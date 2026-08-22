@@ -44,7 +44,6 @@
     "deskripsi": "Kaos oblong bahan katun combed 30s yang menyerap keringat dan adem dipakai seharian.",
     "spesifikasi": { "bahan": "Katun Combed 30s", "ukuran": "M, L, XL", "berat": "150g", "stok": 45 }
   },
-  },
   {
     "id": "PK06",
     "nama": "Kaos Oblong Putih",
@@ -53,7 +52,6 @@
     "gambar": "../asset/download (1).jpg",
     "deskripsi": "Kaos oblong bahan katun combed 30s yang menyerap keringat dan adem dipakai seharian.",
     "spesifikasi": { "bahan": "Katun Combed 30s", "ukuran": "M, L, XL", "berat": "150g", "stok": 45 }
-  },
   },
   {
     "id": "PK07",
@@ -64,7 +62,6 @@
     "deskripsi": "Kaos oblong bahan katun combed 30s yang menyerap keringat dan adem dipakai seharian.",
     "spesifikasi": { "bahan": "Katun Combed 30s", "ukuran": "M, L, XL", "berat": "150g", "stok": 45 }
   },
-  },
   {
     "id": "PK08",
     "nama": "Kaos Oblong Putih",
@@ -73,7 +70,6 @@
     "gambar": "../asset/download (1).jpg",
     "deskripsi": "Kaos oblong bahan katun combed 30s yang menyerap keringat dan adem dipakai seharian.",
     "spesifikasi": { "bahan": "Katun Combed 30s", "ukuran": "M, L, XL", "berat": "150g", "stok": 45 }
-  },
   },
   {
     "id": "PK09",
@@ -84,7 +80,6 @@
     "deskripsi": "Kaos oblong bahan katun combed 30s yang menyerap keringat dan adem dipakai seharian.",
     "spesifikasi": { "bahan": "Katun Combed 30s", "ukuran": "M, L, XL", "berat": "150g", "stok": 45 }
   },
-  },
   {
     "id": "PK10",
     "nama": "Kaos Oblong Putih",
@@ -94,7 +89,6 @@
     "deskripsi": "Kaos oblong bahan katun combed 30s yang menyerap keringat dan adem dipakai seharian.",
     "spesifikasi": { "bahan": "Katun Combed 30s", "ukuran": "M, L, XL", "berat": "150g", "stok": 45 }
   },
-  },
   {
     "id": "PK11",
     "nama": "Kaos Oblong Putih",
@@ -103,7 +97,6 @@
     "gambar": "../asset/download (1).jpg",
     "deskripsi": "Kaos oblong bahan katun combed 30s yang menyerap keringat dan adem dipakai seharian.",
     "spesifikasi": { "bahan": "Katun Combed 30s", "ukuran": "M, L, XL", "berat": "150g", "stok": 45 }
-  },
   },
   {
     "id": "PK12",
