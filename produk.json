@@ -1,0 +1,47 @@
+[
+  {
+    "id": "PK01",
+    "nama": "Kaos Oblong Putih",
+    "kategori": "pakaian",
+    "harga": 15000,
+    "gambar": "../asset/download (1).jpg",
+    "deskripsi": "Kaos oblong bahan katun combed 30s yang menyerap keringat dan adem dipakai seharian.",
+    "spesifikasi": { "bahan": "Katun Combed 30s", "ukuran": "M, L, XL", "berat": "150g", "stok": 45 }
+  },
+  {
+    "id": "SP01",
+    "nama": "Nike Shoes Premium",
+    "kategori": "sepatu",
+    "harga": 200000,
+    "gambar": "../asset/Nike shoes.jpg",
+    "deskripsi": "Sepatu lari kasual dengan sol empuk dan desain sporty.",
+    "spesifikasi": { "bahan": "Mesh & Rubber", "ukuran": "39, 40, 41, 42", "berat": "600g", "stok": 20 }
+  },
+  {
+    "id": "JK01",
+    "nama": "NY Legends Varsity Jacket",
+    "kategori": "jacket",
+    "harga": 300000,
+    "gambar": "../asset/NY Legends Varsity Jacket - White Fleece, Grey Faux Leather Sleeves Jacket.jpg",
+    "deskripsi": "Jaket varsity tebal dengan lengan kulit sintetis.",
+    "spesifikasi": { "bahan": "Fleece & Faux Leather", "ukuran": "L, XL", "berat": "800g", "stok": 15 }
+  },
+  {
+    "id": "CL01",
+    "nama": "Celana Chino Beige",
+    "kategori": "celana",
+    "harga": 150000,
+    "gambar": "../asset/Paul Beige Chinos - Paul Beige Chinos.jpg",
+    "deskripsi": "Celana chino panjang yang pas untuk acara formal maupun santai.",
+    "spesifikasi": { "bahan": "Twill Stretch", "ukuran": "28, 30, 32, 34", "berat": "400g", "stok": 30 }
+  },
+  {
+    "id": "TP01",
+    "nama": "Topi Snapback LA",
+    "kategori": "topi",
+    "harga": 50000,
+    "gambar": "../asset/Topi Snapback Distro Caps LA 9812 Premium High BUILTUP Terbaru Hat Pria Dan Wanita Kekinian (COD).jpg",
+    "deskripsi": "Topi snapback premium build-up.",
+    "spesifikasi": { "bahan": "Canvas", "ukuran": "All Size", "berat": "100g", "stok": 50 }
+  }
+]
