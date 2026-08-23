@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/khoerul/api",
+      "destination": "/produk.json"
+    }
+  ]
+}
