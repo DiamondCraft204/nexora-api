@@ -5,7 +5,7 @@
         "kategori": "pakaian",
         "harga": 65000,
         "kota": "Kota Bandung",
-        "gambar": "https://dummyimage.com/600x600/f8fafc/0f172a.png&text=Kaos+Polos+Putih+24s",
+        "gambar": "https://i.pinimg.com/736x/fa/b6/6d/fab66d7c32610f5cc4c50237b9974097.jpg",
         "deskripsi": "Kaos polos premium bahan katun tebal tidak menerawang dan adem.",
         "spesifikasi": {
             "bahan": "Katun 24s",
@@ -21,7 +21,7 @@
         "kategori": "pakaian",
         "harga": 85000,
         "kota": "Jakarta Selatan",
-        "gambar": "https://dummyimage.com/600x600/18181b/ffffff.png&text=Kaos+Oversize+Vintage",
+        "gambar": "https://i.pinimg.com/1200x/c1/5f/72/c15f72212908df5145d0cd90ddf72ad6.jpg",
         "deskripsi": "Kaos potongan oversize ala streetwear modern dengan sablon awet.",
         "spesifikasi": {
             "bahan": "Cotton Combed 20s",
@@ -37,7 +37,7 @@
         "kategori": "pakaian",
         "harga": 135000,
         "kota": "Kota Surabaya",
-        "gambar": "https://dummyimage.com/600x600/7f1d1d/ffffff.png&text=Kemeja+Flannel+Tartan",
+        "gambar": "https://i.pinimg.com/736x/7b/35/09/7b3509fb27ac7f06ebf084036dcd8087.jpg",
         "deskripsi": "Kemeja flannel lembut cocok untuk pakaian kasual dan santai.",
         "spesifikasi": {
             "bahan": "Flannel Wol Sintetis",
@@ -53,7 +53,7 @@
         "kategori": "pakaian",
         "harga": 145000,
         "kota": "Jakarta Barat",
-        "gambar": "https://dummyimage.com/600x600/ffffff/0f172a.png&text=Kemeja+Oxford+SlimFit",
+        "gambar": "https://i.pinimg.com/1200x/22/d2/59/22d25915477a1f28e00ea8bf6eedb5b9.jpg",
         "deskripsi": "Kemeja formal bahan katun oxford cocok untuk kerja maupun kuliah.",
         "spesifikasi": {
             "bahan": "Oxford Cotton",
@@ -69,7 +69,7 @@
         "kategori": "pakaian",
         "harga": 95000,
         "kota": "Kota Semarang",
-        "gambar": "https://dummyimage.com/600x600/1e3a8a/ffffff.png&text=Kaos+Polo+Navy+Blue",
+        "gambar": "https://i.pinimg.com/736x/a6/cd/58/a6cd58d800dfd11520bff0b01ab287b4.jpg",
         "deskripsi": "Kaos polo semi formal dengan kerah kokoh dan kancing premium.",
         "spesifikasi": {
             "bahan": "Lacoste Pique",
@@ -85,7 +85,7 @@
         "kategori": "pakaian",
         "harga": 79000,
         "kota": "Kota Denpasar",
-        "gambar": "https://dummyimage.com/600x600/0d9488/ffffff.png&text=Kemeja+Pantai+Floral",
+        "gambar": "https://i.pinimg.com/1200x/a1/68/c4/a168c49d15ec7cad27d8f81894d49ecd.jpg",
         "deskripsi": "Kemeja santai motif hawaii bahan rayon adem semilir.",
         "spesifikasi": {
             "bahan": "Rayon Viscose",
@@ -101,7 +101,7 @@
         "kategori": "pakaian",
         "harga": 165000,
         "kota": "Kota Surakarta",
-        "gambar": "https://dummyimage.com/600x600/78350f/ffffff.png&text=Batik+Lengan+Panjang",
+        "gambar": "https://i.pinimg.com/1200x/25/f4/62/25f46230595e6543ac63597aeeb2daa9.jpg",
         "deskripsi": "Kemeja batik furing halus dengan motif etnik kontemporer.",
         "spesifikasi": {
             "bahan": "Katun Primisima",
@@ -117,7 +117,7 @@
         "kategori": "pakaian",
         "harga": 89000,
         "kota": "Kota Bandung",
-        "gambar": "https://dummyimage.com/600x600/27272a/ffffff.png&text=Long+Sleeve+Graphic",
+        "gambar": "https://i.pinimg.com/736x/81/e7/a9/81e7a944b97453b5af6d7441bed5d974.jpg",
         "deskripsi": "Kaos lengan panjang dengan rib karet di pergelangan tangan.",
         "spesifikasi": {
             "bahan": "Cotton Combed 30s",
@@ -133,7 +133,7 @@
         "kategori": "pakaian",
         "harga": 175000,
         "kota": "Kota Malang",
-        "gambar": "https://dummyimage.com/600x600/0284c7/ffffff.png&text=Kemeja+Denim+Washed",
+        "gambar": "https://i.pinimg.com/736x/28/db/0c/28db0c63b4ad9399ab86bd2ea6ddbf40.jpg",
         "deskripsi": "Kemeja bahan jeans denim ringan untuk outfit layer harian.",
         "spesifikasi": {
             "bahan": "Denim 6.5 Oz",
@@ -149,7 +149,7 @@
         "kategori": "pakaian",
         "harga": 55000,
         "kota": "Kota Tangerang",
-        "gambar": "https://dummyimage.com/600x600/94a3b8/0f172a.png&text=Kaos+V-Neck+Abu+Misty",
+        "gambar": "https://i.pinimg.com/1200x/db/6c/30/db6c30de8b3e926f04ed74aaa9dadfe6.jpg",
         "deskripsi": "Kaos polos leher V elegan cocok sebagai inner blazer.",
         "spesifikasi": {
             "bahan": "Cotton Combed 30s",
@@ -165,7 +165,7 @@
         "kategori": "pakaian",
         "harga": 155000,
         "kota": "Jakarta Pusat",
-        "gambar": "https://dummyimage.com/600x600/f1f5f9/0f172a.png&text=Kemeja+Linen+Sanghai",
+        "gambar": "https://i.pinimg.com/736x/90/09/9e/90099eeefecb4a7b281c96d6734782d3.jpg",
         "deskripsi": "Kemeja berkerah mandarin tegak dari serat linen organik.",
         "spesifikasi": {
             "bahan": "Linen Blend",
@@ -181,7 +181,7 @@
         "kategori": "pakaian",
         "harga": 69000,
         "kota": "Kota Yogyakarta",
-        "gambar": "https://dummyimage.com/600x600/3f3f46/ffffff.png&text=Kaos+Stripe+Retro",
+        "gambar": "https://i.pinimg.com/1200x/8a/61/50/8a61509dcbe9fa2c32662c88d2cff61e.jpg",
         "deskripsi": "Kaos motif garis-garis retro santai.",
         "spesifikasi": {
             "bahan": "Katun CVC",
@@ -197,7 +197,7 @@
         "kategori": "pakaian",
         "harga": 185000,
         "kota": "Kota Bandung",
-        "gambar": "https://dummyimage.com/600x600/d97706/ffffff.png&text=Kemeja+Corduroy+Mustard",
+        "gambar": "https://i.pinimg.com/1200x/66/ff/00/66ff00702a9c7f75eeeebf63adb897a3.jpg",
         "deskripsi": "Kemeja tekstur corduroy tebal bergaya 90-an.",
         "spesifikasi": {
             "bahan": "Corduroy 14 Wale",
@@ -213,7 +213,7 @@
         "kategori": "pakaian",
         "harga": 45000,
         "kota": "Kota Bekasi",
-        "gambar": "https://dummyimage.com/600x600/1e293b/ffffff.png&text=Singlet+Gym+Sport",
+        "gambar": "https://i.pinimg.com/736x/21/c6/76/21c67653aab43045be37c944cb56ad99.jpg",
         "deskripsi": "Tanktop olahraga fleksibel dan cepat kering (dryfit).",
         "spesifikasi": {
             "bahan": "Dryfit Milano",
@@ -229,7 +229,7 @@
         "kategori": "pakaian",
         "harga": 115000,
         "kota": "Kota Depok",
-        "gambar": "https://dummyimage.com/600x600/3f6212/ffffff.png&text=Kemeja+Army+Green",
+        "gambar": "https://i.pinimg.com/736x/14/09/a9/1409a95408106d21d5302f856a7dce2d.jpg",
         "deskripsi": "Kemeja kasual outdoor dengan saku dada ganda.",
         "spesifikasi": {
             "bahan": "Katun Poplin",
@@ -245,7 +245,7 @@
         "kategori": "pakaian",
         "harga": 110000,
         "kota": "Jakarta Timur",
-        "gambar": "https://dummyimage.com/600x600/1c1917/ffffff.png&text=Kaos+Band+Rock+Vintage",
+        "gambar": "https://i.pinimg.com/1200x/1f/07/2f/1f072f8909013773c51073862b677412.jpg",
         "deskripsi": "Kaos sablon discharge band vintage tanpa jahitan samping.",
         "spesifikasi": {
             "bahan": "Heavy Cotton 16s",
@@ -261,7 +261,7 @@
         "kategori": "pakaian",
         "harga": 125000,
         "kota": "Kota Cirebon",
-        "gambar": "https://dummyimage.com/600x600/e2e8f0/0f172a.png&text=Baju+Koko+Kurta",
+        "gambar": "https://i.pinimg.com/1200x/52/cd/b7/52cdb7edbd711914c8a7e11f388e1e11.jpg",
         "deskripsi": "Baju muslim pria model kurta minimalis elegan.",
         "spesifikasi": {
             "bahan": "Toyobo Fodu",
@@ -277,7 +277,7 @@
         "kategori": "pakaian",
         "harga": 75000,
         "kota": "Kota Bogor",
-        "gambar": "https://dummyimage.com/600x600/64748b/ffffff.png&text=Kaos+Henley+3+Kancing",
+        "gambar": "https://i.pinimg.com/1200x/94/a5/5f/94a55ffafa33b66f38cf1d5ccb4c66a8.jpg",
         "deskripsi": "Kaos model henley klasik tanpa kerah dengan kancing kayu.",
         "spesifikasi": {
             "bahan": "Katun Waffle",
@@ -293,7 +293,7 @@
         "kategori": "pakaian",
         "harga": 139000,
         "kota": "Jakarta Utara",
-        "gambar": "https://dummyimage.com/600x600/0369a1/ffffff.png&text=Kemeja+Garis+Stripe",
+        "gambar": "https://i.pinimg.com/1200x/27/5c/e9/275ce95618c38b91df4ba17d98fd9771.jpg",
         "deskripsi": "Kemeja kerja motif pinstripe membuat postur terlihat tegap.",
         "spesifikasi": {
             "bahan": "Katun Drill Halus",
@@ -309,7 +309,7 @@
         "kategori": "pakaian",
         "harga": 48000,
         "kota": "Kota Bandung",
-        "gambar": "https://dummyimage.com/600x600/09090b/ffffff.png&text=Kaos+Polos+Hitam+30s",
+        "gambar": "https://i.pinimg.com/736x/fd/40/eb/fd40ebb2de29079f908806fc6e2bab3b.jpg",
         "deskripsi": "Kaos polos standar distro kualitas pewarnaan reaktif pekat.",
         "spesifikasi": {
             "bahan": "Combed 30s",
