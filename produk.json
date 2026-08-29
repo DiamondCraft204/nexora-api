@@ -3845,5 +3845,29 @@
         "nama": "NEXORA MARKET",
         "nmid": "ID10243879012",
         "terhubungKe": "DANA"
-    }
+    },
+    "kupon": [
+        {
+            "kode": "NEXORA10",
+            "tipe": "persen",
+            "nilai": 10,
+            "minBelanja": 100000,
+            "maksPotongan": 30000,
+            "deskripsi": "Diskon 10% (maks. Rp30.000), min. belanja Rp100.000"
+        },
+        {
+            "kode": "HEMAT20K",
+            "tipe": "nominal",
+            "nilai": 20000,
+            "minBelanja": 150000,
+            "deskripsi": "Potongan langsung Rp20.000, min. belanja Rp150.000"
+        },
+        {
+            "kode": "GRATISONGKIR",
+            "tipe": "ongkir",
+            "nilai": 0,
+            "minBelanja": 50000,
+            "deskripsi": "Gratis ongkos kirim, min. belanja Rp50.000"
+        }
+    ]
 }
