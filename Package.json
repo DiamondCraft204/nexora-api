@@ -1,0 +1,7 @@
+{
+  "name": "nexora-api-one",
+  "version": "1.0.0",
+  "dependencies": {
+    "qrcode": "^1.5.3"
+  }
+}
