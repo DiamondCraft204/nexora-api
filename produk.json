@@ -374,7 +374,7 @@
             "kategori": "pakaian",
             "harga": 99000,
             "kota": "Kota Medan",
-            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/baju23.jpg?updatedAt=1788011813067",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/baju23.png?updatedAt=1788011813067",
             "deskripsi": "Kaos polo berkerah dengan jahitan double stitch rapi.",
             "spesifikasi": {
                 "bahan": "Pique Cotton 24s",
@@ -502,7 +502,7 @@
             "kategori": "sepatu",
             "harga": 245000,
             "kota": "Jakarta Utara",
-            "gambar": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/sepatu1.jpg?updatedAt=1788011822188",
             "deskripsi": "Sepatu lari sol busa empuk meredam benturan dengan sirkulasi udara baik.",
             "spesifikasi": {
                 "bahan": "Mesh & Phylon Sole",
@@ -518,7 +518,7 @@
             "kategori": "sepatu",
             "harga": 299000,
             "kota": "Kota Surabaya",
-            "gambar": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/sepatu2.jpg?updatedAt=1788011822188",
             "deskripsi": "Sepatu kerja formal kulit mengkilap dengan sol hak karet anti licin.",
             "spesifikasi": {
                 "bahan": "Kulit Sintetis Premium",
@@ -534,7 +534,7 @@
             "kategori": "sepatu",
             "harga": 165000,
             "kota": "Kota Tangerang",
-            "gambar": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/sepatu3.jpg?updatedAt=1788011822188",
             "deskripsi": "Sepatu tanpa tali praktis dengan motif papan catur ikonik.",
             "spesifikasi": {
                 "bahan": "Canvas 10oz",
@@ -550,7 +550,7 @@
             "kategori": "sepatu",
             "harga": 340000,
             "kota": "Kab. Garut",
-            "gambar": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/sepatu4.jpg?updatedAt=1788011822188",
             "deskripsi": "Boots pria gagah bergaya petualang dengan jahitan samping kuat.",
             "spesifikasi": {
                 "bahan": "Crazy Horse Leather Sintetis",
@@ -566,7 +566,7 @@
             "kategori": "sepatu",
             "harga": 210000,
             "kota": "Kota Bekasi",
-            "gambar": "https://images.unsplash.com/photo-1511556532299-8f662fc26c06?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/sepatu5.jpg?updatedAt=1788011822188",
             "deskripsi": "Sepatu futsal sol karet mentah tidak meninggalkan bekas di lapangan.",
             "spesifikasi": {
                 "bahan": "Synthetic PU Leather",
@@ -582,7 +582,7 @@
             "kategori": "sepatu",
             "harga": 265000,
             "kota": "Jakarta Selatan",
-            "gambar": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/sepatu6.jpg?updatedAt=1788011822188",
             "deskripsi": "Sneakers sol tebal gaya retro streetwear kekinian.",
             "spesifikasi": {
                 "bahan": "Mesh & Leather Overlay",
@@ -598,7 +598,7 @@
             "kategori": "sepatu",
             "harga": 320000,
             "kota": "Kota Semarang",
-            "gambar": "https://images.unsplash.com/photo-1579338559194-a162d19bf842?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/sepatu7.jpg?updatedAt=1788011822188",
             "deskripsi": "Sepatu basket dengan bantalan pelindung engkel kaki.",
             "spesifikasi": {
                 "bahan": "Mesh & TPU Shell",
@@ -614,7 +614,7 @@
             "kategori": "sepatu",
             "harga": 115000,
             "kota": "Kota Bogor",
-            "gambar": "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/sepatu8.jpg?updatedAt=1788011822188",
             "deskripsi": "Sandal gunung tali kuat anti slip untuk hiking dan jalan basah.",
             "spesifikasi": {
                 "bahan": "Polyester Webbing & EVA",
@@ -630,7 +630,7 @@
             "kategori": "sepatu",
             "harga": 225000,
             "kota": "Kota Yogyakarta",
-            "gambar": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/sepatu9.jpg?updatedAt=1788011822188",
             "deskripsi": "Sepatu semi formal bahan suede sintetis halus dan fleksibel.",
             "spesifikasi": {
                 "bahan": "Suede Sintetis",
@@ -646,7 +646,7 @@
             "kategori": "sepatu",
             "harga": 199000,
             "kota": "Kota Bandung",
-            "gambar": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/sepatu10.jpg?updatedAt=1788011822188",
             "deskripsi": "Sepatu kanvas tinggi menutupi mata kaki gaya vintage abadi.",
             "spesifikasi": {
                 "bahan": "Canvas 12oz & Rubber",
@@ -662,7 +662,7 @@
             "kategori": "sepatu",
             "harga": 145000,
             "kota": "Kota Medan",
-            "gambar": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/sepatu11.jpg?updatedAt=1788011822188",
             "deskripsi": "Sepatu slip on bahan rajut lentur sangat ringan untuk jalan santai.",
             "spesifikasi": {
                 "bahan": "Flyknit & Phylon",
@@ -678,7 +678,7 @@
             "kategori": "sepatu",
             "harga": 310000,
             "kota": "Jakarta Pusat",
-            "gambar": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/sepatu12.jpg?updatedAt=1788011822188",
             "deskripsi": "Sepatu kulit model derby dengan tali dan aksen jahitan elegan.",
             "spesifikasi": {
                 "bahan": "Kulit Sintetis Premium",
@@ -694,7 +694,7 @@
             "kategori": "sepatu",
             "harga": 285000,
             "kota": "Kota Malang",
-            "gambar": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/sepatu13.jpg?updatedAt=1788011822188",
             "deskripsi": "Sepatu lari medan tanah/bebatuan dengan cengkeraman tapak agresif.",
             "spesifikasi": {
                 "bahan": "Water-Repellent Mesh",
@@ -710,7 +710,7 @@
             "kategori": "sepatu",
             "harga": 175000,
             "kota": "Kota Cirebon",
-            "gambar": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/sepatu14.jpg?updatedAt=1788011822188",
             "deskripsi": "Sepatu kasual bertema denim cocok dengan celana jeans.",
             "spesifikasi": {
                 "bahan": "Denim Fabric & Gum Sole",
@@ -726,7 +726,7 @@
             "kategori": "sepatu",
             "harga": 235000,
             "kota": "Kota Kudus",
-            "gambar": "https://images.unsplash.com/photo-1511556532299-8f662fc26c06?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/sepatu15.jpg?updatedAt=1788011822188",
             "deskripsi": "Sepatu bulutangkis stabil dengan cengkeraman lateral mantap.",
             "spesifikasi": {
                 "bahan": "PU Leather & Gum Rubber",
@@ -742,7 +742,7 @@
             "kategori": "sepatu",
             "harga": 219000,
             "kota": "Jakarta Barat",
-            "gambar": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/sepatu16.jpg?updatedAt=1788011822188",
             "deskripsi": "Sepatu sneakers putih bersih serbaguna untuk segala outfit.",
             "spesifikasi": {
                 "bahan": "Action Leather Halus",
@@ -758,7 +758,7 @@
             "kategori": "sepatu",
             "harga": 329000,
             "kota": "Kota Bandung",
-            "gambar": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/sepatu17.jpg?updatedAt=1788011822188",
             "deskripsi": "Boots chelsea tanpa tali dengan karet samping fleksibel.",
             "spesifikasi": {
                 "bahan": "Suede Sintetis & TPR Sole",
@@ -774,7 +774,7 @@
             "kategori": "sepatu",
             "harga": 75000,
             "kota": "Kota Sidoarjo",
-            "gambar": "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/sepatu18.jpg?updatedAt=1788011822188",
             "deskripsi": "Sandal selop empuk anti air untuk santai di rumah.",
             "spesifikasi": {
                 "bahan": "Full Phylon Injected",
@@ -790,7 +790,7 @@
             "kategori": "sepatu",
             "harga": 245000,
             "kota": "Kota Tangerang Selatan",
-            "gambar": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/sepatu19.jpg?updatedAt=1788011822188",
             "deskripsi": "Sepatu mokasin jahitan tangan nyaman untuk berkendara.",
             "spesifikasi": {
                 "bahan": "Kulit Sintetis Lentur",
@@ -806,7 +806,7 @@
             "kategori": "sepatu",
             "harga": 215000,
             "kota": "Kota Surakarta",
-            "gambar": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/sepatu20.jpg?updatedAt=1788011822188",
             "deskripsi": "Sepatu skateboard dengan lidah tebal dan perlindungan ekstra.",
             "spesifikasi": {
                 "bahan": "Suede & Canvas 12oz",
@@ -822,7 +822,7 @@
             "kategori": "sepatu",
             "harga": 280000,
             "kota": "Kota Cilegon",
-            "gambar": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/sepatu21.jpg?updatedAt=1788011822188",
             "deskripsi": "Sepatu pelindung kerja proyek dengan besi penahan di ujung jari.",
             "spesifikasi": {
                 "bahan": "Kulit PU & Steel Toe Cap",
@@ -838,7 +838,7 @@
             "kategori": "sepatu",
             "harga": 260000,
             "kota": "Kota Surabaya",
-            "gambar": "https://images.unsplash.com/photo-1511556532299-8f662fc26c06?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/sepatu22.jpg?updatedAt=1788011822188",
             "deskripsi": "Sepatu bola pull plastik kuat untuk akselerasi di lapangan rumput.",
             "spesifikasi": {
                 "bahan": "Synthetic Leather",
@@ -854,7 +854,7 @@
             "kategori": "sepatu",
             "harga": 139000,
             "kota": "Kota Depok",
-            "gambar": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/sepatu23.jpg?updatedAt=1788011822188",
             "deskripsi": "Sepatu santai wanita model kasual tanpa tali.",
             "spesifikasi": {
                 "bahan": "Knit Fabric",
@@ -870,7 +870,7 @@
             "kategori": "sepatu",
             "harga": 375000,
             "kota": "Kota Padang",
-            "gambar": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/sepatu24.jpg?updatedAt=1788011822188",
             "deskripsi": "Sepatu trekking tahan percikan air dengan sol anti selip.",
             "spesifikasi": {
                 "bahan": "Cordura & Nubuck Sintetis",
@@ -886,7 +886,7 @@
             "kategori": "sepatu",
             "harga": 335000,
             "kota": "Jakarta Timur",
-            "gambar": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/sepatu25.jpg?updatedAt=1788011822188",
             "deskripsi": "Sepatu formal pesta dengan pengait gesper ganda modern.",
             "spesifikasi": {
                 "bahan": "Kulit Sintetis High Gloss",
@@ -902,7 +902,7 @@
             "kategori": "sepatu",
             "harga": 179000,
             "kota": "Kota Denpasar",
-            "gambar": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/sepatu26.jpg?updatedAt=1788011822188",
             "deskripsi": "Sepatu slip on kanvas dengan sentuhan bordir unik.",
             "spesifikasi": {
                 "bahan": "Canvas & Rubber Sole",
@@ -918,7 +918,7 @@
             "kategori": "sepatu",
             "harga": 389000,
             "kota": "Jakarta Pusat",
-            "gambar": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/sepatu27.jpg?updatedAt=1788011822188",
             "deskripsi": "Sepatu lari kompetisi dengan respon energi balik tinggi.",
             "spesifikasi": {
                 "bahan": "Monofilament Mesh & Foam",
@@ -934,7 +934,7 @@
             "kategori": "sepatu",
             "harga": 129000,
             "kota": "Kota Tasikmalaya",
-            "gambar": "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/sepatu28.jpg?updatedAt=1788011822188",
             "deskripsi": "Sandal jepit kulit sintetis kokoh untuk santai sore.",
             "spesifikasi": {
                 "bahan": "Kulit PU & Karet TPR",
@@ -950,7 +950,7 @@
             "kategori": "sepatu",
             "harga": 229000,
             "kota": "Kota Bandung",
-            "gambar": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/sepatu29.jpg?updatedAt=1788011822188",
             "deskripsi": "Sepatu tenis klasik dengan tapak sol karet mentah (gum).",
             "spesifikasi": {
                 "bahan": "Action Leather & Gum Sole",
@@ -966,7 +966,7 @@
             "kategori": "celana",
             "harga": 145000,
             "kota": "Kota Bandung",
-            "gambar": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/celana.jpg?updatedAt=1788011811508",
             "deskripsi": "Celana chino katun stretch fleksibel untuk semi formal dan santai.",
             "spesifikasi": {
                 "bahan": "Katun Twill Stretch",
@@ -982,7 +982,7 @@
             "kategori": "celana",
             "harga": 185000,
             "kota": "Kota Surabaya",
-            "gambar": "https://images.unsplash.com/photo-1542272604-780c96856592?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/celana1.jpg?updatedAt=1788011811508",
             "deskripsi": "Celana jeans potongan lurus klasik dari denim tebal berkualitas.",
             "spesifikasi": {
                 "bahan": "Denim 13 Oz Non-Stretch",
@@ -998,7 +998,7 @@
             "kategori": "celana",
             "harga": 165000,
             "kota": "Jakarta Barat",
-            "gambar": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/celana2.jpg?updatedAt=1788011811508",
             "deskripsi": "Celana kargo banyak saku bahan ripstop kuat anti sobek.",
             "spesifikasi": {
                 "bahan": "Ripstop Katun",
@@ -1014,7 +1014,7 @@
             "kategori": "celana",
             "harga": 139000,
             "kota": "Jakarta Selatan",
-            "gambar": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/celana3.jpg?updatedAt=1788011811508",
             "deskripsi": "Celana bahan kantor model semata kaki (ankle pants) modern.",
             "spesifikasi": {
                 "bahan": "Semi Wool Premium",
@@ -1030,7 +1030,7 @@
             "kategori": "celana",
             "harga": 95000,
             "kota": "Kota Tangerang",
-            "gambar": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/celana4.jpg?updatedAt=1788011811508",
             "deskripsi": "Celana jogger santai berujung karet di mata kaki.",
             "spesifikasi": {
                 "bahan": "Baby Terry Katun",
@@ -1046,7 +1046,7 @@
             "kategori": "celana",
             "harga": 79000,
             "kota": "Kota Semarang",
-            "gambar": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/celana5.jpg?updatedAt=1788011811508",
             "deskripsi": "Celana pendek katun chino pas di atas lutut untuk santai.",
             "spesifikasi": {
                 "bahan": "Twill Cotton",
@@ -1062,7 +1062,7 @@
             "kategori": "celana",
             "harga": 199000,
             "kota": "Kota Bandung",
-            "gambar": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/celana6.jpg?updatedAt=1788011811508",
             "deskripsi": "Jeans strech dengan aksen robekan lutut modis.",
             "spesifikasi": {
                 "bahan": "Denim Stretch 12 Oz",
@@ -1078,7 +1078,7 @@
             "kategori": "celana",
             "harga": 98000,
             "kota": "Kota Yogyakarta",
-            "gambar": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/celana7.jpg?updatedAt=1788011811508",
             "deskripsi": "Celana kulot wanita bahan linen jatuh dan sejuk.",
             "spesifikasi": {
                 "bahan": "Linen Rami",
@@ -1094,7 +1094,7 @@
             "kategori": "celana",
             "harga": 49000,
             "kota": "Kota Bekasi",
-            "gambar": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/celana8.jpg?updatedAt=1788011811508",
             "deskripsi": "Celana lari pendek ringan dengan saku berresleting.",
             "spesifikasi": {
                 "bahan": "Despo Parasut Quick-Dry",
@@ -1110,7 +1110,7 @@
             "kategori": "celana",
             "harga": 92000,
             "kota": "Kota Malang",
-            "gambar": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/celana9.jpg?updatedAt=1788011811508",
             "deskripsi": "Celana pendek kargo motif loreng tentara tangguh.",
             "spesifikasi": {
                 "bahan": "Katun Drill",
@@ -1126,7 +1126,7 @@
             "kategori": "celana",
             "harga": 145000,
             "kota": "Jakarta Pusat",
-            "gambar": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/celana10.jpg?updatedAt=1788011811508",
             "deskripsi": "Chino hitam formal tidak mudah luntur saat dicuci.",
             "spesifikasi": {
                 "bahan": "Cotton Twill Combed",
@@ -1142,7 +1142,7 @@
             "kategori": "celana",
             "harga": 275000,
             "kota": "Kota Bandung",
-            "gambar": "https://images.unsplash.com/photo-1542272604-780c96856592?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/celana11.jpg?updatedAt=1788011811508",
             "deskripsi": "Jeans kaku raw denim 14oz dengan aksen lis selvedge.",
             "spesifikasi": {
                 "bahan": "Raw Denim 14 Oz",
@@ -1158,7 +1158,7 @@
             "kategori": "celana",
             "harga": 89000,
             "kota": "Kota Surakarta",
-            "gambar": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/celana12.jpg?updatedAt=1788011811508",
             "deskripsi": "Celana sirwal longgar nyaman dengan karet pinggang elastis.",
             "spesifikasi": {
                 "bahan": "Katun Boss",
@@ -1174,7 +1174,7 @@
             "kategori": "celana",
             "harga": 88000,
             "kota": "Kota Depok",
-            "gambar": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/celana13.jpg?updatedAt=1788011811508",
             "deskripsi": "Celana training bahan fleece tebal dan lembut di kulit.",
             "spesifikasi": {
                 "bahan": "Fleece Katun",
@@ -1190,7 +1190,7 @@
             "kategori": "celana",
             "harga": 35000,
             "kota": "Kota Tasikmalaya",
-            "gambar": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/celana14.jpg?updatedAt=1788011811508",
             "deskripsi": "Boxer santai untuk pakaian tidur di rumah.",
             "spesifikasi": {
                 "bahan": "Katun Disperse",
@@ -1206,7 +1206,7 @@
             "kategori": "celana",
             "harga": 155000,
             "kota": "Kota Bogor",
-            "gambar": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/celana15.jpg?updatedAt=1788011811508",
             "deskripsi": "Kombinasi celana kargo dan jogger dengan tali serut pinggang.",
             "spesifikasi": {
                 "bahan": "Twill Suede",
@@ -1222,7 +1222,7 @@
             "kategori": "celana",
             "harga": 125000,
             "kota": "Jakarta Timur",
-            "gambar": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/celana16.jpg?updatedAt=1788011811508",
             "deskripsi": "Celana bahan formal potongan standar tidak ketat.",
             "spesifikasi": {
                 "bahan": "Kain Teflon Halus",
@@ -1238,7 +1238,7 @@
             "kategori": "celana",
             "harga": 210000,
             "kota": "Kota Bandung",
-            "gambar": "https://images.unsplash.com/photo-1542272604-780c96856592?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/celana17.jpg?updatedAt=1788011811508",
             "deskripsi": "Jeans longgar model baggy ala fashion tahun 2000-an (Y2K).",
             "spesifikasi": {
                 "bahan": "Denim 12.5 Oz",
@@ -1254,7 +1254,7 @@
             "kategori": "celana",
             "harga": 55000,
             "kota": "Kota Surabaya",
-            "gambar": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/celana18.jpg?updatedAt=1788011811508",
             "deskripsi": "Legging ketat kompresi otot untuk lari dan fitnes.",
             "spesifikasi": {
                 "bahan": "Spandek Lycra",
@@ -1270,7 +1270,7 @@
             "kategori": "celana",
             "harga": 115000,
             "kota": "Kota Cirebon",
-            "gambar": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/celana19.jpg?updatedAt=1788011811508",
             "deskripsi": "Celana pendek jeans kasual dengan lipatan ujung rapi.",
             "spesifikasi": {
                 "bahan": "Denim 11 Oz",
@@ -1286,7 +1286,7 @@
             "kategori": "celana",
             "harga": 145000,
             "kota": "Kota Medan",
-            "gambar": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/celana20.jpg?updatedAt=1788011811508",
             "deskripsi": "Chino warna abu terang cocok untuk dipadukan kemeja gelap.",
             "spesifikasi": {
                 "bahan": "Cotton Stretch",
@@ -1302,7 +1302,7 @@
             "kategori": "celana",
             "harga": 149000,
             "kota": "Kota Tangerang",
-            "gambar": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/celana21.jpg?updatedAt=1788011811508",
             "deskripsi": "Celana taktikal banyak kompartemen dan cantolan D-ring.",
             "spesifikasi": {
                 "bahan": "Ripstop Katun",
@@ -1318,7 +1318,7 @@
             "kategori": "celana",
             "harga": 195000,
             "kota": "Jakarta Barat",
-            "gambar": "https://images.unsplash.com/photo-1542272604-780c96856592?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/celana22.jpg?updatedAt=1788011811508",
             "deskripsi": "Jeans warna putih bersih untuk tampilan elegan modis.",
             "spesifikasi": {
                 "bahan": "Denim Stretch 12 Oz",
@@ -1334,7 +1334,7 @@
             "kategori": "celana",
             "harga": 120000,
             "kota": "Kota Semarang",
-            "gambar": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/celana23.jpg?updatedAt=1788011811508",
             "deskripsi": "Jogger dengan aksen saku samping berpenutup velcro.",
             "spesifikasi": {
                 "bahan": "Baby Terry Premium",
@@ -1350,7 +1350,7 @@
             "kategori": "celana",
             "harga": 68000,
             "kota": "Kota Denpasar",
-            "gambar": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/celana24.jpg?updatedAt=1788011811508",
             "deskripsi": "Celana renang/pantai cepat kering motif gelombang laut.",
             "spesifikasi": {
                 "bahan": "Microfiber Polyester",
@@ -1366,7 +1366,7 @@
             "kategori": "celana",
             "harga": 199000,
             "kota": "Kota Bandung",
-            "gambar": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/celana25.jpg?updatedAt=1788011811508",
             "deskripsi": "Celana corduroy bertekstur garis timbul retro klasik.",
             "spesifikasi": {
                 "bahan": "Corduroy 12 Wale",
@@ -1382,7 +1382,7 @@
             "kategori": "celana",
             "harga": 105000,
             "kota": "Jakarta Selatan",
-            "gambar": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/celana26.jpg?updatedAt=1788011811508",
             "deskripsi": "Celana kerja wanita pinggang tinggi potongan lurus jatuh.",
             "spesifikasi": {
                 "bahan": "Polyester Crepe",
@@ -1398,7 +1398,7 @@
             "kategori": "celana",
             "harga": 189000,
             "kota": "Kota Malang",
-            "gambar": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/celana27.jpg?updatedAt=1788011811508",
             "deskripsi": "Jeans warna abu pudar dengan guratan whiskers estetik.",
             "spesifikasi": {
                 "bahan": "Denim 12.5 Oz",
@@ -1414,7 +1414,7 @@
             "kategori": "celana",
             "harga": 175000,
             "kota": "Kota Yogyakarta",
-            "gambar": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/celana28.jpg?updatedAt=1788011811508",
             "deskripsi": "Kargo model longgar gaya skateboard dengan saku resleting.",
             "spesifikasi": {
                 "bahan": "Twill Katun Non-Stretch",
@@ -1430,7 +1430,7 @@
             "kategori": "celana",
             "harga": 79000,
             "kota": "Kota Sidoarjo",
-            "gambar": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/celana29.jpg?updatedAt=1788011811508",
             "deskripsi": "Celana olahraga klasik dengan lis garis ganda di samping.",
             "spesifikasi": {
                 "bahan": "Lotto Elvana",
@@ -1446,7 +1446,7 @@
             "kategori": "jacket",
             "harga": 285000,
             "kota": "Kota Bandung",
-            "gambar": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/jaket.jpg?updatedAt=1788011813472",
             "deskripsi": "Jaket varsity tebal dengan lengan kulit sintetis dan bordir handuk.",
             "spesifikasi": {
                 "bahan": "Fleece Cotton & Faux Leather",
@@ -1462,7 +1462,7 @@
             "kategori": "jacket",
             "harga": 135000,
             "kota": "Jakarta Barat",
-            "gambar": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/jaket1.jpg?updatedAt=1788011813472",
             "deskripsi": "Hoodie tebal tanpa resleting dengan saku kanguru depan.",
             "spesifikasi": {
                 "bahan": "Cotton Fleece 300 Gsm",
@@ -1478,7 +1478,7 @@
             "kategori": "jacket",
             "harga": 189000,
             "kota": "Kota Surabaya",
-            "gambar": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/jaket2.jpg?updatedAt=1788011813472",
             "deskripsi": "Jaket bomber militer anti angin dengan saku resleting di lengan.",
             "spesifikasi": {
                 "bahan": "Taslan ZN & Furing Dakron",
@@ -1494,7 +1494,7 @@
             "kategori": "jacket",
             "harga": 210000,
             "kota": "Kota Bandung",
-            "gambar": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/jaket3.jpg?updatedAt=1788011813472",
             "deskripsi": "Jaket jeans klasik potongan reguler dengan kancing besi tembaga.",
             "spesifikasi": {
                 "bahan": "Denim 14 Oz",
@@ -1510,7 +1510,7 @@
             "kategori": "jacket",
             "harga": 165000,
             "kota": "Kota Malang",
-            "gambar": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/jaket4.jpg?updatedAt=1788011813472",
             "deskripsi": "Jaket tahan air dan penahan angin cocok untuk motor dan mendaki.",
             "spesifikasi": {
                 "bahan": "Goretex Coating",
@@ -1526,7 +1526,7 @@
             "kategori": "jacket",
             "harga": 110000,
             "kota": "Kota Tangerang",
-            "gambar": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/jaket5.jpg?updatedAt=1788011813472",
             "deskripsi": "Sweater leher bundar bahan katun lembut untuk sehari-hari.",
             "spesifikasi": {
                 "bahan": "Baby Terry 280 Gsm",
@@ -1542,7 +1542,7 @@
             "kategori": "jacket",
             "harga": 320000,
             "kota": "Kab. Garut",
-            "gambar": "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/jaket6.jpg?updatedAt=1788011813472",
             "deskripsi": "Jaket kulit model rider dengan resleting asimetris bergaya rock.",
             "spesifikasi": {
                 "bahan": "Vienna Faux Leather",
@@ -1558,7 +1558,7 @@
             "kategori": "jacket",
             "harga": 149000,
             "kota": "Jakarta Selatan",
-            "gambar": "https://images.unsplash.com/photo-1544441893-675973e31985?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/jaket7.jpg?updatedAt=1788011813472",
             "deskripsi": "Jaket coach kasual dengan tali serut di bagian pinggang.",
             "spesifikasi": {
                 "bahan": "Micro NS & Furing Jaring",
@@ -1574,7 +1574,7 @@
             "kategori": "jacket",
             "harga": 275000,
             "kota": "Kota Semarang",
-            "gambar": "https://images.unsplash.com/photo-1539533018447-63fcce667823?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/jaket8.jpg?updatedAt=1788011813472",
             "deskripsi": "Jaket parka panjang dengan kupluk berbulu hangat.",
             "spesifikasi": {
                 "bahan": "Kanvas Suede & Sherpa",
@@ -1590,7 +1590,7 @@
             "kategori": "jacket",
             "harga": 159000,
             "kota": "Kota Yogyakarta",
-            "gambar": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/jaket9.jpg?updatedAt=1788011813472",
             "deskripsi": "Kardigan rajut kancing depan gaya vintage santai.",
             "spesifikasi": {
                 "bahan": "Benang Wool Rajut 7 Gauge",
@@ -1606,7 +1606,7 @@
             "kategori": "jacket",
             "harga": 195000,
             "kota": "Kota Bandung",
-            "gambar": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/jaket10.jpg?updatedAt=1788011813472",
             "deskripsi": "Jaket harrington kerah kancing dengan furing motif kotak.",
             "spesifikasi": {
                 "bahan": "Baby Canvas & Cotton Tartan",
@@ -1622,7 +1622,7 @@
             "kategori": "jacket",
             "harga": 140000,
             "kota": "Jakarta Timur",
-            "gambar": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/jaket11.jpg?updatedAt=1788011813472",
             "deskripsi": "Hoodie dengan resleting besi halus mudah dipakai lepas.",
             "spesifikasi": {
                 "bahan": "Fleece Katun",
@@ -1638,7 +1638,7 @@
             "kategori": "jacket",
             "harga": 130000,
             "kota": "Kota Bogor",
-            "gambar": "https://images.unsplash.com/photo-1544441893-675973e31985?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/jaket12.jpg?updatedAt=1788011813472",
             "deskripsi": "Rompi fotografer/mancing bahan ripstop kuat banyak kantong.",
             "spesifikasi": {
                 "bahan": "Ripstop Katun",
@@ -1654,7 +1654,7 @@
             "kategori": "jacket",
             "harga": 155000,
             "kota": "Kota Bekasi",
-            "gambar": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/jaket13.jpg?updatedAt=1788011813472",
             "deskripsi": "Jaket setengah kancing dengan saku besar gaya casual terrace.",
             "spesifikasi": {
                 "bahan": "Taslan Balon",
@@ -1670,7 +1670,7 @@
             "kategori": "jacket",
             "harga": 135000,
             "kota": "Kota Depok",
-            "gambar": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/jaket14.jpg?updatedAt=1788011813472",
             "deskripsi": "Jaket olahraga kerah tinggi model vintage tracktop.",
             "spesifikasi": {
                 "bahan": "Diadora Soft",
@@ -1686,7 +1686,7 @@
             "kategori": "jacket",
             "harga": 245000,
             "kota": "Jakarta Pusat",
-            "gambar": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/jaket15.jpg?updatedAt=1788011813472",
             "deskripsi": "Jas blazer santai dengan busa pundak dan saku dalam.",
             "spesifikasi": {
                 "bahan": "High Twist & Furing Dormeuil",
@@ -1702,7 +1702,7 @@
             "kategori": "jacket",
             "harga": 210000,
             "kota": "Kota Malang",
-            "gambar": "https://images.unsplash.com/photo-1539533018447-63fcce667823?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/jaket16.jpg?updatedAt=1788011813472",
             "deskripsi": "Jaket bulu domba sintetis sangat lembut dan nyaman di suhu dingin.",
             "spesifikasi": {
                 "bahan": "Sherpa Fleece Tebal",
@@ -1718,7 +1718,7 @@
             "kategori": "jacket",
             "harga": 349000,
             "kota": "Kota Bandung",
-            "gambar": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/jaket17.jpg?updatedAt=1788011813472",
             "deskripsi": "Jaket souvenir satin Jepang dengan bordiran detail di punggung.",
             "spesifikasi": {
                 "bahan": "Satin Velvet & Furing Dacron",
@@ -1734,7 +1734,7 @@
             "kategori": "jacket",
             "harga": 289000,
             "kota": "Kota Medan",
-            "gambar": "https://images.unsplash.com/photo-1544441893-675973e31985?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/jaket18.jpg?updatedAt=1788011813472",
             "deskripsi": "Jaket gelembung tebal penahan hawa dingin ekstrem.",
             "spesifikasi": {
                 "bahan": "Nylon & Silicon 6 Oz",
@@ -1750,7 +1750,7 @@
             "kategori": "jacket",
             "harga": 129000,
             "kota": "Kota Surakarta",
-            "gambar": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/jaket19.jpg?updatedAt=1788011813472",
             "deskripsi": "Baju hangat rajut kerah leher tinggi bergaya musim dingin.",
             "spesifikasi": {
                 "bahan": "Wool Akrilik",
@@ -1766,7 +1766,7 @@
             "kategori": "jacket",
             "harga": 119000,
             "kota": "Kota Denpasar",
-            "gambar": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/jaket20.jpg?updatedAt=1788011813472",
             "deskripsi": "Outer kimono modern tanpa kancing lengan 3/4.",
             "spesifikasi": {
                 "bahan": "Katun Linen",
@@ -1782,7 +1782,7 @@
             "kategori": "jacket",
             "harga": 399000,
             "kota": "Kota Padang",
-            "gambar": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/jaket21.jpg?updatedAt=1788011813472",
             "deskripsi": "Jaket outdoor dengan inner polar yang bisa dilepas-pasang.",
             "spesifikasi": {
                 "bahan": "Goretex & Inner Polar",
@@ -1798,7 +1798,7 @@
             "kategori": "jacket",
             "harga": 169000,
             "kota": "Jakarta Utara",
-            "gambar": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/jaket22.jpg?updatedAt=1788011813472",
             "deskripsi": "Bomber hitam doff kasual cocok untuk harian bermotor.",
             "spesifikasi": {
                 "bahan": "Taslan Milky",
@@ -1814,7 +1814,7 @@
             "kategori": "jacket",
             "harga": 269000,
             "kota": "Kota Bandung",
-            "gambar": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/jaket23.jpg?updatedAt=1788011813472",
             "deskripsi": "Jaket jeans tebal berkerah bulu domba sintetis hangat.",
             "spesifikasi": {
                 "bahan": "Denim 14 Oz & Sherpa",
@@ -1830,7 +1830,7 @@
             "kategori": "jacket",
             "harga": 165000,
             "kota": "Kota Surabaya",
-            "gambar": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/jaket24.jpg?updatedAt=1788011813472",
             "deskripsi": "Hoodie tebal dengan grafis sablon plastisol tahan retak.",
             "spesifikasi": {
                 "bahan": "Cotton Fleece 330 Gsm",
@@ -1846,7 +1846,7 @@
             "kategori": "jacket",
             "harga": 115000,
             "kota": "Kota Tangerang Selatan",
-            "gambar": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/jaket25.jpg?updatedAt=1788011813472",
             "deskripsi": "Jaket lari sangat ringan yang bisa dilipat kecil masuk kantong.",
             "spesifikasi": {
                 "bahan": "Nylon Ripstop Ultralight",
@@ -1862,7 +1862,7 @@
             "kategori": "jacket",
             "harga": 235000,
             "kota": "Kota Cirebon",
-            "gambar": "https://images.unsplash.com/photo-1544441893-675973e31985?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/jaket26.jpg?updatedAt=1788011813472",
             "deskripsi": "Jaket lapangan kanvas tebal dengan 4 kantong berkancing.",
             "spesifikasi": {
                 "bahan": "Baby Canvas Premium",
@@ -1878,7 +1878,7 @@
             "kategori": "jacket",
             "harga": 110000,
             "kota": "Jakarta Barat",
-            "gambar": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/jaket27.jpg?updatedAt=1788011813472",
             "deskripsi": "Hoodie potongan crop trendy untuk wanita modis.",
             "spesifikasi": {
                 "bahan": "Fleece Katun",
@@ -1894,7 +1894,7 @@
             "kategori": "jacket",
             "harga": 340000,
             "kota": "Jakarta Pusat",
-            "gambar": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/jaket28.jpg?updatedAt=1788011813472",
             "deskripsi": "Mantel panjang kancing ganda dengan ikat pinggang kain.",
             "spesifikasi": {
                 "bahan": "Gabardine Wool Blend",
@@ -1910,7 +1910,7 @@
             "kategori": "jacket",
             "harga": 219000,
             "kota": "Kota Bandung",
-            "gambar": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/jaket29.jpg?updatedAt=1788011813472",
             "deskripsi": "Jaket varsity serba hitam bersih tanpa bordiran mencolok.",
             "spesifikasi": {
                 "bahan": "Fleece & Kulit PU Hitam",
@@ -1926,7 +1926,7 @@
             "kategori": "topi",
             "harga": 45000,
             "kota": "Kota Bandung",
-            "gambar": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/topi.jpg?updatedAt=1788011827144",
             "deskripsi": "Topi baseball kanvas katun dengan pengatur gesper besi di belakang.",
             "spesifikasi": {
                 "bahan": "Katun Twill 100%",
@@ -1942,7 +1942,7 @@
             "kategori": "topi",
             "harga": 55000,
             "kota": "Jakarta Barat",
-            "gambar": "https://images.unsplash.com/photo-1575428652377-a2d80e2277fc?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/topi1.jpg?updatedAt=1788011827144",
             "deskripsi": "Topi snapback visor datar dengan bordir timbul 3D tebal.",
             "spesifikasi": {
                 "bahan": "Polyester Canvas",
@@ -1958,7 +1958,7 @@
             "kategori": "topi",
             "harga": 39000,
             "kota": "Kota Yogyakarta",
-            "gambar": "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/topi2.jpg?updatedAt=1788011827144",
             "deskripsi": "Topi bucket santai 2 sisi bisa dipakai bolak-balik.",
             "spesifikasi": {
                 "bahan": "Katun Drill",
@@ -1974,7 +1974,7 @@
             "kategori": "topi",
             "harga": 35000,
             "kota": "Kota Surabaya",
-            "gambar": "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/topi3.jpg?updatedAt=1788011827144",
             "deskripsi": "Topi trucker jaring busa sejuk tidak panas di kepala.",
             "spesifikasi": {
                 "bahan": "Busa Lapis & Jala Polyester",
@@ -1990,7 +1990,7 @@
             "kategori": "topi",
             "harga": 32000,
             "kota": "Kota Malang",
-            "gambar": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/topi4.jpg?updatedAt=1788011827144",
             "deskripsi": "Topi kupluk rajut elastis hangat menutupi telinga.",
             "spesifikasi": {
                 "bahan": "Akrilik Rajut Elastis",
@@ -2006,7 +2006,7 @@
             "kategori": "topi",
             "harga": 49000,
             "kota": "Kota Bogor",
-            "gambar": "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/topi5.jpg?updatedAt=1788011827144",
             "deskripsi": "Topi rimba daun lebar dilengkapi tali dagu penahan angin.",
             "spesifikasi": {
                 "bahan": "Ripstop Katun",
@@ -2022,7 +2022,7 @@
             "kategori": "topi",
             "harga": 65000,
             "kota": "Jakarta Selatan",
-            "gambar": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/topi6.jpg?updatedAt=1788011827144",
             "deskripsi": "Topi baret flat cap gaya detektif retro klasik.",
             "spesifikasi": {
                 "bahan": "Tweed Wool Blend",
@@ -2038,7 +2038,7 @@
             "kategori": "topi",
             "harga": 38000,
             "kota": "Kota Tangerang",
-            "gambar": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/topi7.jpg?updatedAt=1788011827144",
             "deskripsi": "Topi bolong atas pelindung terik matahari untuk olahraga.",
             "spesifikasi": {
                 "bahan": "Katun & Velcro Back",
@@ -2054,7 +2054,7 @@
             "kategori": "topi",
             "harga": 42000,
             "kota": "Kota Tasikmalaya",
-            "gambar": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/topi8.jpg?updatedAt=1788011827144",
             "deskripsi": "Topi komando atas datar gaya tentara militer.",
             "spesifikasi": {
                 "bahan": "Katun Twill Tebal",
@@ -2070,7 +2070,7 @@
             "kategori": "topi",
             "harga": 79000,
             "kota": "Kota Denpasar",
-            "gambar": "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/topi9.jpg?updatedAt=1788011827144",
             "deskripsi": "Topi anyaman jerami bergaya bohemian untuk liburan pantai.",
             "spesifikasi": {
                 "bahan": "Anyaman Serat Kertas Jerami",
@@ -2086,7 +2086,7 @@
             "kategori": "topi",
             "harga": 49000,
             "kota": "Kota Bandung",
-            "gambar": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/topi10.jpg?updatedAt=1788011827144",
             "deskripsi": "Topi katun dengan efek pudar vintage cucian garmen.",
             "spesifikasi": {
                 "bahan": "Washed Cotton Denim",
@@ -2102,7 +2102,7 @@
             "kategori": "topi",
             "harga": 29000,
             "kota": "Kota Surakarta",
-            "gambar": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/topi11.jpg?updatedAt=1788011827144",
             "deskripsi": "Kupluk rajut pendek gaya miki hat pelaut.",
             "spesifikasi": {
                 "bahan": "Benang Rajut Spandek",
@@ -2118,7 +2118,7 @@
             "kategori": "topi",
             "harga": 39000,
             "kota": "Kota Cirebon",
-            "gambar": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/topi12.jpg?updatedAt=1788011827144",
             "deskripsi": "Peci topi tanpa pet gaya ustadz kekinian.",
             "spesifikasi": {
                 "bahan": "Rapel Katun & Kulit Velcro",
@@ -2134,7 +2134,7 @@
             "kategori": "topi",
             "harga": 45000,
             "kota": "Jakarta Timur",
-            "gambar": "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/topi13.jpg?updatedAt=1788011827144",
             "deskripsi": "Topi bucket corak celup warna-warni kekinian.",
             "spesifikasi": {
                 "bahan": "Katun Rayon",
@@ -2150,7 +2150,7 @@
             "kategori": "topi",
             "harga": 48000,
             "kota": "Kota Semarang",
-            "gambar": "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/topi14.jpg?updatedAt=1788011827144",
             "deskripsi": "Topi lari bahan parasut tipis dengan jaring di sisi samping.",
             "spesifikasi": {
                 "bahan": "Polyester Microfiber",
@@ -2166,7 +2166,7 @@
             "kategori": "topi",
             "harga": 59000,
             "kota": "Kota Medan",
-            "gambar": "https://images.unsplash.com/photo-1575428652377-a2d80e2277fc?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/topi15.jpg?updatedAt=1788011827144",
             "deskripsi": "Snapback dengan bordir tulisan gotik gaya metal/hiphop.",
             "spesifikasi": {
                 "bahan": "Ravel Denim Tebal",
@@ -2182,7 +2182,7 @@
             "kategori": "topi",
             "harga": 69000,
             "kota": "Jakarta Pusat",
-            "gambar": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/topi16.jpg?updatedAt=1788011827144",
             "deskripsi": "Topi pet berkerut model peaky blinders klasik.",
             "spesifikasi": {
                 "bahan": "Wool Sintetis Bertekstur",
@@ -2198,7 +2198,7 @@
             "kategori": "topi",
             "harga": 49000,
             "kota": "Kota Bekasi",
-            "gambar": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/topi17.jpg?updatedAt=1788011827144",
             "deskripsi": "Topi baseball dengan ekor tali pengatur menjuntai panjang.",
             "spesifikasi": {
                 "bahan": "Katun Drill",
@@ -2214,7 +2214,7 @@
             "kategori": "topi",
             "harga": 52000,
             "kota": "Kota Padang",
-            "gambar": "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/topi18.jpg?updatedAt=1788011827144",
             "deskripsi": "Topi berburu kamuflase daun dengan cantolan ranting.",
             "spesifikasi": {
                 "bahan": "Ripstop Loreng",
@@ -2230,7 +2230,7 @@
             "kategori": "topi",
             "harga": 36000,
             "kota": "Kota Sidoarjo",
-            "gambar": "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/topi19.jpg?updatedAt=1788011827144",
             "deskripsi": "Topi jaring bertema logo racing motor keren.",
             "spesifikasi": {
                 "bahan": "Jaring Korea & Busa",
@@ -2246,7 +2246,7 @@
             "kategori": "topi",
             "harga": 89000,
             "kota": "Kota Malang",
-            "gambar": "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/topi20.jpg?updatedAt=1788011827144",
             "deskripsi": "Topi koboi barat dengan tali pengunci bawah dagu.",
             "spesifikasi": {
                 "bahan": "Anyaman Sintetis Kaku",
@@ -2262,7 +2262,7 @@
             "kategori": "topi",
             "harga": 58000,
             "kota": "Jakarta Utara",
-            "gambar": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/topi21.jpg?updatedAt=1788011827144",
             "deskripsi": "Topi golf bahan spandex water-repellent elegan.",
             "spesifikasi": {
                 "bahan": "Polyester Spandex",
@@ -2278,7 +2278,7 @@
             "kategori": "topi",
             "harga": 75000,
             "kota": "Kota Magelang",
-            "gambar": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/topi22.jpg?updatedAt=1788011827144",
             "deskripsi": "Baret bulat polos bahan wol halus berlapis furing.",
             "spesifikasi": {
                 "bahan": "Felt Wool Asli",
@@ -2294,7 +2294,7 @@
             "kategori": "topi",
             "harga": 49000,
             "kota": "Kota Bandung",
-            "gambar": "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/topi23.jpg?updatedAt=1788011827144",
             "deskripsi": "Topi bucket bahan korduroi tebal hangat bergaya autumn.",
             "spesifikasi": {
                 "bahan": "Corduroy Lembut",
@@ -2310,7 +2310,7 @@
             "kategori": "topi",
             "harga": 42000,
             "kota": "Kota Tangerang Selatan",
-            "gambar": "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/topi24.jpg?updatedAt=1788011827144",
             "deskripsi": "Topi dalaman helm sepeda dengan pet mini anti silau.",
             "spesifikasi": {
                 "bahan": "Polyester Dryfit Elastis",
@@ -2326,7 +2326,7 @@
             "kategori": "topi",
             "harga": 47000,
             "kota": "Kota Depok",
-            "gambar": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/topi25.jpg?updatedAt=1788011827144",
             "deskripsi": "Topi baseball dengan aksen 3 cincin ring di bagian lidah.",
             "spesifikasi": {
                 "bahan": "Katun Drill & Ring Besi",
@@ -2342,7 +2342,7 @@
             "kategori": "topi",
             "harga": 38000,
             "kota": "Kota Wonosobo",
-            "gambar": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/topi26.jpg?updatedAt=1788011827144",
             "deskripsi": "Kupluk rajut dengan hiasan bola bulu pompom di atas kepala.",
             "spesifikasi": {
                 "bahan": "Wool Rajut & Bulu Sintetis",
@@ -2358,7 +2358,7 @@
             "kategori": "topi",
             "harga": 55000,
             "kota": "Kota Pekanbaru",
-            "gambar": "https://images.unsplash.com/photo-1575428652377-a2d80e2277fc?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/topi27.jpg?updatedAt=1788011827144",
             "deskripsi": "Snapback motif loreng hutan daun visor datar kokoh.",
             "spesifikasi": {
                 "bahan": "Kanvas Tebal",
@@ -2374,7 +2374,7 @@
             "kategori": "topi",
             "harga": 85000,
             "kota": "Jakarta Barat",
-            "gambar": "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/topi28.jpg?updatedAt=1788011827144",
             "deskripsi": "Topi fedora elegan untuk acara pertunjukan panggung.",
             "spesifikasi": {
                 "bahan": "Hard Felt Polyester",
@@ -2390,7 +2390,7 @@
             "kategori": "topi",
             "harga": 42000,
             "kota": "Kota Surabaya",
-            "gambar": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/topi29.jpg?updatedAt=1788011827144",
             "deskripsi": "Topi polos warna merah muda lembut cocok untuk wanita.",
             "spesifikasi": {
                 "bahan": "Katun Twill Halus",
@@ -2406,7 +2406,7 @@
             "kategori": "tas",
             "harga": 179000,
             "kota": "Kota Tangerang",
-            "gambar": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/tas.jpg?updatedAt=1788011824965",
             "deskripsi": "Tas ransel kerja anti air dengan slot laptop busa tebal dan port USB.",
             "spesifikasi": {
                 "bahan": "Cordura Bimo Waterproof",
@@ -2422,7 +2422,7 @@
             "kategori": "tas",
             "harga": 69000,
             "kota": "Kota Bandung",
-            "gambar": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/tas1.jpg?updatedAt=1788011824965",
             "deskripsi": "Tas selempang kecil praktis untuk dompet, kunci, dan smartphone.",
             "spesifikasi": {
                 "bahan": "Cordura 1000D",
@@ -2438,7 +2438,7 @@
             "kategori": "tas",
             "harga": 349000,
             "kota": "Kota Malang",
-            "gambar": "https://images.unsplash.com/photo-1509762774605-f07235a08f1f?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/tas2.jpg?updatedAt=1788011824965",
             "deskripsi": "Tas gunung kapasitas besar dilengkapi frame besi penopang punggung.",
             "spesifikasi": {
                 "bahan": "Nylon Diamond Ripstop",
@@ -2454,7 +2454,7 @@
             "kategori": "tas",
             "harga": 45000,
             "kota": "Kota Yogyakarta",
-            "gambar": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/tas3.jpg?updatedAt=1788011824965",
             "deskripsi": "Tas tote bag kanvas tebal dengan penutup resleting dan saku dalam.",
             "spesifikasi": {
                 "bahan": "Kanvas Greige Tebal",
@@ -2470,7 +2470,7 @@
             "kategori": "tas",
             "harga": 58000,
             "kota": "Jakarta Barat",
-            "gambar": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/tas4.jpg?updatedAt=1788011824965",
             "deskripsi": "Tas dada/pinggang dengan buckle pengunci kuat dan banyak saku.",
             "spesifikasi": {
                 "bahan": "Polyester D300",
@@ -2486,7 +2486,7 @@
             "kategori": "tas",
             "harga": 139000,
             "kota": "Jakarta Selatan",
-            "gambar": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/tas5.jpg?updatedAt=1788011824965",
             "deskripsi": "Tas travel jinjing kapasitas besar ada kompartemen khusus sepatu.",
             "spesifikasi": {
                 "bahan": "Polyester Oxford Waterproof",
@@ -2502,7 +2502,7 @@
             "kategori": "tas",
             "harga": 210000,
             "kota": "Kab. Garut",
-            "gambar": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/tas6.jpg?updatedAt=1788011824965",
             "deskripsi": "Tas selempang kerja kantor pria bahan kulit sintetis premium.",
             "spesifikasi": {
                 "bahan": "PU Leather High Grade",
@@ -2518,7 +2518,7 @@
             "kategori": "tas",
             "harga": 115000,
             "kota": "Kota Surabaya",
-            "gambar": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/tas7.png?updatedAt=1788011824965",
             "deskripsi": "Tas punggung sekolah anak muda dengan saku botol minum samping.",
             "spesifikasi": {
                 "bahan": "Canvas Poliester",
@@ -2534,7 +2534,7 @@
             "kategori": "tas",
             "harga": 89000,
             "kota": "Kota Bandung",
-            "gambar": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/tas8.jpg?updatedAt=1788011824965",
             "deskripsi": "Dompet tas tangan clutch pria anti air untuk membawa barang esensial.",
             "spesifikasi": {
                 "bahan": "Bimo Leather Waterproof",
@@ -2550,7 +2550,7 @@
             "kategori": "tas",
             "harga": 29000,
             "kota": "Kota Bekasi",
-            "gambar": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/tas9.jpg?updatedAt=1788011824965",
             "deskripsi": "Tas serut praktis untuk membawa baju ganti olahraga/futsal.",
             "spesifikasi": {
                 "bahan": "Taslan Waterproof",
@@ -2566,7 +2566,7 @@
             "kategori": "tas",
             "harga": 225000,
             "kota": "Jakarta Pusat",
-            "gambar": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/tas10.jpg?updatedAt=1788011824965",
             "deskripsi": "Ransel model roll top modern dengan penyesuaian kapasitas tinggi.",
             "spesifikasi": {
                 "bahan": "Nylon Cordura Water-Resistant",
@@ -2582,7 +2582,7 @@
             "kategori": "tas",
             "harga": 129000,
             "kota": "Kota Semarang",
-            "gambar": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/tas11.jpg?updatedAt=1788011824965",
             "deskripsi": "Tas jinjing wanita elegan dengan tali panjang yang bisa dilepas.",
             "spesifikasi": {
                 "bahan": "Synthetic Leather Halus",
@@ -2598,7 +2598,7 @@
             "kategori": "tas",
             "harga": 149000,
             "kota": "Kota Depok",
-            "gambar": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/tas12.jpg?updatedAt=1788011824965",
             "deskripsi": "Tas laptop jinjing formal untuk ukuran notebook hingga 14 inch.",
             "spesifikasi": {
                 "bahan": "Polyester D300 & Foam 8mm",
@@ -2614,7 +2614,7 @@
             "kategori": "tas",
             "harga": 79000,
             "kota": "Kota Bogor",
-            "gambar": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/tas13.jpg?updatedAt=1788011824965",
             "deskripsi": "Tas dada rompi multifungsi untuk pengendara motor dan gowes.",
             "spesifikasi": {
                 "bahan": "Cordura 600D",
@@ -2630,7 +2630,7 @@
             "kategori": "tas",
             "harga": 55000,
             "kota": "Kota Surakarta",
-            "gambar": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/tas14.jpg?updatedAt=1788011824965",
             "deskripsi": "Tas tabung stang sepeda dengan slot mika transparan HP.",
             "spesifikasi": {
                 "bahan": "Cordura & Mika Touchscreen",
@@ -2646,7 +2646,7 @@
             "kategori": "tas",
             "harga": 289000,
             "kota": "Jakarta Utara",
-            "gambar": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/tas15.jpg?updatedAt=1788011824965",
             "deskripsi": "Koper kabin roda putar 360 derajat dengan kunci nomor TSA lock.",
             "spesifikasi": {
                 "bahan": "ABS Hardcase",
@@ -2662,7 +2662,7 @@
             "kategori": "tas",
             "harga": 15000,
             "kota": "Kota Denpasar",
-            "gambar": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/tas16.jpg?updatedAt=1788011824965",
             "deskripsi": "Kantong belanja lipat praktis ramah lingkungan muat banyak.",
             "spesifikasi": {
                 "bahan": "Nylon Ripstop",
@@ -2678,7 +2678,7 @@
             "kategori": "tas",
             "harga": 110000,
             "kota": "Kota Medan",
-            "gambar": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/tas17.jpg?updatedAt=1788011824965",
             "deskripsi": "Mini backpack wanita gaya kasual korea yang manis.",
             "spesifikasi": {
                 "bahan": "Synthetic Leather",
@@ -2694,7 +2694,7 @@
             "kategori": "tas",
             "harga": 135000,
             "kota": "Kota Yogyakarta",
-            "gambar": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/tas18.jpg?updatedAt=1788011824965",
             "deskripsi": "Tas kamera dengan sekat partisi busa tebal bisa diatur.",
             "spesifikasi": {
                 "bahan": "Canvas Water Repellent & Foam",
@@ -2710,7 +2710,7 @@
             "kategori": "tas",
             "harga": 35000,
             "kota": "Kota Surabaya",
-            "gambar": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/tas19.jpg?updatedAt=1788011824965",
             "deskripsi": "Sabuk lari elastis muat smartphone tidak berguncang saat jogging.",
             "spesifikasi": {
                 "bahan": "Spandex Lycra",
@@ -2726,7 +2726,7 @@
             "kategori": "tas",
             "harga": 59000,
             "kota": "Kota Bandung",
-            "gambar": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/tas20.jpg?updatedAt=1788011824965",
             "deskripsi": "Tote bag bahan korduroi bertekstur lembut estetik.",
             "spesifikasi": {
                 "bahan": "Corduroy Fabric",
@@ -2742,7 +2742,7 @@
             "kategori": "tas",
             "harga": 219000,
             "kota": "Jakarta Timur",
-            "gambar": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/tas21.jpg?updatedAt=1788011824965",
             "deskripsi": "Ransel anti copet dengan resleting tersembunyi di bagian punggung.",
             "spesifikasi": {
                 "bahan": "Nylon Polyester Anti-Gores",
@@ -2758,7 +2758,7 @@
             "kategori": "tas",
             "harga": 42000,
             "kota": "Kota Cirebon",
-            "gambar": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/tas22.jpg?updatedAt=1788011824965",
             "deskripsi": "Tas makanan dengan lapisan aluminium foil penahan suhu dingin/panas.",
             "spesifikasi": {
                 "bahan": "Oxford & Aluminium Foil",
@@ -2774,7 +2774,7 @@
             "kategori": "tas",
             "harga": 125000,
             "kota": "Kota Malang",
-            "gambar": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/tas23.jpg?updatedAt=1788011824965",
             "deskripsi": "Tas slempang kanvas model kurir pos klasik.",
             "spesifikasi": {
                 "bahan": "Heavy Canvas 14 Oz",
@@ -2790,7 +2790,7 @@
             "kategori": "tas",
             "harga": 32000,
             "kota": "Kota Sidoarjo",
-            "gambar": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/tas24.jpg?updatedAt=1788011824965",
             "deskripsi": "Pouch perlengkapan mandi/kosmetik tahan air untuk bepergian.",
             "spesifikasi": {
                 "bahan": "PVC Mika & Poliester",
@@ -2802,11 +2802,11 @@
         },
         {
             "id": "TS26",
-            "nama": "Backpack Multifungsi 3in1 Jinjing Selempang",
+            "nama": "Backpack Multifungsi 3-in-1 Jinjing Selempang",
             "kategori": "tas",
             "harga": 239000,
             "kota": "Jakarta Barat",
-            "gambar": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/tas25.jpg?updatedAt=1788011824965",
             "deskripsi": "Tas bisnis yang bisa dijadikan ransel, tas selempang, atau tas jinjing.",
             "spesifikasi": {
                 "bahan": "Ballistic Nylon",
@@ -2822,7 +2822,7 @@
             "kategori": "tas",
             "harga": 39000,
             "kota": "Kota Tasikmalaya",
-            "gambar": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/tas26.jpg?updatedAt=1788011824965",
             "deskripsi": "Dompet selempang khusus smartphone dan kartu uang.",
             "spesifikasi": {
                 "bahan": "Kulit Sintetis PU",
@@ -2838,7 +2838,7 @@
             "kategori": "tas",
             "harga": 65000,
             "kota": "Kota Padang",
-            "gambar": "https://images.unsplash.com/photo-1509762774605-f07235a08f1f?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/tas27.jpg?updatedAt=1788011824965",
             "deskripsi": "Tas tabung kedap air 100% untuk olahraga air dan renang.",
             "spesifikasi": {
                 "bahan": "PVC Tarpaulin 500D",
@@ -2854,7 +2854,7 @@
             "kategori": "tas",
             "harga": 45000,
             "kota": "Jakarta Selatan",
-            "gambar": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/tas28.jpg?updatedAt=1788011824965",
             "deskripsi": "Waistbag bening transparan trendi untuk nonton konser.",
             "spesifikasi": {
                 "bahan": "Clear Mika PVC 0.5mm",
@@ -2870,7 +2870,7 @@
             "kategori": "tas",
             "harga": 249000,
             "kota": "Kota Bandung",
-            "gambar": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&auto=format&fit=crop&q=60",
+            "gambar": "https://ik.imagekit.io/8fkz0djvq/Sceenshot/tas29.jpg?updatedAt=1788011824965",
             "deskripsi": "Ransel kanvas tebal berpadu kulit asli bergaya penjelajah.",
             "spesifikasi": {
                 "bahan": "Waxed Canvas & Leather Trim",
