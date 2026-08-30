@@ -3866,7 +3866,7 @@
         {
             "kode": "NEXORA20",
             "tipe": "persen",
-            "nilai": 15,
+            "nilai": 20,
             "minBelanja": 150000,
             "maksPotongan": 50000,
             "deskripsi": "Diskon 20% (maks. Rp50.000), min. belanja Rp150.000"
