@@ -3856,6 +3856,22 @@
             "deskripsi": "Diskon 10% (maks. Rp30.000), min. belanja Rp100.000"
         },
         {
+            "kode": "NEXORA15",
+            "tipe": "persen",
+            "nilai": 15,
+            "minBelanja": 120000,
+            "maksPotongan": 40000,
+            "deskripsi": "Diskon 15% (maks. Rp40.000), min. belanja Rp120.000"
+        },
+        {
+            "kode": "NEXORA20",
+            "tipe": "persen",
+            "nilai": 15,
+            "minBelanja": 150000,
+            "maksPotongan": 50000,
+            "deskripsi": "Diskon 20% (maks. Rp50.000), min. belanja Rp150.000"
+        },
+        {
             "kode": "HEMAT20K",
             "tipe": "nominal",
             "nilai": 20000,
