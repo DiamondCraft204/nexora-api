@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masuk / Daftar Akun — Nexora Market</title>
+    <link rel="icon" href="../asset/nexora.ico?v=3" sizes="any">
+    <link rel="icon" type="image/svg+xml" href="../asset/nexora.svg?v=3">
+    <link rel="icon" type="image/png" sizes="192x192" href="../asset/nexora.png?v=3">
+    <link rel="apple-touch-icon" href="../asset/nexora.png?v=3">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+
+    <header class="auth-header-bar">
+        <div class="auth-header-inner">
+            <div style="display:flex; align-items:center; gap:14px;">
+                <button type="button" class="btn-kembali" onclick="window.history.back()" style="margin-bottom:0;">← Kembali</button>
+                <a href="../index.html" class="auth-logo-title">
+                    <span class="logo-icon" style="width:26px; height:26px; background:linear-gradient(135deg, var(--gold-400), var(--gold-600)); border-radius:4px; display:inline-block;"></span>
+                    <span>Nexora Market</span>
+                </a>
+            </div>
+            <a href="#" class="auth-help-link">Butuh Bantuan?</a>
+        </div>
+    </header>
+
+    <main class="auth-main-wrapper">
+        <div class="auth-container-grid">
+            <div class="auth-banner-left">
+                <h1>Jual Beli Fashion Mudah di <span>Nexora</span></h1>
+                <p>Bergabunglah dengan ribuan pengguna lainnya. Nikmati voucher belanja eksklusif, cashback mingguan, dan pengiriman kilat ke seluruh Indonesia.</p>
+                <div class="auth-stat-strip">
+                    <div class="auth-stat-box">
+                        <div class="auth-stat-val">100%</div>
+                        <div class="auth-stat-lbl">Produk Original</div>
+                    </div>
+                    <div class="auth-stat-box">
+                        <div class="auth-stat-val">24/7</div>
+                        <div class="auth-stat-lbl">Layanan Pelanggan</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="auth-card-wrapper">
+                <input type="checkbox" id="saklar-form" hidden>
+
+                <!-- FORM MASUK -->
+                <div class="form-masuk">
+                    <div class="auth-card-header">
+                        <h2>Masuk ke Akun</h2>
+                    </div>
+                    <form>
+                        <div class="auth-form-group">
+                            <input type="email" id="loginEmail" placeholder="Email Anda" required>
+                        </div>
+                        <div class="auth-form-group input-pwd-wrapper">
+                            <input type="password" id="loginPassword" placeholder="Kata Sandi" required>
+                            <button type="button" class="btn-toggle-pwd" data-target="loginPassword" aria-label="Lihat Password">👁️</button>
+                        </div>
+                        <button type="submit" class="btn-auth-submit">Masuk</button>
+                    </form>
+                    <div class="auth-toggle-link">
+                        Belum punya akun? <label for="saklar-form">Daftar sekarang</label>
+                    </div>
+                </div>
+
+                <!-- FORM DAFTAR -->
+                <div class="form-daftar">
+                    <div class="auth-card-header">
+                        <h2>Daftar Akun Baru</h2>
+                    </div>
+                    <form>
+                        <div class="auth-form-group">
+                            <input type="text" id="regNama" placeholder="Nama Lengkap" required>
+                        </div>
+                        <div class="auth-form-group">
+                            <input type="email" id="regEmail" placeholder="Email Anda" required>
+                        </div>
+                        <div class="auth-form-group input-pwd-wrapper">
+                            <input type="password" id="regPassword" placeholder="Kata Sandi (min. 8 karakter)" required>
+                            <button type="button" class="btn-toggle-pwd" data-target="regPassword" aria-label="Lihat Password">👁️</button>
+                        </div>
+                        
+                        <div class="form-2kolom-bayar">
+                            <div class="auth-form-group">
+                                <input type="number" id="regUmur" placeholder="Umur" required>
+                            </div>
+                            <div class="auth-form-group">
+                                <select id="regGender" required>
+                                    <option value="" disabled selected hidden>Jenis Kelamin</option>
+                                    <option value="L">Laki-laki</option>
+                                    <option value="P">Perempuan</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="auth-form-group">
+                            <input type="date" id="regTanggalLahir" required>
+                        </div>
+
+                        <button type="submit" class="btn-auth-submit">Daftar</button>
+                    </form>
+                    <div class="auth-toggle-link">
+                        Sudah punya akun? <label for="saklar-form">Masuk di sini</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="kaki-marketplace">
+        <div class="footer-bottom-copy">
+            &copy; 2026 Nexora Market. Hak Cipta Dilindungi Undang-Undang.
+        </div>
+    </footer>
+
+ 
+    <script src="../js/script.js"></script>
+</body>
+</html>

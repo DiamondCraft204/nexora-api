@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexora Market — Katalog Produk</title>
+    <link rel="icon" href="../asset/nexora.ico?v=3" sizes="any">
+    <link rel="icon" type="image/svg+xml" href="../asset/nexora.svg?v=3">
+    <link rel="icon" type="image/png" sizes="192x192" href="../asset/nexora.png?v=3">
+    <link rel="apple-touch-icon" href="../asset/nexora.png?v=3">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+
+<body data-butuh-login="true">
+
+    <input type="radio" name="filter-kategori" id="cat-all" class="filter-radio" checked hidden>
+    <input type="radio" name="filter-kategori" id="cat-pakaian" class="filter-radio" hidden>
+    <input type="radio" name="filter-kategori" id="cat-sepatu" class="filter-radio" hidden>
+    <input type="radio" name="filter-kategori" id="cat-celana" class="filter-radio" hidden>
+    <input type="radio" name="filter-kategori" id="cat-jacket" class="filter-radio" hidden>
+    <input type="radio" name="filter-kategori" id="cat-topi" class="filter-radio" hidden>
+    <input type="radio" name="filter-kategori" id="cat-tas" class="filter-radio" hidden>
+    <input type="radio" name="filter-kategori" id="cat-alattulis" class="filter-radio" hidden>
+    <input type="radio" name="filter-kategori" id="cat-komputer" class="filter-radio" hidden>
+
+    <header class="header-utama">
+        <div class="top-bar-nav">
+            <div class="top-bar-kiri">
+                <a href="layanan-pelanggan.html">Bantuan & Panduan</a>
+            </div>
+            <div class="top-bar-kanan">
+                <span id="greetingArea" class="user-greeting js-greeting-area" hidden></span>
+                <a href="about.html">Tentang Kami</a>
+                <a href="profile.html" id="navProfile" class="js-nav-profile" hidden>👤 Profil</a>
+            </div>
+        </div>
+
+        <div class="main-header-bar">
+            <a href="bagianDalam.html" class="brand-logo-nexora">
+                <span class="logo-icon"></span>
+                <span>Nexora Market</span>
+            </a>
+            <button type="button" id="btnMenuMobile" class="btn-hamburger" aria-label="Buka menu">☰</button>
+
+            <div class="search-container-bar">
+                <div class="search-box-bar">
+                    <input type="text" id="inputPencarian"
+                        placeholder="Cari kemeja, jaket varsity, sneakers impianmu...">
+                    <button type="button">🔍 Cari</button>
+                </div>
+
+            </div>
+
+            <a href="keranjang.html" class="cart-header-icon" title="Keranjang Belanja">
+                🛒
+                <span class="badge-keranjang" hidden>0</span>
+            </a>
+        </div>
+
+        <nav id="menuMobileDropdown" class="menu-mobile-dropdown" hidden>
+            <a href="bagianDalam.html">🏠 Beranda</a>
+            <span class="user-greeting js-greeting-area" hidden></span>
+            <a href="profile.html" class="js-nav-profile" hidden>👤 Profil</a>
+            <a href="keranjang.html">🛒 Keranjang</a>
+            <a href="layanan-pelanggan.html">❓ Bantuan & Panduan</a>
+            <a href="about.html">ℹ️ Tentang Kami</a>
+            <a href="login_daftar.html" class="js-nav-auth">Masuk / Daftar</a>
+        </nav>
+    </header>
+
+    <main class="utama">
+        <section class="hero-slider-grid">
+            <div class="hero-main-banner">
+                <h1>Promo Terbesar <span>Nexora Festival</span></h1>
+                <p>Gratis Ongkir ke seluruh Indonesia min. belanja Rp 150rb & Cashback mingguan.</p>
+            </div>
+            <div class="hero-side-banners">
+                <div class="side-banner-card">
+                    <div>
+                        <strong>Koleksi Baru</strong>
+                        <p>Tren fashion terpopuler</p>
+                    </div>
+                    <span class="side-banner-icon">👔</span>
+                </div>
+                <div class="side-banner-card">
+                    <div>
+                        <strong>Flash Voucher</strong>
+                        <p>Klaim diskon pilihan</p>
+                    </div>
+                    <span class="side-banner-icon">🎟️</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="kategori-section-grid">
+            <div class="kategori-header-title">Kategori Unggulan</div>
+            <div class="kategori-grid-circle">
+                <label for="cat-all" class="kategori-circle-item">
+                    <div class="circle-icon">🛍️</div>
+                    <span>Semua</span>
+                </label>
+                <label for="cat-pakaian" class="kategori-circle-item">
+                    <div class="circle-icon">👕</div>
+                    <span>Pakaian</span>
+                </label>
+                <label for="cat-sepatu" class="kategori-circle-item">
+                    <div class="circle-icon">👟</div>
+                    <span>Sepatu</span>
+                </label>
+                <label for="cat-celana" class="kategori-circle-item">
+                    <div class="circle-icon">👖</div>
+                    <span>Celana</span>
+                </label>
+                <label for="cat-jacket" class="kategori-circle-item">
+                    <div class="circle-icon">🧥</div>
+                    <span>Jaket</span>
+                </label>
+                <label for="cat-topi" class="kategori-circle-item">
+                    <div class="circle-icon">🧢</div>
+                    <span>Topi</span>
+                </label>
+                <label for="cat-tas" class="kategori-circle-item">
+                    <div class="circle-icon">🎒</div>
+                    <span>Tas</span>
+                </label>
+                <label for="cat-alattulis" class="kategori-circle-item">
+                    <div class="circle-icon">✏️</div>
+                    <span>Alat Tulis</span>
+                </label>
+                <label for="cat-komputer" class="kategori-circle-item">
+                    <div class="circle-icon">💻</div>
+                    <span>Komputer</span>
+                </label>
+            </div>
+        </section>
+
+        <section class="voucher-section">
+            <div class="voucher-section-title">🎟️ Voucher Spesial Buat Kamu</div>
+            <div class="voucher-scroll-wrapper" id="wadahVoucherIndex">
+                <!-- Kartu voucher dirender otomatis lewat JS dari data kupon di API -->
+            </div>
+        </section>
+
+        <div class="filter-tab-bar">
+            <span class="filter-tab-label">Urutkan:</span>
+            <button type="button" class="tab-btn active" data-sort="terkait">Terkait</button>
+            <button type="button" class="tab-btn" data-sort="terbaru">Terbaru</button>
+            <button type="button" class="tab-btn" data-sort="terlaris">Terlaris</button>
+        </div>
+
+        <section class="container" id="katalogProduk"></section>
+        <nav class="pagination-produk" id="paginasiProduk" aria-label="Navigasi Halaman"></nav>
+    </main>
+
+    <footer class="kaki-marketplace">
+        <div class="footer-inner-wrapper">
+            <div class="footer-col">
+                <h4>Layanan Pelanggan</h4>
+                <ul>
+                    <li><a href="layanan-pelanggan.html#bantuan-faq">Bantuan & FAQ</a></li>
+                    <li><a href="layanan-pelanggan.html#metode-pembayaran">Metode Pembayaran</a></li>
+                    <li><a href="layanan-pelanggan.html#lacak-pesanan">Lacak Pesanan</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Jelajahi Nexora</h4>
+                <ul>
+                    <li><a href="about.html">Tentang Kami</a></li>
+                    <li><a href="layanan-pelanggan.html#kebijakan-privasi">Kebijakan Privasi</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Metode Pembayaran</h4>
+                <p>QRIS, DANA, GoPay, COD (Bayar di Tempat)</p>
+            </div>
+            <div class="footer-col">
+                <h4>Hubungi Kami</h4>
+                <p>Email: support@nexoramarket.id</p>
+                <p>WhatsApp: +62 895-3686-27820</p>
+            </div>
+        </div>
+        <div class="footer-bottom-copy">
+            &copy; 2026 Nexora Market. Hak Cipta Dilindungi Undang-Undang.
+        </div>
+    </footer>
+
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

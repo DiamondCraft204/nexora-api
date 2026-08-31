@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Saya — Nexora Market</title>
+    <link rel="icon" href="../asset/nexora.ico?v=3" sizes="any">
+    <link rel="icon" type="image/svg+xml" href="../asset/nexora.svg?v=3">
+    <link rel="icon" type="image/png" sizes="192x192" href="../asset/nexora.png?v=3">
+    <link rel="apple-touch-icon" href="../asset/nexora.png?v=3">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body data-butuh-login="true">
+
+    <header class="header-utama">
+        <div class="top-bar-nav">
+            <div class="top-bar-kiri">
+                <a href="#">Bantuan</a>
+            </div>
+            <div class="top-bar-kanan">
+                <span id="greetingArea" class="user-greeting js-greeting-area" hidden></span>
+                <a href="bagianDalam.html">Belanja</a>
+                <a href="profile.html" id="navProfile" class="active js-nav-profile">👤 Profil</a>
+            </div>
+        </div>
+
+        <div class="main-header-bar">
+            <a href="bagianDalam.html" class="brand-logo-nexora">
+                <span class="logo-icon"></span>
+                <span>Nexora Market | Akun Saya</span>
+            </a>
+            <button type="button" id="btnMenuMobile" class="btn-hamburger" aria-label="Buka menu">☰</button>
+        </div>
+
+        <nav id="menuMobileDropdown" class="menu-mobile-dropdown" hidden>
+            <a href="bagianDalam.html">🏠 Beranda</a>
+            <span class="user-greeting js-greeting-area" hidden></span>
+            <a href="profile.html" class="js-nav-profile" hidden>👤 Profil</a>
+            <a href="keranjang.html">🛒 Keranjang</a>
+            <a href="layanan-pelanggan.html">❓ Bantuan & Panduan</a>
+            <a href="about.html">ℹ️ Tentang Kami</a>
+            <a href="login_daftar.html" class="js-nav-auth">Masuk / Daftar</a>
+        </nav>
+    </header>
+
+    <main class="utama">
+        <button type="button" class="btn-kembali" onclick="window.history.back()">← Kembali</button>
+        <div class="profil-container-layout">
+            
+            <!-- Sidebar Navigasi Profil -->
+            <aside class="profil-sidebar">
+                <div class="profil-user-header">
+                    <div class="avatar-icon-box">👤</div>
+                    <div>
+                        <div class="profil-username" id="sidebarNamaUser">Pengguna</div>
+                        <span style="font-size: 11px; color: var(--slate-500);">Member Nexora</span>
+                    </div>
+                </div>
+
+                <div class="profil-nav-menu">
+                    <button type="button" class="btn-profil-tab active" id="tabAkunBtn">
+                        ⚙️ Pengaturan Akun
+                    </button>
+                    <button type="button" class="btn-profil-tab" id="tabPesananBtn">
+                        📦 Riwayat Pesanan
+                    </button>
+                    <button type="button" class="btn-profil-logout" id="btnKeluarAkun">
+                        🚪 Keluar dari Akun
+                    </button>
+                </div>
+            </aside>
+
+            <!-- Konten Tab -->
+            <section class="profil-content-panel">
+                
+                <!-- TAB 1: PENGATURAN AKUN -->
+                <div id="tabPengaturanAkun">
+                    <h2 class="panel-header-title">Pengaturan Akun</h2>
+                    <form id="formProfile" class="form-profil">
+                        <div class="grup-input-profil">
+                            <label>Nama Lengkap</label>
+                            <input type="text" id="profNama" required disabled>
+                        </div>
+
+                        <div class="grup-input-profil">
+                            <label>Email Akun (Terkunci)</label>
+                            <input type="email" id="profEmail" readonly class="input-terkunci"> 
+                        </div>
+
+                        <div class="form-2kolom-profil">
+                            <div class="grup-input-profil">
+                                <label>Umur</label>
+                                <input type="number" id="profUmur" required disabled>
+                            </div>
+                            <div class="grup-input-profil">
+                                <label>Tanggal Lahir</label>
+                                <input type="date" id="profTanggalLahir" required disabled>
+                            </div>
+                            <div class="grup-input-profil">
+                                <label>Jenis Kelamin</label>
+                                <select id="profGender" required disabled>
+                                    <option value="L">Laki-laki</option>
+                                    <option value="P">Perempuan</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="grup-input-profil">
+                            <label>Nomor Handphone</label>
+                            <input type="tel" id="profNoHp" placeholder="08xxxxxxxxxx" disabled>
+                        </div>
+
+                        <div class="grup-input-profil">
+                            <label>Provinsi</label>
+                            <select id="profProvinsi" required disabled>
+                                <option value="" disabled selected hidden>Pilih Provinsi</option>
+                                    <option value="Aceh">Aceh</option>
+                                    <option value="Sumatera Utara">Sumatera Utara</option>
+                                    <option value="Sumatera Barat">Sumatera Barat</option>
+                                    <option value="Riau">Riau</option>
+                                    <option value="Kepulauan Riau">Kepulauan Riau</option>
+                                    <option value="Jambi">Jambi</option>
+                                    <option value="Sumatera Selatan">Sumatera Selatan</option>
+                                    <option value="Kepulauan Bangka Belitung">Kepulauan Bangka Belitung</option>
+                                    <option value="Bengkulu">Bengkulu</option>
+                                    <option value="Lampung">Lampung</option>
+                                    <option value="DKI Jakarta">DKI Jakarta</option>
+                                    <option value="Jawa Barat">Jawa Barat</option>
+                                    <option value="Jawa Tengah">Jawa Tengah</option>
+                                    <option value="DI Yogyakarta">DI Yogyakarta</option>
+                                    <option value="Jawa Timur">Jawa Timur</option>
+                                    <option value="Banten">Banten</option>
+                                    <option value="Bali">Bali</option>
+                                    <option value="Nusa Tenggara Barat">Nusa Tenggara Barat</option>
+                                    <option value="Nusa Tenggara Timur">Nusa Tenggara Timur</option>
+                                    <option value="Kalimantan Barat">Kalimantan Barat</option>
+                                    <option value="Kalimantan Tengah">Kalimantan Tengah</option>
+                                    <option value="Kalimantan Selatan">Kalimantan Selatan</option>
+                                    <option value="Kalimantan Timur">Kalimantan Timur</option>
+                                    <option value="Kalimantan Utara">Kalimantan Utara</option>
+                                    <option value="Sulawesi Utara">Sulawesi Utara</option>
+                                    <option value="Sulawesi Tengah">Sulawesi Tengah</option>
+                                    <option value="Sulawesi Selatan">Sulawesi Selatan</option>
+                                    <option value="Sulawesi Tenggara">Sulawesi Tenggara</option>
+                                    <option value="Gorontalo">Gorontalo</option>
+                                    <option value="Sulawesi Barat">Sulawesi Barat</option>
+                                    <option value="Maluku">Maluku</option>
+                                    <option value="Maluku Utara">Maluku Utara</option>
+                                    <option value="Papua">Papua</option>
+                                    <option value="Papua Barat">Papua Barat</option>
+                                    <option value="Papua Selatan">Papua Selatan</option>
+                                    <option value="Papua Tengah">Papua Tengah</option>
+                                    <option value="Papua Pegunungan">Papua Pegunungan</option>
+                                    <option value="Papua Barat Daya">Papua Barat Daya</option>
+                            </select>
+                        </div>
+
+                        <div class="form-2kolom-profil">
+                            <div class="grup-input-profil">
+                                <label>Kota / Kabupaten</label>
+                                <input type="text" id="profKota" placeholder="Contoh: Kota Bandung" disabled>
+                            </div>
+                            <div class="grup-input-profil">
+                                <label>Kecamatan</label>
+                                <input type="text" id="profKecamatan" placeholder="Contoh: Coblong" disabled>
+                            </div>
+                            <div class="grup-input-profil">
+                                <label>Kode Pos</label>
+                                <input type="text" id="profKodePos" inputmode="numeric" pattern="[0-9]*" maxlength="5" placeholder="40132" disabled>
+                            </div>
+                        </div>
+
+                        <div class="grup-input-profil">
+                            <label>Alamat Utama (Detail)</label>
+                            <textarea id="profAlamat" rows="3" placeholder="Nama jalan, gedung, No. rumah, RT/RW, patokan" disabled></textarea>
+                        </div>
+
+                        <button type="button" id="btnEditProfile" class="btn-edit-profil">✏️ Edit Profil</button>
+                        <button type="submit" id="btnSimpanProfile" class="btn-simpan-profil" hidden>💾 Simpan Perubahan</button>
+                    </form>
+                </div>
+
+                <!-- TAB 2: RIWAYAT PESANAN -->
+                <div id="tabRiwayatPesanan" hidden>
+                    <h2 class="panel-header-title">Pesanan Saya</h2>
+                    <div id="wadahDaftarRiwayat" class="daftar-riwayat-wrapper"></div>
+                    <nav class="pagination-produk" id="paginasiRiwayat" aria-label="Navigasi Halaman Riwayat"></nav>
+                </div>
+
+            </section>
+        </div>
+    </main>
+
+    <footer class="kaki-marketplace">
+        <div class="footer-bottom-copy">
+            &copy; 2026 Nexora Market. Hak Cipta Dilindungi Undang-Undang.
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

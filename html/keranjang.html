@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keranjang Belanja — Nexora Market</title>
+    <link rel="icon" href="../asset/nexora.ico?v=3" sizes="any">
+    <link rel="icon" type="image/svg+xml" href="../asset/nexora.svg?v=3">
+    <link rel="icon" type="image/png" sizes="192x192" href="../asset/nexora.png?v=3">
+    <link rel="apple-touch-icon" href="../asset/nexora.png?v=3">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body data-butuh-login="true">
+
+   <header class="header-utama">
+    <div class="top-bar-nav">
+        <div class="top-bar-kiri">
+            <a href="#">Bantuan</a>
+        </div>
+        <div class="top-bar-kanan">
+            <span id="greetingArea" class="user-greeting js-greeting-area" hidden></span>
+            <a href="about.html">Tentang</a>
+            <a href="profile.html" id="navProfile" class="js-nav-profile" hidden>👤 Profil</a>
+        </div>
+    </div>
+
+        <div class="main-header-bar">
+            <a href="bagianDalam.html" class="brand-logo-nexora">
+                <span class="logo-icon"></span>
+                <span>Nexora Market | Keranjang</span>
+            </a>
+            <button type="button" id="btnMenuMobile" class="btn-hamburger" aria-label="Buka menu">☰</button>
+            <div class="search-container-bar">
+                <div class="search-box-bar">
+                    <input type="text" id="inputPencarian" placeholder="Cari di dalam keranjang...">
+                    <button type="button">🔍</button>
+                </div>
+            </div>
+        </div>
+
+        <nav id="menuMobileDropdown" class="menu-mobile-dropdown" hidden>
+            <a href="bagianDalam.html">🏠 Beranda</a>
+            <span class="user-greeting js-greeting-area" hidden></span>
+            <a href="profile.html" class="js-nav-profile" hidden>👤 Profil</a>
+            <a href="keranjang.html">🛒 Keranjang</a>
+            <a href="layanan-pelanggan.html">❓ Bantuan & Panduan</a>
+            <a href="about.html">ℹ️ Tentang Kami</a>
+            <a href="login_daftar.html" class="js-nav-auth">Masuk / Daftar</a>
+        </nav>
+    </header>
+
+    <main class="utama">
+        <button type="button" class="btn-kembali" onclick="window.history.back()">← Kembali</button>
+        <div id="keranjangKosong" class="cart-empty-panel" hidden>
+            <p>Keranjang belanja kamu masih kosong</p>
+            <a href="bagianDalam.html" class="btn-checkout">Belanja Sekarang</a>
+        </div>
+
+        <div id="keranjangLayout">
+            <div class="cart-table-header">
+                <div><input type="checkbox" id="checkSemua" class="ceklis-item" checked></div>
+                <div>Produk</div>
+                <div>Harga Satuan</div>
+                <div>Kuantitas</div>
+                <div>Total Harga</div>
+                <div>Aksi</div>
+            </div>
+
+            <div id="daftarKeranjang" class="keranjang-kiri"></div>
+
+            <div class="checkout-bottom-bar">
+                <div>
+                    <button id="btnKosongkan" class="btn-hapus-semua">Hapus Semua</button>
+                </div>
+                <div class="checkout-bar-kanan">
+                    <span class="checkout-label-total">Total (<span id="ringkasanTotalItem">0</span> produk):</span>
+                    <strong id="ringkasanTotalHarga" class="checkout-nilai-total">Rp0</strong>
+                    <button id="btnCheckout" class="btn-checkout">Checkout</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    
+    <script src="../js/script.js"></script>
+</body>
+</html>
