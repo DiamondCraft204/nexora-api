@@ -1,24 +1,29 @@
 /* =========================================================
    NEXORA MARKET 
-   Palet Warna: Nexora Modern (Navy, Blue, Purple, Orange)
+   Palet Warna: "Ocean Fresh" — Teal Terpercaya + Amber Energik
    ========================================================= */
 
 /* ---------- 1. RESET & VARIABEL GLOBAL ---------- */
 :root {
-    --nexora-navy: #0F172A;
-    --nexora-blue: #2563EB;
-    --nexora-purple: #7C3AED;
-    --nexora-orange: #F97316;
-    --nexora-white: #FFFFFF;
-    --soft-gray: #F8FAFC;
-    --text-gray: #64748B;
-    --success: #16A34A;
-    --error: #DC2626;
-    --border-light: #E2E8F0;
-    
-    --shadow-sm: 0 1px 2px rgba(15, 23, 42, .08);
-    --shadow-md: 0 4px 14px rgba(15, 23, 42, .12);
-    --shadow-lg: 0 12px 30px rgba(15, 23, 42, .2);
+    --navy-900: #0b3d3a;
+    --navy-800: #0f5852;
+    --navy-700: #16766e;
+    --gold-400: #ffb84d;
+    --gold-500: #ff9f1c;
+    --gold-600: #e8830c;
+    --slate-50: #f6faf9;
+    --slate-100: #eaf3f1;
+    --slate-200: #d8e8e5;
+    --slate-300: #bcd6d1;
+    --slate-400: #8fada9;
+    --slate-500: #5e7f7b;
+    --slate-700: #2f4a47;
+    --white: #ffffff;
+    --danger: #d6304a;
+    --success: #1a9c6b;
+    --shadow-sm: 0 1px 2px rgba(11, 61, 58, .08);
+    --shadow-md: 0 4px 14px rgba(11, 61, 58, .12);
+    --shadow-lg: 0 12px 30px rgba(11, 61, 58, .2);
     --radius: 3px;
     --radius-md: 6px;
     --radius-lg: 10px;
@@ -32,16 +37,17 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
-    background-color: var(--soft-gray);
+    background-color: var(--slate-50);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-    color: var(--nexora-navy);
+    color: var(--navy-800);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    zoom: 1.15;
+    overflow-x: hidden; /* mencegah scroll horizontal tak sengaja di layar sempit */
 }
 
 [hidden], 
@@ -53,7 +59,7 @@ body {
 
 /* ---------- 2. HEADER & NAVBAR UTAMA ---------- */
 .header-utama {
-    background: var(--nexora-navy);
+    background: var(--navy-900);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -68,13 +74,13 @@ body {
     justify-content: space-between;
     align-items: center;
     font-size: 12px;
-    color: var(--border-light);
+    color: var(--slate-200);
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .top-bar-kiri a,
 .top-bar-kanan a {
-    color: var(--border-light);
+    color: var(--slate-200);
     text-decoration: none;
     margin-right: 14px;
     transition: color .2s;
@@ -83,7 +89,7 @@ body {
 .top-bar-kiri a:hover,
 .top-bar-kanan a:hover,
 .top-bar-kanan a.active {
-    color: var(--nexora-blue);
+    color: var(--gold-400);
 }
 
 .top-bar-kanan {
@@ -98,7 +104,7 @@ body {
 }
 
 .user-greeting {
-    color: var(--nexora-blue);
+    color: var(--gold-400);
     font-weight: 700;
 }
 
@@ -116,7 +122,7 @@ body {
     align-items: center;
     gap: 10px;
     text-decoration: none;
-    color: var(--nexora-white);
+    color: var(--white);
     font-size: 22px;
     font-weight: 800;
     letter-spacing: -0.3px;
@@ -126,8 +132,8 @@ body {
 .brand-logo-nexora .logo-icon {
     width: 28px;
     height: 28px;
-    /* background: linear-gradient(135deg, var(--nexora-blue), var(--nexora-purple)); */
-    background: url(../asset/nexora.svg);
+    background: url(../asset/nexora.png);
+    /* background: linear-gradient(135deg, var(--gold-400), var(--gold-600)); */
     border-radius: var(--radius-md);
     display: inline-block;
 }
@@ -141,7 +147,7 @@ body {
 
 .search-box-bar {
     display: flex;
-    background: var(--nexora-white);
+    background: var(--white);
     border-radius: var(--radius);
     padding: 3px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, .15);
@@ -153,15 +159,15 @@ body {
     outline: none;
     padding: 0 14px;
     font-size: 14px;
-    color: var(--nexora-navy);
+    color: var(--navy-900);
     background: transparent;
 }
 
 .search-box-bar button {
-    background: var(--nexora-orange);
+    background: linear-gradient(135deg, var(--gold-400), var(--gold-600));
     border: none;
     outline: none;
-    color: var(--nexora-white);
+    color: var(--navy-900);
     font-weight: 800;
     padding: 9px 24px;
     border-radius: var(--radius);
@@ -181,17 +187,17 @@ body {
 }
 
 .search-keywords a {
-    color: var(--border-light);
+    color: var(--slate-200);
     text-decoration: none;
 }
 
 .search-keywords a:hover {
-    color: var(--nexora-blue);
+    color: var(--gold-400);
 }
 
 .cart-header-icon {
     position: relative;
-    color: var(--nexora-white);
+    color: var(--white);
     text-decoration: none;
     font-size: 26px;
     padding: 6px 10px;
@@ -203,18 +209,18 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    background: var(--nexora-orange);
-    color: var(--nexora-white);
+    background: var(--gold-500);
+    color: var(--navy-900);
     font-size: 11px;
     font-weight: 800;
     padding: 1px 6px;
-    border-radius: 10px;
-    border: 2px solid var(--nexora-navy);
+    border-radius: var(--radius-lg);
+    border: 2px solid var(--navy-900);
 }
 
 /* Header Auth */
 .auth-header-bar {
-    background: var(--nexora-white);
+    background: var(--white);
     box-shadow: var(--shadow-sm);
     padding: 18px 0;
 }
@@ -233,14 +239,14 @@ body {
     align-items: center;
     gap: 10px;
     text-decoration: none;
-    color: var(--nexora-navy);
+    color: var(--navy-900);
     font-size: 22px;
     font-weight: 800;
 }
 
 .auth-help-link {
     font-size: 13px;
-    color: var(--text-gray);
+    color: var(--slate-500);
     text-decoration: none;
 }
 
@@ -261,8 +267,8 @@ body {
 }
 
 .hero-main-banner {
-    background: linear-gradient(135deg, var(--nexora-navy), var(--nexora-purple));
-    color: var(--nexora-white);
+    background: linear-gradient(135deg, var(--navy-900), var(--navy-700));
+    color: var(--white);
     border-radius: var(--radius);
     padding: 34px;
     display: flex;
@@ -275,7 +281,7 @@ body {
     display: inline-block;
     font-size: 12px;
     font-weight: 700;
-    color: var(--nexora-orange);
+    color: var(--gold-400);
     text-transform: uppercase;
     margin-bottom: 8px;
     letter-spacing: 1px;
@@ -288,12 +294,12 @@ body {
 }
 
 .hero-main-banner h1 span {
-    color: var(--nexora-blue);
+    color: var(--gold-400);
 }
 
 .hero-main-banner p {
     font-size: 14px;
-    color: var(--border-light);
+    color: var(--slate-200);
     margin-bottom: 20px;
     line-height: 1.5;
 }
@@ -306,23 +312,23 @@ body {
 
 .side-banner-card {
     flex: 1;
-    background: var(--nexora-white);
+    background: var(--white);
     border-radius: var(--radius);
     padding: 18px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid var(--border-light);
+    border: 1px solid var(--slate-200);
 }
 
 .side-banner-card strong {
-    color: var(--nexora-navy);
+    color: var(--navy-900);
     font-size: 14px;
 }
 
 .side-banner-card p {
     font-size: 12px;
-    color: var(--text-gray);
+    color: var(--slate-500);
     margin-top: 2px;
 }
 
@@ -338,13 +344,13 @@ body {
 }
 
 .feature-box {
-    background: var(--nexora-white);
+    background: var(--white);
     padding: 16px;
     border-radius: var(--radius);
     display: flex;
     align-items: center;
     gap: 12px;
-    border: 1px solid var(--border-light);
+    border: 1px solid var(--slate-200);
 }
 
 .feature-box .feat-icon {
@@ -353,17 +359,17 @@ body {
 
 .feature-box strong {
     font-size: 13px;
-    color: var(--nexora-navy);
+    color: var(--navy-900);
     display: block;
 }
 
 .feature-box span {
     font-size: 11px;
-    color: var(--text-gray);
+    color: var(--slate-500);
 }
 
 .kategori-section-grid {
-    background: var(--nexora-white);
+    background: var(--white);
     border-radius: var(--radius);
     padding: 16px 20px;
     margin-bottom: 20px;
@@ -373,7 +379,7 @@ body {
 .kategori-header-title {
     font-size: 14px;
     font-weight: 700;
-    color: var(--text-gray);
+    color: var(--slate-500);
     text-transform: uppercase;
     margin-bottom: 16px;
     letter-spacing: .5px;
@@ -390,7 +396,7 @@ body {
     flex-direction: column;
     align-items: center;
     text-decoration: none;
-    color: var(--nexora-navy);
+    color: var(--navy-800);
     cursor: pointer;
     padding: 10px;
     border-radius: var(--radius);
@@ -398,20 +404,20 @@ body {
 }
 
 .kategori-circle-item:hover {
-    background: var(--soft-gray);
+    background: var(--slate-50);
 }
 
 .circle-icon {
     width: 52px;
     height: 52px;
-    background: var(--soft-gray);
+    background: var(--slate-100);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 24px;
     margin-bottom: 8px;
-    border: 1px solid var(--border-light);
+    border: 1px solid var(--slate-200);
 }
 
 .kategori-circle-item span {
@@ -432,24 +438,24 @@ body {
 
 .filter-tab-label {
     font-size: 13px;
-    color: var(--text-gray);
+    color: var(--slate-500);
     margin-right: 6px;
 }
 
 .tab-btn {
-    background: var(--nexora-white);
+    background: var(--white);
     border: 1px solid transparent;
     padding: 7px 16px;
     font-size: 13px;
     border-radius: var(--radius);
     cursor: pointer;
     font-weight: 600;
-    color: var(--nexora-navy);
+    color: var(--navy-800);
 }
 
 .tab-btn.active {
-    background: var(--nexora-navy);
-    color: var(--nexora-blue);
+    background: var(--navy-900);
+    color: var(--gold-400);
 }
 
 /* ---------- 4. KATALOG & GRID PRODUK ---------- */
@@ -462,9 +468,9 @@ body {
 }
 
 .container-sec {
-    background: var(--nexora-white);
+    background: var(--white);
     border-radius: var(--radius);
-    border: 1px solid rgba(15, 23, 42, .08);
+    border: 1px solid rgba(0, 0, 0, .08);
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -475,8 +481,8 @@ body {
 
 .container-sec:hover {
     transform: translateY(-2px);
-    box-shadow: var(--shadow-md);
-    border-color: var(--nexora-blue);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, .12);
+    border-color: var(--gold-500);
 }
 
 .kartu-gambar {
@@ -489,7 +495,7 @@ body {
 .gambar-produk {
     width: 100%;
     aspect-ratio: 1/1;
-    background: var(--soft-gray);
+    background: var(--slate-100);
     position: relative;
     overflow: hidden;
 }
@@ -512,7 +518,7 @@ body {
 .info-produk .nama-produk {
     font-size: 12.5px;
     line-height: 1.35;
-    color: var(--nexora-navy);
+    color: var(--navy-900);
     max-height: 2.7em;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -528,13 +534,13 @@ body {
 .info-produk .harga-produk {
     font-size: 15px;
     font-weight: 700;
-    color: var(--nexora-orange);
+    color: var(--gold-600);
     display: block;
 }
 
 .info-produk .lokasi-terjual {
     font-size: 11px;
-    color: var(--text-gray);
+    color: var(--slate-400);
     display: flex;
     justify-content: space-between;
     margin-top: 6px;
@@ -545,7 +551,7 @@ body {
     top: 0;
     right: 0;
     background: rgba(245, 158, 11, 0.9);
-    color: var(--nexora-navy);
+    color: var(--navy-900);
     font-size: 10px;
     font-weight: 800;
     padding: 2px 5px;
@@ -556,11 +562,11 @@ body {
     grid-column: 1 / -1;
     padding: 50px 20px;
     text-align: center;
-    background: var(--nexora-white);
+    background: var(--white);
     border-radius: var(--radius);
-    color: var(--text-gray);
+    color: var(--slate-500);
     font-size: 14px;
-    border: 1px solid var(--border-light);
+    border: 1px solid var(--slate-200);
 }
 
 .pagination-produk {
@@ -574,53 +580,61 @@ body {
 .btn-halaman {
     min-width: 38px;
     height: 36px;
-    background: var(--nexora-white);
-    border: 1px solid var(--border-light);
+    background: var(--white);
+    border: 1px solid var(--slate-200);
     border-radius: var(--radius);
     font-size: 14px;
     font-weight: 600;
-    color: var(--text-gray);
+    color: var(--slate-500);
     cursor: pointer;
 }
 
 .btn-halaman:hover:not(:disabled) {
-    background: var(--soft-gray);
+    background: var(--slate-100);
 }
 
 .btn-halaman.aktif {
-    background: var(--nexora-navy);
-    color: var(--nexora-white);
-    border-color: var(--nexora-navy);
+    background: var(--navy-900);
+    color: var(--white);
+    border-color: var(--navy-900);
+}
+
+.elipsis-halaman {
+    min-width: 20px;
+    text-align: center;
+    color: var(--slate-400);
+    font-weight: 700;
+    user-select: none;
 }
 
 /* ---------- 5. HALAMAN KERANJANG ---------- */
 .cart-empty-panel {
     text-align: center;
-    background: var(--nexora-white);
+    background: var(--white);
     padding: 60px 20px;
     border-radius: var(--radius);
-    border: 1px solid var(--border-light);
+    border: 1px solid var(--slate-200);
 }
 
 .cart-empty-panel p {
     font-size: 15px;
-    color: var(--text-gray);
+    color: var(--slate-500);
     margin-bottom: 16px;
 }
 
 .cart-table-header {
-    background: var(--nexora-white);
+    background: var(--white);
     padding: 14px 20px;
     border-radius: var(--radius);
     display: grid;
     grid-template-columns: 40px 3fr 1.5fr 1.5fr 1.5fr 80px;
     align-items: center;
     font-size: 13px;
-    color: var(--text-gray);
+    color: var(--slate-500);
     box-shadow: var(--shadow-sm);
     margin-bottom: 12px;
     font-weight: 600;
-    border: 1px solid var(--border-light);
+    border: 1px solid var(--slate-200);
 }
 
 .keranjang-kiri {
@@ -630,21 +644,21 @@ body {
 }
 
 .item-keranjang-card {
-    background: var(--nexora-white);
+    background: var(--white);
     padding: 16px 20px;
     border-radius: var(--radius);
     display: grid;
     grid-template-columns: 40px 3fr 1.5fr 1.5fr 1.5fr 80px;
     align-items: center;
     box-shadow: var(--shadow-sm);
-    border: 1px solid var(--border-light);
+    border: 1px solid var(--slate-200);
 }
 
 .ceklis-item {
     width: 18px;
     height: 18px;
     cursor: pointer;
-    accent-color: var(--nexora-blue);
+    accent-color: var(--gold-500);
 }
 
 .item-cart-detail {
@@ -658,13 +672,13 @@ body {
     height: 60px;
     object-fit: cover;
     border-radius: var(--radius);
-    background: var(--soft-gray);
+    background: var(--slate-100);
 }
 
 .item-cart-detail h4 {
     font-size: 13px;
     font-weight: 600;
-    color: var(--nexora-navy);
+    color: var(--navy-900);
     max-height: 2.7em;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -673,7 +687,7 @@ body {
 
 .stepper-cart {
     display: inline-flex;
-    border: 1px solid var(--border-light);
+    border: 1px solid var(--slate-200);
     border-radius: var(--radius);
     align-items: center;
 }
@@ -681,7 +695,7 @@ body {
 .stepper-cart button {
     width: 28px;
     height: 28px;
-    background: var(--nexora-white);
+    background: var(--white);
     border: none;
     font-size: 14px;
     cursor: pointer;
@@ -695,21 +709,21 @@ body {
     text-align: center;
     font-size: 13px;
     font-weight: 600;
-    border-left: 1px solid var(--border-light);
-    border-right: 1px solid var(--border-light);
+    border-left: 1px solid var(--slate-200);
+    border-right: 1px solid var(--slate-200);
     line-height: 28px;
 }
 
 .subtotal-cart {
     font-weight: 700;
-    color: var(--nexora-orange);
+    color: var(--gold-600);
     font-size: 14px;
 }
 
 .btn-item-hapus {
     background: none;
     border: none;
-    color: var(--error);
+    color: var(--danger);
     cursor: pointer;
     font-size: 13px;
     font-weight: 600;
@@ -719,7 +733,7 @@ body {
 .checkout-bottom-bar {
     position: sticky;
     bottom: 0;
-    background: var(--nexora-white);
+    background: var(--white);
     border-radius: var(--radius);
     padding: 14px 24px;
     display: flex;
@@ -728,13 +742,13 @@ body {
     box-shadow: 0 -4px 14px rgba(0, 0, 0, .08);
     margin-top: 20px;
     z-index: 100;
-    border: 1px solid var(--border-light);
+    border: 1px solid var(--slate-200);
 }
 
 .btn-hapus-semua {
     background: none;
     border: none;
-    color: var(--error);
+    color: var(--danger);
     cursor: pointer;
     font-weight: 600;
     font-size: 13px;
@@ -748,17 +762,17 @@ body {
 
 .checkout-label-total {
     font-size: 14px;
-    color: var(--text-gray);
+    color: var(--slate-500);
 }
 
 .checkout-nilai-total {
     font-size: 20px;
-    color: var(--nexora-orange);
+    color: var(--gold-600);
 }
 
 .btn-checkout {
-    background: var(--nexora-orange);
-    color: var(--nexora-white);
+    background: linear-gradient(135deg, var(--gold-400), var(--gold-600));
+    color: var(--navy-900);
     font-weight: 800;
     padding: 12px 36px;
     border-radius: var(--radius);
@@ -777,6 +791,15 @@ body {
     align-items: start;
 }
 
+/* min-width:0 di kedua kolom grid ini penting: tanpa ini, kolom kiri
+   (form-pembayaran) tidak bisa menyusut di bawah lebar konten
+   terlebarnya saat layar menyempit, sehingga bisa memicu grid
+   "blowout" (lihat catatan lengkap di .grup-alamat-label). */
+.halaman-pembayaran > .form-pembayaran,
+.halaman-pembayaran > .ringkasan-pesanan {
+    min-width: 0;
+}
+
 .form-pembayaran {
     display: flex;
     flex-direction: column;
@@ -784,19 +807,19 @@ body {
 }
 
 .blok-form {
-    background: var(--nexora-white);
+    background: var(--white);
     border-radius: var(--radius);
     padding: 22px;
     box-shadow: var(--shadow-sm);
-    border: 1px solid var(--border-light);
+    border: 1px solid var(--slate-200);
 }
 
 .blok-form h3 {
-    color: var(--nexora-navy);
+    color: var(--navy-900);
     font-size: 15px;
     margin-bottom: 16px;
     font-weight: 800;
-    border-bottom: 1px solid var(--soft-gray);
+    border-bottom: 1px solid var(--slate-100);
     padding-bottom: 10px;
 }
 
@@ -806,11 +829,11 @@ body {
     width: 100%;
     padding: 11px 14px;
     margin-bottom: 12px;
-    background: var(--soft-gray);
-    border: 1px solid var(--border-light);
+    background: var(--slate-50);
+    border: 1px solid var(--slate-200);
     outline: none;
     border-radius: var(--radius);
-    color: var(--nexora-navy);
+    color: var(--navy-800);
     font-size: 14px;
     font-family: inherit;
 }
@@ -818,8 +841,8 @@ body {
 .blok-form input:focus,
 .blok-form textarea:focus,
 .blok-form select:focus {
-    border-color: var(--nexora-blue);
-    background: var(--nexora-white);
+    border-color: var(--gold-500);
+    background: var(--white);
 }
 
 .form-2kolom-bayar {
@@ -833,49 +856,49 @@ body {
     gap: 12px;
     padding: 12px 14px;
     border-radius: var(--radius);
-    background: var(--soft-gray);
+    background: var(--slate-50);
     margin-bottom: 8px;
     cursor: pointer;
     font-size: 13.5px;
-    color: var(--nexora-navy);
+    color: var(--navy-800);
     font-weight: 600;
-    border: 1px solid var(--border-light);
+    border: 1px solid var(--slate-200);
 }
 
 .opsi-bayar input {
     width: auto;
     margin: 0;
-    accent-color: var(--nexora-blue);
+    accent-color: var(--gold-500);
 }
 
 .opsi-bayar:has(input:checked) {
-    background: rgba(37, 99, 235, 0.05);
-    border-color: var(--nexora-blue);
+    background: #fff1e6;
+    border-color: var(--gold-500);
 }
 
 .btn-bayar-sekarang {
     padding: 14px;
     border-radius: var(--radius);
     border: none;
-    background: var(--nexora-orange);
-    color: var(--nexora-white);
+    background: linear-gradient(135deg, var(--gold-400), var(--gold-600));
+    color: var(--navy-900);
     font-weight: 800;
     font-size: 15px;
     cursor: pointer;
 }
 
 .ringkasan-pesanan {
-    background: var(--nexora-white);
+    background: var(--white);
     border-radius: var(--radius);
     padding: 22px;
     box-shadow: var(--shadow-sm);
-    border: 1px solid var(--border-light);
+    border: 1px solid var(--slate-200);
     position: sticky;
     top: 90px;
 }
 
 .ringkasan-pesanan h3 {
-    color: var(--nexora-navy);
+    color: var(--navy-900);
     font-size: 15px;
     margin-bottom: 14px;
     font-weight: 800;
@@ -911,7 +934,7 @@ body {
 .nama-pesanan {
     font-size: 12.5px;
     font-weight: 600;
-    color: var(--nexora-navy);
+    color: var(--navy-900);
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -919,27 +942,27 @@ body {
 
 .qty-pesanan {
     font-size: 11.5px;
-    color: var(--text-gray);
+    color: var(--slate-500);
 }
 
 .subtotal-pesanan {
     font-size: 13px;
     font-weight: 700;
-    color: var(--nexora-orange);
+    color: var(--gold-600);
 }
 
 .baris-ringkasan {
     display: flex;
     justify-content: space-between;
     font-size: 13px;
-    color: var(--text-gray);
+    color: var(--slate-500);
     margin-bottom: 8px;
-    border-top: 1px solid var(--soft-gray);
+    border-top: 1px solid var(--slate-100);
     padding-top: 8px;
 }
 
 .baris-ringkasan.total {
-    color: var(--nexora-navy);
+    color: var(--navy-900);
     font-weight: 800;
     font-size: 16px;
 }
@@ -947,7 +970,7 @@ body {
 .overlay-sukses {
     position: fixed;
     inset: 0;
-    background: rgba(15, 23, 42, .7);
+    background: rgba(43, 27, 61, .7);
     backdrop-filter: blur(4px);
     display: flex;
     align-items: center;
@@ -957,11 +980,13 @@ body {
 }
 
 .kartu-sukses {
-    background: var(--nexora-white);
+    background: var(--white);
     border-radius: var(--radius-lg);
     padding: 40px 30px;
     text-align: center;
     max-width: 380px;
+    max-height: 90vh;
+    overflow-y: auto;
     box-shadow: var(--shadow-lg);
 }
 
@@ -972,14 +997,14 @@ body {
 }
 
 .kartu-sukses h3 {
-    color: var(--nexora-navy);
+    color: var(--navy-900);
     font-size: 18px;
     margin-bottom: 8px;
     font-weight: 800;
 }
 
 .kartu-sukses p {
-    color: var(--text-gray);
+    color: var(--slate-500);
     font-size: 13px;
     line-height: 1.6;
     margin-bottom: 20px;
@@ -992,7 +1017,7 @@ body {
 }
 
 .kartu-modal-bayar h3 {
-    color: var(--nexora-navy);
+    color: var(--navy-900);
     font-size: 16px;
     font-weight: 800;
     margin-bottom: 14px;
@@ -1003,8 +1028,8 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
-    background: var(--soft-gray);
-    border: 1px solid var(--border-light);
+    background: var(--slate-50);
+    border: 1px solid var(--slate-200);
     border-radius: var(--radius-md);
     padding: 10px 12px;
     margin-bottom: 14px;
@@ -1017,12 +1042,12 @@ body {
 .qris-merchant-badge strong {
     display: block;
     font-size: 13px;
-    color: var(--nexora-navy);
+    color: var(--navy-900);
 }
 
 .qris-merchant-badge > div > span {
     font-size: 11px;
-    color: var(--text-gray);
+    color: var(--slate-500);
     font-weight: 500;
 }
 
@@ -1031,42 +1056,42 @@ body {
     width: 280px;
     height: 280px;
     margin: 0 auto 14px;
-    border: 1px solid var(--border-light);
+    border: 1px solid var(--slate-200);
     border-radius: var(--radius-md);
     padding: 8px;
-    background: var(--nexora-white);
+    background: var(--white);
 }
 
 .qris-nominal {
     text-align: center;
     font-size: 14px;
-    color: var(--nexora-navy);
+    color: var(--navy-800);
     margin-bottom: 4px;
 }
 
 .qris-nominal strong {
-    color: var(--nexora-navy);
+    color: var(--navy-900);
     font-size: 17px;
 }
 
 .qris-ref {
     text-align: center;
     font-size: 12px;
-    color: var(--text-gray);
+    color: var(--slate-500);
     margin-bottom: 4px;
 }
 
 .qris-timer {
     text-align: center;
     font-size: 12.5px;
-    color: var(--nexora-orange);
+    color: var(--gold-600);
     font-weight: 700;
     margin-bottom: 10px;
 }
 
 .qris-catatan {
     font-size: 11.5px;
-    color: var(--text-gray);
+    color: var(--slate-500);
     line-height: 1.5;
     text-align: center;
     margin-bottom: 6px;
@@ -1074,7 +1099,7 @@ body {
 
 .ewallet-hint {
     font-size: 13px;
-    color: var(--text-gray);
+    color: var(--slate-500);
     line-height: 1.5;
     margin-bottom: 14px;
 }
@@ -1082,18 +1107,18 @@ body {
 .input-ewallet {
     width: 100%;
     padding: 11px 14px;
-    background: var(--soft-gray);
-    border: 1px solid var(--border-light);
+    background: var(--slate-50);
+    border: 1px solid var(--slate-200);
     outline: none;
     border-radius: var(--radius);
-    color: var(--nexora-navy);
+    color: var(--navy-800);
     font-size: 14px;
     font-family: inherit;
 }
 
 .input-ewallet:focus {
-    border-color: var(--nexora-blue);
-    background: var(--nexora-white);
+    border-color: var(--gold-500);
+    background: var(--white);
 }
 
 .modal-bayar-aksi {
@@ -1114,13 +1139,13 @@ body {
 }
 
 .btn-modal-batal {
-    background: var(--soft-gray);
-    color: var(--nexora-navy);
+    background: var(--slate-100);
+    color: var(--navy-800);
 }
 
 .btn-modal-konfirmasi {
-    background: var(--nexora-orange);
-    color: var(--nexora-white);
+    background: linear-gradient(135deg, var(--gold-400), var(--gold-600));
+    color: var(--navy-900);
 }
 
 /* ---------- STRIP VOUCHER YANG BISA DIGESER (INDEX.HTML) ---------- */
@@ -1131,7 +1156,7 @@ body {
 .voucher-section-title {
     font-size: 16px;
     font-weight: 800;
-    color: var(--nexora-navy);
+    color: var(--navy-900);
     margin-bottom: 14px;
     display: flex;
     align-items: center;
@@ -1144,16 +1169,8 @@ body {
     overflow-x: auto;
     padding: 4px 4px 14px;
     scroll-snap-type: x proximity;
-    -webkit-overflow-scrolling: touch;
-}
-
-.voucher-scroll-wrapper::-webkit-scrollbar {
-    height: 6px;
-}
-
-.voucher-scroll-wrapper::-webkit-scrollbar-thumb {
-    background: var(--border-light);
-    border-radius: 999px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--slate-300) transparent;
 }
 
 .kartu-voucher {
@@ -1161,16 +1178,16 @@ body {
     scroll-snap-align: start;
     width: 280px;
     display: flex;
-    background: var(--nexora-white);
-    border: 1px dashed var(--nexora-blue);
+    background: var(--white);
+    border: 1px dashed var(--gold-500);
     border-radius: var(--radius-md);
     overflow: hidden;
     box-shadow: var(--shadow-sm);
 }
 
 .kartu-voucher-kiri {
-    background: linear-gradient(160deg, var(--nexora-blue), var(--nexora-purple));
-    color: var(--nexora-white);
+    background: linear-gradient(160deg, var(--gold-400), var(--gold-600));
+    color: var(--white);
     width: 64px;
     flex-shrink: 0;
     display: flex;
@@ -1190,22 +1207,22 @@ body {
 .kartu-voucher-kode {
     font-weight: 800;
     font-size: 14px;
-    color: var(--nexora-navy);
+    color: var(--navy-900);
     letter-spacing: .02em;
 }
 
 .kartu-voucher-desk {
     font-size: 11.5px;
-    color: var(--text-gray);
+    color: var(--slate-500);
     line-height: 1.4;
 }
 
 .kartu-voucher-salin {
     align-self: flex-start;
     margin-top: 4px;
-    background: var(--soft-gray);
+    background: var(--slate-100);
     border: none;
-    color: var(--nexora-navy);
+    color: var(--navy-900);
     font-size: 11px;
     font-weight: 700;
     padding: 5px 10px;
@@ -1214,7 +1231,7 @@ body {
 }
 
 .kartu-voucher-salin:hover {
-    background: var(--border-light);
+    background: var(--slate-200);
 }
 
 /* ---------- HALAMAN LAYANAN PELANGGAN ---------- */
@@ -1226,9 +1243,9 @@ body {
 }
 
 .layanan-nav-pills a {
-    background: var(--nexora-white);
-    border: 1px solid var(--border-light);
-    color: var(--nexora-navy);
+    background: var(--white);
+    border: 1px solid var(--slate-200);
+    color: var(--navy-800);
     text-decoration: none;
     padding: 8px 14px;
     border-radius: 999px;
@@ -1237,23 +1254,23 @@ body {
 }
 
 .layanan-nav-pills a:hover {
-    border-color: var(--nexora-blue);
-    color: var(--nexora-blue);
+    border-color: var(--gold-500);
+    color: var(--gold-600);
 }
 
 .layanan-section {
-    background: var(--nexora-white);
+    background: var(--white);
     border-radius: var(--radius);
     padding: 28px 32px;
     box-shadow: var(--shadow-sm);
-    border: 1px solid var(--border-light);
+    border: 1px solid var(--slate-200);
     margin-bottom: 20px;
     scroll-margin-top: 20px;
 }
 
 .layanan-section h2 {
     font-size: 19px;
-    color: var(--nexora-navy);
+    color: var(--navy-900);
     font-weight: 800;
     margin-bottom: 14px;
     display: flex;
@@ -1263,7 +1280,7 @@ body {
 
 .layanan-section p,
 .layanan-section li {
-    color: var(--nexora-navy);
+    color: var(--slate-700);
     line-height: 1.75;
     font-size: 14px;
 }
@@ -1279,7 +1296,7 @@ body {
 }
 
 .layanan-faq-item {
-    border-bottom: 1px solid var(--soft-gray);
+    border-bottom: 1px solid var(--slate-100);
     padding: 12px 0;
 }
 
@@ -1289,7 +1306,7 @@ body {
 
 .layanan-faq-item strong {
     display: block;
-    color: var(--nexora-navy);
+    color: var(--navy-900);
     margin-bottom: 4px;
     font-size: 14px;
 }
@@ -1297,30 +1314,58 @@ body {
 /* ---------- MENU HAMBURGER MOBILE ---------- */
 .btn-hamburger {
     display: none;
-    background: var(--nexora-orange);
+    background: linear-gradient(135deg, var(--gold-400), var(--gold-600));
     border: none;
     border-radius: var(--radius-md);
-    font-size: 22px;
-    line-height: 1;
     cursor: pointer;
-    color: var(--nexora-white);
+    color: var(--white);
     width: 42px;
     height: 42px;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
     box-shadow: var(--shadow-sm);
+    transition: filter .15s, transform .15s;
+}
+
+.btn-hamburger .icon-hamburger {
+    width: 22px;
+    height: 22px;
+    pointer-events: none;
+}
+
+.btn-hamburger .icon-hamburger path {
+    transition: transform .2s ease, opacity .2s ease;
+    transform-origin: center;
+}
+
+.btn-hamburger.terbuka .icon-hamburger path:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+}
+
+.btn-hamburger.terbuka .icon-hamburger path:nth-child(2) {
+    opacity: 0;
+}
+
+.btn-hamburger.terbuka .icon-hamburger path:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+}
+
+.btn-hamburger:hover {
+    filter: brightness(1.05);
 }
 
 .btn-hamburger:active {
     filter: brightness(0.95);
+    transform: scale(0.96);
 }
 
 .menu-mobile-dropdown {
     display: none;
     flex-direction: column;
-    background: var(--nexora-white);
-    border-top: 1px solid var(--border-light);
+    align-items: center;
+    background: var(--white);
+    border-top: 1px solid var(--slate-200);
     box-shadow: var(--shadow-md);
 }
 
@@ -1331,11 +1376,11 @@ body {
 .menu-mobile-dropdown a,
 .menu-mobile-dropdown .user-greeting {
     padding: 14px 20px;
-    color: var(--nexora-navy);
+    color: var(--navy-800);
     text-decoration: none;
     font-size: 14px;
     font-weight: 600;
-    border-bottom: 1px solid var(--soft-gray);
+    border-bottom: 1px solid var(--slate-100);
 }
 
 .menu-mobile-dropdown a:last-child {
@@ -1343,9 +1388,9 @@ body {
 }
 
 .menu-mobile-dropdown .user-greeting {
-    color: var(--nexora-orange);
+    color: var(--gold-600);
     font-weight: 800;
-    background: rgba(37, 99, 235, 0.05);
+    background: #fff1e6;
 }
 
 /* ---------- TOMBOL KEMBALI ---------- */
@@ -1353,9 +1398,9 @@ body {
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    background: var(--nexora-white);
-    color: var(--nexora-navy);
-    border: 1px solid var(--border-light);
+    background: var(--white);
+    color: var(--navy-900);
+    border: 1px solid var(--slate-200);
     padding: 9px 16px;
     border-radius: var(--radius-md);
     font-weight: 700;
@@ -1366,8 +1411,8 @@ body {
 }
 
 .btn-kembali:hover {
-    background: var(--soft-gray);
-    border-color: var(--nexora-blue);
+    background: var(--slate-50);
+    border-color: var(--gold-500);
 }
 
 /* ---------- ALAMAT PENGIRIMAN GAYA SHOPEE ---------- */
@@ -1383,9 +1428,9 @@ body {
 }
 
 .btn-edit-alamat-inline {
-    background: var(--soft-gray);
-    color: var(--nexora-navy);
-    border: 1px solid var(--border-light);
+    background: var(--slate-100);
+    color: var(--navy-900);
+    border: 1px solid var(--slate-200);
     padding: 7px 14px;
     border-radius: var(--radius);
     font-weight: 700;
@@ -1394,7 +1439,7 @@ body {
 }
 
 .btn-edit-alamat-inline:hover {
-    background: var(--border-light);
+    background: var(--slate-200);
 }
 
 .baris-penerima {
@@ -1416,6 +1461,16 @@ body {
     flex-direction: column;
     gap: 6px;
     margin-bottom: 14px;
+    /* PENTING: tanpa ini, item grid/flex (termasuk grup ini di dalam
+       .baris-penerima & .grid-wilayah-alamat) punya lebar minimum bawaan
+       = lebar konten terlebarnya (mis. teks opsi "Kepulauan Bangka
+       Belitung" di select Provinsi). Di layar sempit lebar minimum itu
+       bisa melebihi lebar kolom grid, sehingga seluruh form "meledak"
+       (blowout) jadi lebih lebar dari layar dan kepotong oleh
+       overflow-x:hidden pada body/html — kelihatan seperti menembus
+       layar & tidak bisa digeser. min-width:0 mengizinkan elemen ini
+       menyusut mengikuti kolomnya. */
+    min-width: 0;
 }
 
 .baris-penerima .grup-alamat-label,
@@ -1426,7 +1481,7 @@ body {
 .grup-alamat-label label {
     font-size: 12px;
     font-weight: 700;
-    color: var(--text-gray);
+    color: var(--slate-500);
     text-transform: uppercase;
     letter-spacing: .03em;
 }
@@ -1435,12 +1490,14 @@ body {
 .grup-alamat-label select,
 .grup-alamat-label textarea {
     width: 100%;
+    max-width: 100%;
+    min-width: 0;
     padding: 11px 14px;
-    background: var(--soft-gray);
-    border: 1px solid var(--border-light);
+    background: var(--slate-50);
+    border: 1px solid var(--slate-200);
     outline: none;
     border-radius: var(--radius);
-    color: var(--nexora-navy);
+    color: var(--navy-800);
     font-size: 14px;
     font-family: inherit;
 }
@@ -1448,15 +1505,15 @@ body {
 .grup-alamat-label input:focus,
 .grup-alamat-label select:focus,
 .grup-alamat-label textarea:focus {
-    border-color: var(--nexora-blue);
-    background: var(--nexora-white);
+    border-color: var(--gold-500);
+    background: var(--white);
 }
 
 .grup-alamat-label input:disabled,
 .grup-alamat-label select:disabled,
 .grup-alamat-label textarea:disabled {
-    background: var(--soft-gray);
-    color: var(--text-gray);
+    background: var(--slate-100);
+    color: var(--slate-500);
     cursor: not-allowed;
 }
 
@@ -1477,26 +1534,26 @@ body {
 .input-kupon-wrapper input {
     flex: 1;
     padding: 10px 12px;
-    background: var(--soft-gray);
-    border: 1px solid var(--border-light);
+    background: var(--slate-50);
+    border: 1px solid var(--slate-200);
     outline: none;
     border-radius: var(--radius);
-    color: var(--nexora-navy);
+    color: var(--navy-800);
     font-size: 13.5px;
     font-family: inherit;
 }
 
 .input-kupon-wrapper input:focus {
-    border-color: var(--nexora-blue);
-    background: var(--nexora-white);
+    border-color: var(--gold-500);
+    background: var(--white);
 }
 
 .input-kupon-wrapper button {
     padding: 10px 16px;
     border: none;
     border-radius: var(--radius);
-    background: var(--nexora-navy);
-    color: var(--nexora-white);
+    background: var(--navy-900);
+    color: var(--white);
     font-weight: 700;
     font-size: 13px;
     cursor: pointer;
@@ -1504,7 +1561,7 @@ body {
 }
 
 .input-kupon-wrapper button:hover {
-    background: #1E293B;
+    background: var(--navy-800);
 }
 
 .kupon-aktif-info {
@@ -1512,19 +1569,19 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 10px;
-    background: rgba(37, 99, 235, 0.05);
-    border: 1px dashed var(--nexora-blue);
+    background: #fff1e6;
+    border: 1px dashed var(--gold-500);
     border-radius: var(--radius);
     padding: 10px 12px;
     font-size: 13px;
     font-weight: 700;
-    color: var(--nexora-blue);
+    color: var(--gold-600);
 }
 
 .kupon-aktif-info button {
     border: none;
     background: transparent;
-    color: var(--text-gray);
+    color: var(--slate-500);
     font-size: 15px;
     cursor: pointer;
     line-height: 1;
@@ -1532,7 +1589,7 @@ body {
 }
 
 .kupon-aktif-info button:hover {
-    color: var(--error);
+    color: var(--danger);
 }
 
 .nilai-diskon {
@@ -1542,7 +1599,7 @@ body {
 
 /* ---------- 7. HALAMAN AUTH SPLIT (LOGIN/DAFTAR) ---------- */
 .auth-main-wrapper {
-    background: linear-gradient(135deg, var(--nexora-navy) 0%, var(--nexora-purple) 100%);
+    background: linear-gradient(135deg, var(--navy-900) 0%, var(--navy-800) 100%);
     min-height: calc(100vh - 140px);
     display: flex;
     align-items: center;
@@ -1560,7 +1617,7 @@ body {
 }
 
 .auth-banner-left {
-    color: var(--nexora-white);
+    color: var(--white);
     padding: 20px;
 }
 
@@ -1572,11 +1629,11 @@ body {
 }
 
 .auth-banner-left h1 span {
-    color: var(--nexora-orange);
+    color: var(--gold-400);
 }
 
 .auth-banner-left p {
-    color: var(--border-light);
+    color: var(--slate-200);
     font-size: 15px;
     line-height: 1.6;
 }
@@ -1596,7 +1653,7 @@ body {
 .auth-stat-val {
     font-size: 20px;
     font-weight: 800;
-    color: var(--nexora-orange);
+    color: var(--gold-400);
 }
 
 .auth-stat-lbl {
@@ -1604,7 +1661,7 @@ body {
 }
 
 .auth-card-wrapper {
-    background: var(--nexora-white);
+    background: var(--white);
     border-radius: var(--radius);
     padding: 32px;
     box-shadow: var(--shadow-lg);
@@ -1623,7 +1680,7 @@ body {
 .auth-card-header h2 {
     font-size: 20px;
     font-weight: 800;
-    color: var(--nexora-navy);
+    color: var(--navy-900);
 }
 
 .auth-form-group {
@@ -1634,17 +1691,17 @@ body {
 .auth-form-group select {
     width: 100%;
     padding: 12px 14px;
-    border: 1px solid var(--border-light);
+    border: 1px solid var(--slate-200);
     border-radius: var(--radius);
     font-size: 14px;
     outline: none;
-    background: var(--soft-gray);
+    background: var(--slate-50);
 }
 
 .auth-form-group input:focus,
 .auth-form-group select:focus {
-    border-color: var(--nexora-blue);
-    background: var(--nexora-white);
+    border-color: var(--gold-500);
+    background: var(--white);
 }
 
 .input-pwd-wrapper {
@@ -1665,19 +1722,19 @@ body {
     border: none;
     cursor: pointer;
     font-size: 16px;
-    color: var(--text-gray);
+    color: var(--slate-500);
     padding: 4px 6px;
     user-select: none;
 }
 
 .btn-toggle-pwd:hover {
-    color: var(--nexora-navy);
+    color: var(--navy-900);
 }
 
 .btn-auth-submit {
     width: 100%;
-    background: var(--nexora-orange);
-    color: var(--nexora-white);
+    background: linear-gradient(135deg, var(--gold-400), var(--gold-600));
+    color: var(--navy-900);
     border: none;
     padding: 13px;
     font-size: 14px;
@@ -1693,11 +1750,11 @@ body {
     text-align: center;
     margin-top: 18px;
     font-size: 13px;
-    color: var(--text-gray);
+    color: var(--slate-500);
 }
 
 .auth-toggle-link label {
-    color: var(--nexora-blue);
+    color: var(--gold-600);
     font-weight: 700;
     cursor: pointer;
     text-decoration: underline;
@@ -1723,31 +1780,31 @@ body {
 /* ---------- 8. HALAMAN TENTANG KAMI (ABOUT) ---------- */
 .breadcrumb-nav {
     font-size: 13px;
-    color: var(--text-gray);
+    color: var(--slate-400);
     margin-bottom: 16px;
 }
 
 .breadcrumb-nav a {
-    color: var(--nexora-navy);
+    color: var(--navy-800);
     text-decoration: none;
 }
 
 .about-card-box {
-    background: var(--nexora-white);
+    background: var(--white);
     border-radius: var(--radius);
     padding: 36px 40px;
     box-shadow: var(--shadow-sm);
-    border: 1px solid var(--border-light);
+    border: 1px solid var(--slate-200);
     line-height: 1.8;
-    color: var(--nexora-navy);
+    color: var(--slate-700);
 }
 
 .about-card-box h1 {
     font-size: 24px;
-    color: var(--nexora-navy);
+    color: var(--navy-900);
     font-weight: 800;
     margin-bottom: 16px;
-    border-bottom: 2px solid var(--soft-gray);
+    border-bottom: 2px solid var(--slate-100);
     padding-bottom: 12px;
 }
 
@@ -1759,15 +1816,15 @@ body {
 }
 
 .value-box {
-    background: var(--soft-gray);
-    border: 1px solid var(--border-light);
+    background: var(--slate-50);
+    border: 1px solid var(--slate-200);
     border-radius: var(--radius);
     padding: 18px;
 }
 
 .value-box strong {
     display: block;
-    color: var(--nexora-navy);
+    color: var(--navy-900);
     font-size: 14px;
     margin-bottom: 6px;
 }
@@ -1789,10 +1846,10 @@ body {
 }
 
 .profil-sidebar {
-    background: var(--nexora-white);
+    background: var(--white);
     border-radius: var(--radius);
     padding: 20px;
-    border: 1px solid var(--border-light);
+    border: 1px solid var(--slate-200);
     box-shadow: var(--shadow-sm);
 }
 
@@ -1801,25 +1858,25 @@ body {
     align-items: center;
     gap: 12px;
     padding-bottom: 16px;
-    border-bottom: 1px solid var(--soft-gray);
+    border-bottom: 1px solid var(--slate-100);
     margin-bottom: 16px;
 }
 
 .avatar-icon-box {
     width: 46px;
     height: 46px;
-    background: var(--soft-gray);
+    background: var(--slate-100);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 22px;
-    border: 1px solid var(--border-light);
+    border: 1px solid var(--slate-200);
 }
 
 .profil-username {
     font-weight: 700;
-    color: var(--nexora-navy);
+    color: var(--navy-900);
     font-size: 14px;
 }
 
@@ -1836,7 +1893,7 @@ body {
     text-align: left;
     font-size: 14px;
     font-weight: 600;
-    color: var(--nexora-navy);
+    color: var(--navy-800);
     cursor: pointer;
     border-radius: var(--radius);
     display: flex;
@@ -1846,25 +1903,25 @@ body {
 }
 
 .btn-profil-tab:hover {
-    background: var(--soft-gray);
-    color: var(--nexora-blue);
+    background: var(--slate-50);
+    color: var(--gold-600);
 }
 
 .btn-profil-tab.active {
-    background: var(--nexora-navy);
-    color: var(--nexora-white);
+    background: var(--navy-900);
+    color: var(--gold-400);
 }
 
 .btn-profil-logout {
     background: transparent;
     border: none;
-    border-top: 1px solid var(--soft-gray);
+    border-top: 1px solid var(--slate-100);
     margin-top: 12px;
     padding: 12px 14px 0;
     text-align: left;
     font-size: 14px;
     font-weight: 700;
-    color: var(--error);
+    color: var(--danger);
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -1876,10 +1933,10 @@ body {
 }
 
 .profil-content-panel {
-    background: var(--nexora-white);
+    background: var(--white);
     border-radius: var(--radius);
     padding: 28px;
-    border: 1px solid var(--border-light);
+    border: 1px solid var(--slate-200);
     box-shadow: var(--shadow-sm);
     min-height: 480px;
 }
@@ -1887,8 +1944,8 @@ body {
 .panel-header-title {
     font-size: 18px;
     font-weight: 800;
-    color: var(--nexora-navy);
-    border-bottom: 1px solid var(--soft-gray);
+    color: var(--navy-900);
+    border-bottom: 1px solid var(--slate-100);
     padding-bottom: 12px;
     margin-bottom: 20px;
 }
@@ -1908,34 +1965,34 @@ body {
 .grup-input-profil label {
     font-size: 13px;
     font-weight: 700;
-    color: var(--nexora-navy);
+    color: var(--navy-700);
 }
 
 .grup-input-profil input,
 .grup-input-profil select,
 .grup-input-profil textarea {
     padding: 11px 13px;
-    border: 1px solid var(--border-light);
+    border: 1px solid var(--slate-200);
     border-radius: var(--radius);
     outline: none;
     font-family: inherit;
     font-size: 14px;
-    background: var(--soft-gray);
+    background: var(--slate-50);
 }
 
 .grup-input-profil input:focus,
 .grup-input-profil select:focus,
 .grup-input-profil textarea:focus {
-    border-color: var(--nexora-blue);
-    background: var(--nexora-white);
+    border-color: var(--gold-500);
+    background: var(--white);
 }
 
 .input-terkunci,
 .grup-input-profil input:disabled,
 .grup-input-profil select:disabled,
 .grup-input-profil textarea:disabled {
-    background-color: var(--soft-gray) !important;
-    color: var(--text-gray);
+    background-color: var(--slate-100) !important;
+    color: var(--slate-400);
     cursor: not-allowed;
 }
 
@@ -1946,8 +2003,8 @@ body {
 }
 
 .btn-simpan-profil {
-    background: var(--nexora-navy);
-    color: var(--nexora-white);
+    background: var(--navy-900);
+    color: var(--white);
     padding: 13px;
     border: none;
     border-radius: var(--radius);
@@ -1958,8 +2015,8 @@ body {
 }
 
 .btn-edit-profil {
-    background: var(--nexora-orange);
-    color: var(--nexora-white);
+    background: var(--gold-500);
+    color: var(--navy-900);
     padding: 13px;
     border: none;
     border-radius: var(--radius);
@@ -1976,30 +2033,30 @@ body {
 }
 
 .kartu-riwayat-item {
-    border: 1px solid var(--border-light);
+    border: 1px solid var(--slate-200);
     border-radius: var(--radius);
     padding: 18px;
-    background: var(--nexora-white);
+    background: var(--white);
 }
 
 .kartu-riwayat-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid var(--soft-gray);
+    border-bottom: 1px solid var(--slate-100);
     padding-bottom: 10px;
     margin-bottom: 12px;
     font-size: 13px;
 }
 
 .status-badge-selesai {
-    background: #DCFCE7;
+    background: #ecfdf5;
     color: var(--success);
     font-weight: 700;
     font-size: 11px;
     padding: 3px 8px;
     border-radius: var(--radius);
-    border: 1px solid #86EFAC;
+    border: 1px solid #a7f3d0;
 }
 
 .riwayat-produk-baris {
@@ -2014,7 +2071,7 @@ body {
     height: 48px;
     object-fit: cover;
     border-radius: var(--radius);
-    background: var(--soft-gray);
+    background: var(--slate-100);
 }
 
 .riwayat-produk-info {
@@ -2024,19 +2081,19 @@ body {
 .riwayat-produk-info h4 {
     font-size: 13px;
     font-weight: 600;
-    color: var(--nexora-navy);
+    color: var(--navy-900);
 }
 
 .riwayat-produk-info span {
     font-size: 12px;
-    color: var(--text-gray);
+    color: var(--slate-500);
 }
 
 .kartu-riwayat-bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 1px solid var(--soft-gray);
+    border-top: 1px solid var(--slate-100);
     padding-top: 10px;
     margin-top: 6px;
     font-size: 13px;
@@ -2044,13 +2101,13 @@ body {
 
 .kartu-riwayat-bottom strong {
     font-size: 15px;
-    color: var(--nexora-orange);
+    color: var(--gold-600);
 }
 
 .riwayat-kosong {
     text-align: center;
     padding: 60px 20px;
-    color: var(--text-gray);
+    color: var(--slate-500);
     font-size: 14px;
 }
 
@@ -2058,7 +2115,7 @@ body {
 .overlay-produk {
     position: fixed;
     inset: 0;
-    background: rgba(15, 23, 42, .6);
+    background: rgba(0, 0, 0, .6);
     backdrop-filter: blur(2px);
     display: flex;
     align-items: center;
@@ -2068,14 +2125,23 @@ body {
 }
 
 .kartu-modal-produk {
-    background: var(--nexora-white);
+    background: var(--white);
     border-radius: var(--radius);
     max-width: 820px;
     width: 100%;
+    max-height: 90vh;
     display: flex;
+    flex-direction: column;
     overflow: hidden;
     position: relative;
     box-shadow: var(--shadow-lg);
+}
+
+.modal-produk-scroll {
+    display: flex;
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
 }
 
 .tutup-modal-produk {
@@ -2083,15 +2149,22 @@ body {
     top: 10px;
     right: 14px;
     font-size: 24px;
-    background: transparent;
+    background: var(--white);
     border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
     cursor: pointer;
-    color: var(--text-gray);
+    color: var(--slate-400);
+    box-shadow: var(--shadow-sm);
+    z-index: 1;
 }
 
 .modal-produk-gambar {
     flex: 1 1 45%;
-    background: var(--soft-gray);
+    background: var(--slate-50);
+    min-height: 220px;
+    overflow: hidden; /* kunci: cegah gambar meluber/bocor menimpa info di bawahnya */
 }
 
 .modal-produk-gambar img {
@@ -2116,32 +2189,32 @@ body {
 }
 
 .badge-terjual-modal {
-    background: #FFF7ED;
-    color: var(--nexora-orange);
+    background: #fff1eb;
+    color: var(--gold-600);
     font-size: 12px;
     font-weight: 700;
     padding: 3px 8px;
     border-radius: var(--radius);
-    border: 1px solid #FFEDD5;
+    border: 1px solid #ffd8c7;
 }
 
 .badge-kategori-modal {
     font-size: 12px;
-    color: var(--text-gray);
+    color: var(--slate-500);
     font-weight: 600;
 }
 
 .modal-produk-harga {
-    background: var(--soft-gray);
+    background: var(--slate-50);
     padding: 12px 16px;
     font-size: 24px;
     font-weight: 800;
-    color: var(--nexora-orange);
+    color: var(--gold-600);
     border-radius: var(--radius);
 }
 
 .modal-produk-deskripsi {
-    color: var(--text-gray);
+    color: var(--slate-500);
     font-size: 13px;
     line-height: 1.6;
 }
@@ -2149,7 +2222,7 @@ body {
 .judul-spek-modal {
     font-size: 13px;
     font-weight: 700;
-    color: var(--nexora-navy);
+    color: var(--navy-900);
     margin-top: 4px;
 }
 
@@ -2157,21 +2230,21 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 8px 14px;
-    background: var(--soft-gray);
+    background: var(--slate-50);
     padding: 12px;
     border-radius: var(--radius);
 }
 
 .modal-produk-spek dt {
     font-size: 11px;
-    color: var(--text-gray);
+    color: var(--slate-500);
     text-transform: uppercase;
 }
 
 .modal-produk-spek dd {
     font-size: 12.5px;
     font-weight: 700;
-    color: var(--nexora-navy);
+    color: var(--navy-800);
 }
 
 /* Stepper Modal Standar */
@@ -2185,20 +2258,20 @@ body {
 .stepper-modal {
     display: inline-flex;
     align-items: center;
-    border: 1px solid var(--border-light);
+    border: 1px solid var(--slate-300);
     border-radius: var(--radius);
-    background: var(--nexora-white);
+    background: var(--white);
     height: 32px;
 }
 
 .stepper-modal button {
     width: 32px;
     height: 32px;
-    background: var(--nexora-white);
+    background: var(--white);
     border: none;
     font-size: 16px;
     font-weight: 600;
-    color: var(--nexora-navy);
+    color: var(--navy-800);
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -2210,19 +2283,19 @@ body {
 }
 
 .stepper-modal button:hover {
-    background-color: var(--soft-gray);
+    background-color: var(--slate-100);
 }
 
 .stepper-modal input.input-jumlah-modal {
     width: 50px;
     height: 32px;
     border: none;
-    border-left: 1px solid var(--border-light);
-    border-right: 1px solid var(--border-light);
+    border-left: 1px solid var(--slate-300);
+    border-right: 1px solid var(--slate-300);
     text-align: center;
     font-size: 14px;
     font-weight: 600;
-    color: var(--nexora-navy);
+    color: var(--navy-900);
     outline: none;
     background: transparent;
     padding: 0;
@@ -2231,7 +2304,7 @@ body {
 
 .teks-stok-modal {
     font-size: 13px;
-    color: var(--text-gray);
+    color: var(--slate-500);
     font-weight: 500;
 }
 
@@ -2243,9 +2316,9 @@ body {
 
 .btn-tambah-keranjang {
     flex: 1;
-    background: rgba(37, 99, 235, 0.1);
-    border: 1px solid var(--nexora-blue);
-    color: var(--nexora-blue);
+    background: rgba(245, 158, 11, 0.15);
+    border: 1px solid var(--gold-500);
+    color: var(--gold-600);
     font-weight: 700;
     padding: 12px;
     border-radius: var(--radius);
@@ -2254,8 +2327,8 @@ body {
 
 .btn-beli-sekarang {
     flex: 1;
-    background: var(--nexora-orange);
-    color: var(--nexora-white);
+    background: linear-gradient(135deg, var(--gold-400), var(--gold-600));
+    color: var(--navy-900);
     font-weight: 800;
     border: none;
     padding: 12px;
@@ -2265,9 +2338,9 @@ body {
 
 /* ---------- 11. FOOTER MARKETPLACE ---------- */
 .kaki-marketplace {
-    background: var(--nexora-navy);
-    border-top: 4px solid var(--nexora-blue);
-    color: var(--border-light);
+    background: #fbfbfb;
+    border-top: 4px solid var(--navy-900);
+    color: var(--slate-500);
     font-size: 13px;
     margin-top: auto;
     padding: 40px 0 20px;
@@ -2286,7 +2359,7 @@ body {
 .footer-col h4 {
     font-size: 13px;
     font-weight: 800;
-    color: var(--nexora-white);
+    color: var(--navy-900);
     text-transform: uppercase;
     margin-bottom: 14px;
 }
@@ -2300,20 +2373,20 @@ body {
 }
 
 .footer-col ul li a {
-    color: var(--text-gray);
+    color: var(--slate-500);
     text-decoration: none;
 }
 
 .footer-col ul li a:hover {
-    color: var(--nexora-blue);
+    color: var(--gold-600);
 }
 
 .footer-bottom-copy {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid var(--slate-200);
     padding-top: 20px;
     text-align: center;
     font-size: 12px;
-    color: var(--text-gray);
+    color: var(--slate-400);
 }
 
 /* ---------- 12. NOTIFIKASI TOAST GLOBAL ---------- */
@@ -2322,7 +2395,7 @@ body {
     top: 20px;
     left: 50%;
     transform: translate(-50%, -20px);
-    color: var(--nexora-white);
+    color: var(--white);
     padding: 12px 24px;
     border-radius: var(--radius);
     font-size: 14px;
@@ -2340,17 +2413,18 @@ body {
     transform: translate(-50%, 0);
 }
 
-.notifikasi-info { background: var(--nexora-navy); }
+.notifikasi-info { background: var(--navy-900); }
 .notifikasi-sukses { background: var(--success); }
-.notifikasi-error { background: var(--error); }
-.notifikasi-keranjang { background: var(--nexora-blue); color: var(--nexora-white); }
-.notifikasi-bayar { background: var(--nexora-navy); }
+.notifikasi-error { background: var(--danger); }
+.notifikasi-keranjang { background: var(--gold-500); color: var(--navy-900); }
+.notifikasi-bayar { background: var(--navy-800); }
 
 /* ---------- 13. RESPONSIVE BREAKPOINTS ---------- */
-/* Dipindah ke file terpisah: responsive.css */
+/* Dipindah ke file terpisah: responsive.css (di-load setelah file ini) */
+
 
 /* =========================================================
-   STEPPER TABEL KERANJANG 
+   STEPPER TABEL KERANJANG (GARIS UTUH & BISA DIKETIK)
    ========================================================= */
 .item-keranjang-card .stepper-cart {
     display: inline-flex !important;
@@ -2359,9 +2433,9 @@ body {
     min-width: 0 !important;
     max-width: none !important;
     height: 32px !important;
-    border: 1px solid var(--border-light) !important;
+    border: 1px solid var(--slate-300) !important;
     border-radius: var(--radius) !important;
-    background: var(--nexora-white) !important;
+    background: var(--white) !important;
     box-sizing: border-box !important;
     padding: 0 !important;
     margin: 0 !important;
@@ -2374,8 +2448,8 @@ body {
     min-width: 30px !important;
     max-width: 30px !important;
     height: 100% !important;
-    background: var(--nexora-white) !important;
-    color: var(--nexora-navy) !important;
+    background: var(--white) !important;
+    color: var(--navy-900) !important;
     border: none !important;
     outline: none !important;
     padding: 0 !important;
@@ -2392,7 +2466,7 @@ body {
 }
 
 .item-keranjang-card .stepper-cart button:hover {
-    background-color: var(--soft-gray) !important;
+    background-color: var(--slate-100) !important;
 }
 
 .item-keranjang-card .stepper-cart input.input-cart-qty {
@@ -2400,11 +2474,11 @@ body {
     min-width: 42px !important;
     max-width: 42px !important;
     height: 100% !important;
-    background: var(--nexora-white) !important;
-    color: var(--nexora-navy) !important;
+    background: var(--white) !important;
+    color: var(--navy-900) !important;
     border: none !important;
-    border-left: 1px solid var(--border-light) !important;
-    border-right: 1px solid var(--border-light) !important;
+    border-left: 1px solid var(--slate-300) !important;
+    border-right: 1px solid var(--slate-300) !important;
     border-radius: 0 !important;
     outline: none !important;
     text-align: center !important;
