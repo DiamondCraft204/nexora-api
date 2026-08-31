@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gradBluePurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+    <linearGradient id="gradOrangePurple" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F97316" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Latar Belakang (Nexora Navy) -->
+  <rect width="512" height="512" rx="120" fill="#0F172A" />
+  
+  <!-- Prisma Kiri (Biru ke Ungu) -->
+  <path d="M120 380 L200 130 L360 220 Z" fill="url(#gradBluePurple)" opacity="0.9" />
+  
+  <!-- Prisma Kanan (Oranye ke Ungu) -->
+  <path d="M392 130 L312 380 L152 290 Z" fill="url(#gradOrangePurple)" opacity="0.9" />
+  
+  <!-- Interseksi Transparan (Efek Kaca) -->
+  <path d="M200 130 L312 380 L360 220 Z" fill="#FFFFFF" opacity="0.15" />
+  
+  <!-- Titik Pusat Transaksi (Nexora Orange) -->
+  <circle cx="256" cy="256" r="32" fill="#F97316" />
+</svg>
