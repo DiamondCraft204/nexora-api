@@ -1,0 +1,108 @@
+/* =========================================================
+   NEXORA MARKET — RESPONSIVE.CSS
+   Berisi seluruh media query untuk tampilan tablet & ponsel
+   (Android/iOS). File ini WAJIB di-load SETELAH style.css,
+   supaya aturan di sini bisa menimpa gaya dasar desktop.
+   ========================================================= */
+
+/* Laptop kecil / tablet lanskap besar (mis. iPad landscape, ~1024-1080px) */
+@media (max-width: 1080px) {
+    .container, .grid-produk { grid-template-columns: repeat(4, 1fr); }
+    .hero-slider-grid { grid-template-columns: 1fr; }
+    .halaman-pembayaran { grid-template-columns: 1fr; }
+}
+
+/* Tablet potret (mis. iPad/Android tablet berdiri, ~768-860px) */
+@media (max-width: 860px) {
+    .auth-container-grid { grid-template-columns: 1fr; }
+    .auth-banner-left { display: none; }
+    .profil-container-layout { grid-template-columns: 1fr; }
+    .grid-wilayah-alamat { grid-template-columns: 1fr 1fr; }
+    .kartu-modal-bayar { max-width: 92vw; }
+}
+
+/* Phablet / tablet kecil (~600-768px) */
+@media (max-width: 768px) {
+    .main-header-bar { flex-wrap: wrap; gap: 14px; }
+    .search-container-bar { order: 3; width: 100%; }
+    .container, .grid-produk { grid-template-columns: repeat(3, 1fr); }
+    .footer-inner-wrapper { grid-template-columns: 1fr 1fr; }
+    .cart-table-header { display: none; }
+    .item-keranjang-card { grid-template-columns: 30px 1fr; gap: 10px; }
+    .kartu-modal-produk { flex-direction: column; }
+    .form-2kolom-profil { grid-template-columns: 1fr; }
+    .top-bar-nav { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    .top-bar-kiri, .top-bar-kanan { flex-shrink: 0; }
+    .kategori-grid-circle { grid-template-columns: repeat(auto-fit, minmax(76px, 1fr)); }
+    .checkout-bottom-bar { flex-wrap: wrap; gap: 12px; }
+    .qris-gambar { width: 100%; max-width: 260px; height: auto; aspect-ratio: 1 / 1; }
+}
+
+/* Ponsel Android/iOS (~≤600px) */
+@media (max-width: 600px) {
+    /* Header & navigasi: baris atas (Beranda/Bantuan/Profil/dst) dilipat jadi menu hamburger */
+    .top-bar-nav { display: none; }
+    .cart-header-icon { display: none; }
+    .btn-hamburger { display: inline-flex; align-items: center; justify-content: center; }
+    .main-header-bar { padding: 10px 12px 14px; gap: 10px; justify-content: space-between; }
+    .brand-logo-nexora span:last-child { font-size: 15px; }
+    .search-box-bar input { font-size: 13px; }
+    .search-box-bar button { padding: 0 14px; }
+    .search-keywords { display: none; }
+
+    /* Hero & kategori */
+    .hero-main-banner { padding: 20px; }
+    .hero-main-banner h1 { font-size: 20px; }
+    .hero-main-banner p { font-size: 13px; }
+    .kategori-grid-circle { grid-template-columns: repeat(4, 1fr); gap: 10px; }
+    .circle-icon { width: 44px; height: 44px; font-size: 19px; }
+    .kategori-circle-item span { font-size: 11px; }
+    .features-strip { grid-template-columns: 1fr; }
+
+    /* Voucher & filter */
+    .kartu-voucher { width: 230px; }
+    .filter-tab-bar { flex-wrap: wrap; gap: 8px; padding: 10px 0; }
+    .tab-btn { font-size: 12px; padding: 6px 12px; }
+
+    /* Katalog produk */
+    .container, .grid-produk { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+    .pagination-produk { gap: 6px; flex-wrap: wrap; }
+
+    /* Kartu umum (about, layanan, blok form) */
+    .about-card-box, .layanan-section, .blok-form { padding: 18px; }
+    .about-card-box h1, .panel-header-title { font-size: 19px; }
+    .layanan-nav-pills a { font-size: 11.5px; padding: 6px 10px; }
+
+    /* Keranjang & checkout */
+    .checkout-bottom-bar { flex-direction: column; align-items: stretch; padding: 14px 16px; }
+    .checkout-bar-kanan { flex-wrap: wrap; justify-content: space-between; width: 100%; gap: 10px; }
+    .btn-checkout { width: 100%; text-align: center; }
+    .btn-hapus-semua { align-self: flex-end; }
+    .baris-penerima, .grid-wilayah-alamat { grid-template-columns: 1fr; }
+    .header-alamat-pengiriman { flex-wrap: wrap; gap: 10px; }
+    .input-kupon-wrapper { flex-direction: column; }
+    .input-kupon-wrapper button { width: 100%; }
+
+    /* Modal QRIS */
+    .kartu-modal-bayar { max-width: 94vw; padding: 26px 18px; }
+    .qris-gambar { width: 100%; max-width: 220px; }
+    .modal-bayar-aksi { flex-direction: column-reverse; }
+
+    /* Profil & riwayat pesanan */
+    .profil-nav-menu button { font-size: 13px; padding: 11px; }
+    .kartu-riwayat-top, .kartu-riwayat-bottom { flex-direction: column; align-items: flex-start; gap: 6px; }
+
+    /* Footer */
+    .footer-inner-wrapper { grid-template-columns: 1fr; gap: 22px; }
+    .footer-col h4 { font-size: 13px; }
+}
+
+/* Ponsel sangat kecil (≤380px, mis. Android layar sempit) */
+@media (max-width: 380px) {
+    .container, .grid-produk { gap: 6px; }
+    .hero-main-banner h1 { font-size: 17px; }
+    .kategori-grid-circle { grid-template-columns: repeat(3, 1fr); }
+    .kartu-voucher { width: 200px; }
+    .kartu-modal-bayar { padding: 22px 14px; }
+    .qris-gambar { max-width: 190px; }
+}

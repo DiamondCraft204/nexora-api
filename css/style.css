@@ -1,0 +1,2418 @@
+/* =========================================================
+   NEXORA MARKET 
+   Palet Warna: Nexora Modern (Navy, Blue, Purple, Orange)
+   ========================================================= */
+
+/* ---------- 1. RESET & VARIABEL GLOBAL ---------- */
+:root {
+    --nexora-navy: #0F172A;
+    --nexora-blue: #2563EB;
+    --nexora-purple: #7C3AED;
+    --nexora-orange: #F97316;
+    --nexora-white: #FFFFFF;
+    --soft-gray: #F8FAFC;
+    --text-gray: #64748B;
+    --success: #16A34A;
+    --error: #DC2626;
+    --border-light: #E2E8F0;
+    
+    --shadow-sm: 0 1px 2px rgba(15, 23, 42, .08);
+    --shadow-md: 0 4px 14px rgba(15, 23, 42, .12);
+    --shadow-lg: 0 12px 30px rgba(15, 23, 42, .2);
+    --radius: 3px;
+    --radius-md: 6px;
+    --radius-lg: 10px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--soft-gray);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: var(--nexora-navy);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    zoom: 1.15;
+}
+
+[hidden], 
+.keranjang-layout[hidden], 
+.overlay-sukses[hidden], 
+.overlay-produk[hidden] {
+    display: none !important;
+}
+
+/* ---------- 2. HEADER & NAVBAR UTAMA ---------- */
+.header-utama {
+    background: var(--nexora-navy);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .15);
+}
+
+.top-bar-nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 6px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: var(--border-light);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.top-bar-kiri a,
+.top-bar-kanan a {
+    color: var(--border-light);
+    text-decoration: none;
+    margin-right: 14px;
+    transition: color .2s;
+}
+
+.top-bar-kiri a:hover,
+.top-bar-kanan a:hover,
+.top-bar-kanan a.active {
+    color: var(--nexora-blue);
+}
+
+.top-bar-kanan {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.top-bar-kanan a {
+    margin-right: 0;
+    font-weight: 600;
+}
+
+.user-greeting {
+    color: var(--nexora-blue);
+    font-weight: 700;
+}
+
+.main-header-bar {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 14px 16px 16px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.brand-logo-nexora {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--nexora-white);
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: -0.3px;
+    flex-shrink: 0;
+}
+
+.brand-logo-nexora .logo-icon {
+    width: 28px;
+    height: 28px;
+    /* background: linear-gradient(135deg, var(--nexora-blue), var(--nexora-purple)); */
+    background: url(../asset/nexora.svg);
+    border-radius: var(--radius-md);
+    display: inline-block;
+}
+
+.search-container-bar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.search-box-bar {
+    display: flex;
+    background: var(--nexora-white);
+    border-radius: var(--radius);
+    padding: 3px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .15);
+}
+
+.search-box-bar input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 0 14px;
+    font-size: 14px;
+    color: var(--nexora-navy);
+    background: transparent;
+}
+
+.search-box-bar button {
+    background: var(--nexora-orange);
+    border: none;
+    outline: none;
+    color: var(--nexora-white);
+    font-weight: 800;
+    padding: 9px 24px;
+    border-radius: var(--radius);
+    cursor: pointer;
+    font-size: 14px;
+    transition: filter .2s;
+}
+
+.search-box-bar button:hover {
+    filter: brightness(0.95);
+}
+
+.search-keywords {
+    display: flex;
+    gap: 12px;
+    font-size: 11px;
+}
+
+.search-keywords a {
+    color: var(--border-light);
+    text-decoration: none;
+}
+
+.search-keywords a:hover {
+    color: var(--nexora-blue);
+}
+
+.cart-header-icon {
+    position: relative;
+    color: var(--nexora-white);
+    text-decoration: none;
+    font-size: 26px;
+    padding: 6px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.badge-keranjang {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: var(--nexora-orange);
+    color: var(--nexora-white);
+    font-size: 11px;
+    font-weight: 800;
+    padding: 1px 6px;
+    border-radius: 10px;
+    border: 2px solid var(--nexora-navy);
+}
+
+/* Header Auth */
+.auth-header-bar {
+    background: var(--nexora-white);
+    box-shadow: var(--shadow-sm);
+    padding: 18px 0;
+}
+
+.auth-header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.auth-logo-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--nexora-navy);
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.auth-help-link {
+    font-size: 13px;
+    color: var(--text-gray);
+    text-decoration: none;
+}
+
+/* ---------- 3. LAYOUT AREA UTAMA ---------- */
+.utama {
+    flex: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 16px 40px;
+    width: 100%;
+}
+
+.hero-slider-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.hero-main-banner {
+    background: linear-gradient(135deg, var(--nexora-navy), var(--nexora-purple));
+    color: var(--nexora-white);
+    border-radius: var(--radius);
+    padding: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: var(--shadow-sm);
+}
+
+.hero-tag {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--nexora-orange);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+.hero-main-banner h1 {
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.hero-main-banner h1 span {
+    color: var(--nexora-blue);
+}
+
+.hero-main-banner p {
+    font-size: 14px;
+    color: var(--border-light);
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.hero-side-banners {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.side-banner-card {
+    flex: 1;
+    background: var(--nexora-white);
+    border-radius: var(--radius);
+    padding: 18px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--border-light);
+}
+
+.side-banner-card strong {
+    color: var(--nexora-navy);
+    font-size: 14px;
+}
+
+.side-banner-card p {
+    font-size: 12px;
+    color: var(--text-gray);
+    margin-top: 2px;
+}
+
+.side-banner-icon {
+    font-size: 32px;
+}
+
+.features-strip {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.feature-box {
+    background: var(--nexora-white);
+    padding: 16px;
+    border-radius: var(--radius);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid var(--border-light);
+}
+
+.feature-box .feat-icon {
+    font-size: 26px;
+}
+
+.feature-box strong {
+    font-size: 13px;
+    color: var(--nexora-navy);
+    display: block;
+}
+
+.feature-box span {
+    font-size: 11px;
+    color: var(--text-gray);
+}
+
+.kategori-section-grid {
+    background: var(--nexora-white);
+    border-radius: var(--radius);
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    box-shadow: var(--shadow-sm);
+}
+
+.kategori-header-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text-gray);
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    letter-spacing: .5px;
+}
+
+.kategori-grid-circle {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 12px;
+}
+
+.kategori-circle-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: var(--nexora-navy);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: var(--radius);
+    transition: background .2s;
+}
+
+.kategori-circle-item:hover {
+    background: var(--soft-gray);
+}
+
+.circle-icon {
+    width: 52px;
+    height: 52px;
+    background: var(--soft-gray);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin-bottom: 8px;
+    border: 1px solid var(--border-light);
+}
+
+.kategori-circle-item span {
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.filter-tab-bar {
+    background: #ededed;
+    padding: 12px 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: var(--radius);
+    margin-bottom: 15px;
+}
+
+.filter-tab-label {
+    font-size: 13px;
+    color: var(--text-gray);
+    margin-right: 6px;
+}
+
+.tab-btn {
+    background: var(--nexora-white);
+    border: 1px solid transparent;
+    padding: 7px 16px;
+    font-size: 13px;
+    border-radius: var(--radius);
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--nexora-navy);
+}
+
+.tab-btn.active {
+    background: var(--nexora-navy);
+    color: var(--nexora-blue);
+}
+
+/* ---------- 4. KATALOG & GRID PRODUK ---------- */
+.container,
+.grid-produk {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    width: 100%;
+}
+
+.container-sec {
+    background: var(--nexora-white);
+    border-radius: var(--radius);
+    border: 1px solid rgba(15, 23, 42, .08);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform .15s ease, box-shadow .15s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.container-sec:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--nexora-blue);
+}
+
+.kartu-gambar {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.gambar-produk {
+    width: 100%;
+    aspect-ratio: 1/1;
+    background: var(--soft-gray);
+    position: relative;
+    overflow: hidden;
+}
+
+.gambar-produk img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.info-produk {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.info-produk .nama-produk {
+    font-size: 12.5px;
+    line-height: 1.35;
+    color: var(--nexora-navy);
+    max-height: 2.7em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-clamp: 2;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.info-bawah-produk {
+    margin-top: auto;
+}
+
+.info-produk .harga-produk {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--nexora-orange);
+    display: block;
+}
+
+.info-produk .lokasi-terjual {
+    font-size: 11px;
+    color: var(--text-gray);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+}
+
+.badge-diskon-katalog {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(245, 158, 11, 0.9);
+    color: var(--nexora-navy);
+    font-size: 10px;
+    font-weight: 800;
+    padding: 2px 5px;
+    border-bottom-left-radius: 4px;
+}
+
+.pesan-katalog-kosong {
+    grid-column: 1 / -1;
+    padding: 50px 20px;
+    text-align: center;
+    background: var(--nexora-white);
+    border-radius: var(--radius);
+    color: var(--text-gray);
+    font-size: 14px;
+    border: 1px solid var(--border-light);
+}
+
+.pagination-produk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 34px;
+}
+
+.btn-halaman {
+    min-width: 38px;
+    height: 36px;
+    background: var(--nexora-white);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius);
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-gray);
+    cursor: pointer;
+}
+
+.btn-halaman:hover:not(:disabled) {
+    background: var(--soft-gray);
+}
+
+.btn-halaman.aktif {
+    background: var(--nexora-navy);
+    color: var(--nexora-white);
+    border-color: var(--nexora-navy);
+}
+
+/* ---------- 5. HALAMAN KERANJANG ---------- */
+.cart-empty-panel {
+    text-align: center;
+    background: var(--nexora-white);
+    padding: 60px 20px;
+    border-radius: var(--radius);
+    border: 1px solid var(--border-light);
+}
+
+.cart-empty-panel p {
+    font-size: 15px;
+    color: var(--text-gray);
+    margin-bottom: 16px;
+}
+
+.cart-table-header {
+    background: var(--nexora-white);
+    padding: 14px 20px;
+    border-radius: var(--radius);
+    display: grid;
+    grid-template-columns: 40px 3fr 1.5fr 1.5fr 1.5fr 80px;
+    align-items: center;
+    font-size: 13px;
+    color: var(--text-gray);
+    box-shadow: var(--shadow-sm);
+    margin-bottom: 12px;
+    font-weight: 600;
+    border: 1px solid var(--border-light);
+}
+
+.keranjang-kiri {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item-keranjang-card {
+    background: var(--nexora-white);
+    padding: 16px 20px;
+    border-radius: var(--radius);
+    display: grid;
+    grid-template-columns: 40px 3fr 1.5fr 1.5fr 1.5fr 80px;
+    align-items: center;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border-light);
+}
+
+.ceklis-item {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    accent-color: var(--nexora-blue);
+}
+
+.item-cart-detail {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.item-cart-detail img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: var(--radius);
+    background: var(--soft-gray);
+}
+
+.item-cart-detail h4 {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--nexora-navy);
+    max-height: 2.7em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-clamp: 2;
+}
+
+.stepper-cart {
+    display: inline-flex;
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius);
+    align-items: center;
+}
+
+.stepper-cart button {
+    width: 28px;
+    height: 28px;
+    background: var(--nexora-white);
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stepper-cart span {
+    width: 36px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    border-left: 1px solid var(--border-light);
+    border-right: 1px solid var(--border-light);
+    line-height: 28px;
+}
+
+.subtotal-cart {
+    font-weight: 700;
+    color: var(--nexora-orange);
+    font-size: 14px;
+}
+
+.btn-item-hapus {
+    background: none;
+    border: none;
+    color: var(--error);
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.checkout-bottom-bar {
+    position: sticky;
+    bottom: 0;
+    background: var(--nexora-white);
+    border-radius: var(--radius);
+    padding: 14px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 -4px 14px rgba(0, 0, 0, .08);
+    margin-top: 20px;
+    z-index: 100;
+    border: 1px solid var(--border-light);
+}
+
+.btn-hapus-semua {
+    background: none;
+    border: none;
+    color: var(--error);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.checkout-bar-kanan {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.checkout-label-total {
+    font-size: 14px;
+    color: var(--text-gray);
+}
+
+.checkout-nilai-total {
+    font-size: 20px;
+    color: var(--nexora-orange);
+}
+
+.btn-checkout {
+    background: var(--nexora-orange);
+    color: var(--nexora-white);
+    font-weight: 800;
+    padding: 12px 36px;
+    border-radius: var(--radius);
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* ---------- 6. HALAMAN PEMBAYARAN ---------- */
+.halaman-pembayaran {
+    display: grid;
+    grid-template-columns: 1fr 380px;
+    gap: 20px;
+    align-items: start;
+}
+
+.form-pembayaran {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.blok-form {
+    background: var(--nexora-white);
+    border-radius: var(--radius);
+    padding: 22px;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border-light);
+}
+
+.blok-form h3 {
+    color: var(--nexora-navy);
+    font-size: 15px;
+    margin-bottom: 16px;
+    font-weight: 800;
+    border-bottom: 1px solid var(--soft-gray);
+    padding-bottom: 10px;
+}
+
+.blok-form input,
+.blok-form textarea,
+.blok-form select {
+    width: 100%;
+    padding: 11px 14px;
+    margin-bottom: 12px;
+    background: var(--soft-gray);
+    border: 1px solid var(--border-light);
+    outline: none;
+    border-radius: var(--radius);
+    color: var(--nexora-navy);
+    font-size: 14px;
+    font-family: inherit;
+}
+
+.blok-form input:focus,
+.blok-form textarea:focus,
+.blok-form select:focus {
+    border-color: var(--nexora-blue);
+    background: var(--nexora-white);
+}
+
+.form-2kolom-bayar {
+    display: flex;
+    gap: 12px;
+}
+
+.opsi-bayar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 14px;
+    border-radius: var(--radius);
+    background: var(--soft-gray);
+    margin-bottom: 8px;
+    cursor: pointer;
+    font-size: 13.5px;
+    color: var(--nexora-navy);
+    font-weight: 600;
+    border: 1px solid var(--border-light);
+}
+
+.opsi-bayar input {
+    width: auto;
+    margin: 0;
+    accent-color: var(--nexora-blue);
+}
+
+.opsi-bayar:has(input:checked) {
+    background: rgba(37, 99, 235, 0.05);
+    border-color: var(--nexora-blue);
+}
+
+.btn-bayar-sekarang {
+    padding: 14px;
+    border-radius: var(--radius);
+    border: none;
+    background: var(--nexora-orange);
+    color: var(--nexora-white);
+    font-weight: 800;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.ringkasan-pesanan {
+    background: var(--nexora-white);
+    border-radius: var(--radius);
+    padding: 22px;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border-light);
+    position: sticky;
+    top: 90px;
+}
+
+.ringkasan-pesanan h3 {
+    color: var(--nexora-navy);
+    font-size: 15px;
+    margin-bottom: 14px;
+    font-weight: 800;
+}
+
+.daftar-pesanan {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 16px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.baris-pesanan {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.baris-pesanan img {
+    width: 44px;
+    height: 44px;
+    border-radius: var(--radius);
+    object-fit: cover;
+}
+
+.baris-pesanan-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.nama-pesanan {
+    font-size: 12.5px;
+    font-weight: 600;
+    color: var(--nexora-navy);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.qty-pesanan {
+    font-size: 11.5px;
+    color: var(--text-gray);
+}
+
+.subtotal-pesanan {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--nexora-orange);
+}
+
+.baris-ringkasan {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: var(--text-gray);
+    margin-bottom: 8px;
+    border-top: 1px solid var(--soft-gray);
+    padding-top: 8px;
+}
+
+.baris-ringkasan.total {
+    color: var(--nexora-navy);
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.overlay-sukses {
+    position: fixed;
+    inset: 0;
+    background: rgba(15, 23, 42, .7);
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    z-index: 3000;
+}
+
+.kartu-sukses {
+    background: var(--nexora-white);
+    border-radius: var(--radius-lg);
+    padding: 40px 30px;
+    text-align: center;
+    max-width: 380px;
+    box-shadow: var(--shadow-lg);
+}
+
+.ikon-sukses {
+    font-size: 46px;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.kartu-sukses h3 {
+    color: var(--nexora-navy);
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-weight: 800;
+}
+
+.kartu-sukses p {
+    color: var(--text-gray);
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.kartu-modal-bayar {
+    max-width: 460px;
+    width: 100%;
+    text-align: left;
+}
+
+.kartu-modal-bayar h3 {
+    color: var(--nexora-navy);
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+.qris-merchant-badge {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--soft-gray);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-md);
+    padding: 10px 12px;
+    margin-bottom: 14px;
+}
+
+.qris-merchant-badge span {
+    font-size: 22px;
+}
+
+.qris-merchant-badge strong {
+    display: block;
+    font-size: 13px;
+    color: var(--nexora-navy);
+}
+
+.qris-merchant-badge > div > span {
+    font-size: 11px;
+    color: var(--text-gray);
+    font-weight: 500;
+}
+
+.qris-gambar {
+    display: block;
+    width: 280px;
+    height: 280px;
+    margin: 0 auto 14px;
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-md);
+    padding: 8px;
+    background: var(--nexora-white);
+}
+
+.qris-nominal {
+    text-align: center;
+    font-size: 14px;
+    color: var(--nexora-navy);
+    margin-bottom: 4px;
+}
+
+.qris-nominal strong {
+    color: var(--nexora-navy);
+    font-size: 17px;
+}
+
+.qris-ref {
+    text-align: center;
+    font-size: 12px;
+    color: var(--text-gray);
+    margin-bottom: 4px;
+}
+
+.qris-timer {
+    text-align: center;
+    font-size: 12.5px;
+    color: var(--nexora-orange);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.qris-catatan {
+    font-size: 11.5px;
+    color: var(--text-gray);
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.ewallet-hint {
+    font-size: 13px;
+    color: var(--text-gray);
+    line-height: 1.5;
+    margin-bottom: 14px;
+}
+
+.input-ewallet {
+    width: 100%;
+    padding: 11px 14px;
+    background: var(--soft-gray);
+    border: 1px solid var(--border-light);
+    outline: none;
+    border-radius: var(--radius);
+    color: var(--nexora-navy);
+    font-size: 14px;
+    font-family: inherit;
+}
+
+.input-ewallet:focus {
+    border-color: var(--nexora-blue);
+    background: var(--nexora-white);
+}
+
+.modal-bayar-aksi {
+    display: flex;
+    gap: 10px;
+    margin-top: 18px;
+}
+
+.btn-modal-batal,
+.btn-modal-konfirmasi {
+    flex: 1;
+    padding: 12px;
+    border-radius: var(--radius);
+    border: none;
+    font-weight: 700;
+    font-size: 13.5px;
+    cursor: pointer;
+}
+
+.btn-modal-batal {
+    background: var(--soft-gray);
+    color: var(--nexora-navy);
+}
+
+.btn-modal-konfirmasi {
+    background: var(--nexora-orange);
+    color: var(--nexora-white);
+}
+
+/* ---------- STRIP VOUCHER YANG BISA DIGESER (INDEX.HTML) ---------- */
+.voucher-section {
+    margin: 28px 0;
+}
+
+.voucher-section-title {
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--nexora-navy);
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.voucher-scroll-wrapper {
+    display: flex;
+    gap: 14px;
+    overflow-x: auto;
+    padding: 4px 4px 14px;
+    scroll-snap-type: x proximity;
+    -webkit-overflow-scrolling: touch;
+}
+
+.voucher-scroll-wrapper::-webkit-scrollbar {
+    height: 6px;
+}
+
+.voucher-scroll-wrapper::-webkit-scrollbar-thumb {
+    background: var(--border-light);
+    border-radius: 999px;
+}
+
+.kartu-voucher {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    width: 280px;
+    display: flex;
+    background: var(--nexora-white);
+    border: 1px dashed var(--nexora-blue);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+}
+
+.kartu-voucher-kiri {
+    background: linear-gradient(160deg, var(--nexora-blue), var(--nexora-purple));
+    color: var(--nexora-white);
+    width: 64px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+}
+
+.kartu-voucher-kanan {
+    padding: 12px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 0;
+}
+
+.kartu-voucher-kode {
+    font-weight: 800;
+    font-size: 14px;
+    color: var(--nexora-navy);
+    letter-spacing: .02em;
+}
+
+.kartu-voucher-desk {
+    font-size: 11.5px;
+    color: var(--text-gray);
+    line-height: 1.4;
+}
+
+.kartu-voucher-salin {
+    align-self: flex-start;
+    margin-top: 4px;
+    background: var(--soft-gray);
+    border: none;
+    color: var(--nexora-navy);
+    font-size: 11px;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 999px;
+    cursor: pointer;
+}
+
+.kartu-voucher-salin:hover {
+    background: var(--border-light);
+}
+
+/* ---------- HALAMAN LAYANAN PELANGGAN ---------- */
+.layanan-nav-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.layanan-nav-pills a {
+    background: var(--nexora-white);
+    border: 1px solid var(--border-light);
+    color: var(--nexora-navy);
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 999px;
+    font-size: 12.5px;
+    font-weight: 700;
+}
+
+.layanan-nav-pills a:hover {
+    border-color: var(--nexora-blue);
+    color: var(--nexora-blue);
+}
+
+.layanan-section {
+    background: var(--nexora-white);
+    border-radius: var(--radius);
+    padding: 28px 32px;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border-light);
+    margin-bottom: 20px;
+    scroll-margin-top: 20px;
+}
+
+.layanan-section h2 {
+    font-size: 19px;
+    color: var(--nexora-navy);
+    font-weight: 800;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.layanan-section p,
+.layanan-section li {
+    color: var(--nexora-navy);
+    line-height: 1.75;
+    font-size: 14px;
+}
+
+.layanan-section ul,
+.layanan-section ol {
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.layanan-section p {
+    margin-bottom: 10px;
+}
+
+.layanan-faq-item {
+    border-bottom: 1px solid var(--soft-gray);
+    padding: 12px 0;
+}
+
+.layanan-faq-item:last-child {
+    border-bottom: none;
+}
+
+.layanan-faq-item strong {
+    display: block;
+    color: var(--nexora-navy);
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+/* ---------- MENU HAMBURGER MOBILE ---------- */
+.btn-hamburger {
+    display: none;
+    background: var(--nexora-orange);
+    border: none;
+    border-radius: var(--radius-md);
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+    color: var(--nexora-white);
+    width: 42px;
+    height: 42px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    box-shadow: var(--shadow-sm);
+}
+
+.btn-hamburger:active {
+    filter: brightness(0.95);
+}
+
+.menu-mobile-dropdown {
+    display: none;
+    flex-direction: column;
+    background: var(--nexora-white);
+    border-top: 1px solid var(--border-light);
+    box-shadow: var(--shadow-md);
+}
+
+.menu-mobile-dropdown:not([hidden]) {
+    display: flex;
+}
+
+.menu-mobile-dropdown a,
+.menu-mobile-dropdown .user-greeting {
+    padding: 14px 20px;
+    color: var(--nexora-navy);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    border-bottom: 1px solid var(--soft-gray);
+}
+
+.menu-mobile-dropdown a:last-child {
+    border-bottom: none;
+}
+
+.menu-mobile-dropdown .user-greeting {
+    color: var(--nexora-orange);
+    font-weight: 800;
+    background: rgba(37, 99, 235, 0.05);
+}
+
+/* ---------- TOMBOL KEMBALI ---------- */
+.btn-kembali {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--nexora-white);
+    color: var(--nexora-navy);
+    border: 1px solid var(--border-light);
+    padding: 9px 16px;
+    border-radius: var(--radius-md);
+    font-weight: 700;
+    font-size: 13px;
+    cursor: pointer;
+    margin-bottom: 16px;
+    box-shadow: var(--shadow-sm);
+}
+
+.btn-kembali:hover {
+    background: var(--soft-gray);
+    border-color: var(--nexora-blue);
+}
+
+/* ---------- ALAMAT PENGIRIMAN GAYA SHOPEE ---------- */
+.header-alamat-pengiriman {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.header-alamat-pengiriman h3 {
+    margin-bottom: 0;
+}
+
+.btn-edit-alamat-inline {
+    background: var(--soft-gray);
+    color: var(--nexora-navy);
+    border: 1px solid var(--border-light);
+    padding: 7px 14px;
+    border-radius: var(--radius);
+    font-weight: 700;
+    font-size: 12.5px;
+    cursor: pointer;
+}
+
+.btn-edit-alamat-inline:hover {
+    background: var(--border-light);
+}
+
+.baris-penerima {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    margin-bottom: 14px;
+}
+
+.grid-wilayah-alamat {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 14px;
+    margin-bottom: 14px;
+}
+
+.grup-alamat-label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 14px;
+}
+
+.baris-penerima .grup-alamat-label,
+.grid-wilayah-alamat .grup-alamat-label {
+    margin-bottom: 0;
+}
+
+.grup-alamat-label label {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--text-gray);
+    text-transform: uppercase;
+    letter-spacing: .03em;
+}
+
+.grup-alamat-label input,
+.grup-alamat-label select,
+.grup-alamat-label textarea {
+    width: 100%;
+    padding: 11px 14px;
+    background: var(--soft-gray);
+    border: 1px solid var(--border-light);
+    outline: none;
+    border-radius: var(--radius);
+    color: var(--nexora-navy);
+    font-size: 14px;
+    font-family: inherit;
+}
+
+.grup-alamat-label input:focus,
+.grup-alamat-label select:focus,
+.grup-alamat-label textarea:focus {
+    border-color: var(--nexora-blue);
+    background: var(--nexora-white);
+}
+
+.grup-alamat-label input:disabled,
+.grup-alamat-label select:disabled,
+.grup-alamat-label textarea:disabled {
+    background: var(--soft-gray);
+    color: var(--text-gray);
+    cursor: not-allowed;
+}
+
+.grup-alamat-label select {
+    cursor: pointer;
+}
+
+/* ---------- BLOK KUPON DI RINGKASAN PESANAN ---------- */
+.blok-kupon {
+    margin-bottom: 16px;
+}
+
+.input-kupon-wrapper {
+    display: flex;
+    gap: 8px;
+}
+
+.input-kupon-wrapper input {
+    flex: 1;
+    padding: 10px 12px;
+    background: var(--soft-gray);
+    border: 1px solid var(--border-light);
+    outline: none;
+    border-radius: var(--radius);
+    color: var(--nexora-navy);
+    font-size: 13.5px;
+    font-family: inherit;
+}
+
+.input-kupon-wrapper input:focus {
+    border-color: var(--nexora-blue);
+    background: var(--nexora-white);
+}
+
+.input-kupon-wrapper button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: var(--radius);
+    background: var(--nexora-navy);
+    color: var(--nexora-white);
+    font-weight: 700;
+    font-size: 13px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.input-kupon-wrapper button:hover {
+    background: #1E293B;
+}
+
+.kupon-aktif-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background: rgba(37, 99, 235, 0.05);
+    border: 1px dashed var(--nexora-blue);
+    border-radius: var(--radius);
+    padding: 10px 12px;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--nexora-blue);
+}
+
+.kupon-aktif-info button {
+    border: none;
+    background: transparent;
+    color: var(--text-gray);
+    font-size: 15px;
+    cursor: pointer;
+    line-height: 1;
+    padding: 2px 4px;
+}
+
+.kupon-aktif-info button:hover {
+    color: var(--error);
+}
+
+.nilai-diskon {
+    color: var(--success);
+    font-weight: 700;
+}
+
+/* ---------- 7. HALAMAN AUTH SPLIT (LOGIN/DAFTAR) ---------- */
+.auth-main-wrapper {
+    background: linear-gradient(135deg, var(--nexora-navy) 0%, var(--nexora-purple) 100%);
+    min-height: calc(100vh - 140px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 16px;
+}
+
+.auth-container-grid {
+    max-width: 1040px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.auth-banner-left {
+    color: var(--nexora-white);
+    padding: 20px;
+}
+
+.auth-banner-left h1 {
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+
+.auth-banner-left h1 span {
+    color: var(--nexora-orange);
+}
+
+.auth-banner-left p {
+    color: var(--border-light);
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.auth-stat-strip {
+    margin-top: 24px;
+    display: flex;
+    gap: 16px;
+}
+
+.auth-stat-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 18px;
+    border-radius: var(--radius);
+}
+
+.auth-stat-val {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--nexora-orange);
+}
+
+.auth-stat-lbl {
+    font-size: 12px;
+}
+
+.auth-card-wrapper {
+    background: var(--nexora-white);
+    border-radius: var(--radius);
+    padding: 32px;
+    box-shadow: var(--shadow-lg);
+    position: relative;
+    min-height: 480px;
+    overflow: hidden;
+}
+
+.auth-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.auth-card-header h2 {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--nexora-navy);
+}
+
+.auth-form-group {
+    margin-bottom: 12px;
+}
+
+.auth-form-group input,
+.auth-form-group select {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius);
+    font-size: 14px;
+    outline: none;
+    background: var(--soft-gray);
+}
+
+.auth-form-group input:focus,
+.auth-form-group select:focus {
+    border-color: var(--nexora-blue);
+    background: var(--nexora-white);
+}
+
+.input-pwd-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-pwd-wrapper input {
+    padding-right: 42px;
+    margin-bottom: 0;
+}
+
+.btn-toggle-pwd {
+    position: absolute;
+    right: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: var(--text-gray);
+    padding: 4px 6px;
+    user-select: none;
+}
+
+.btn-toggle-pwd:hover {
+    color: var(--nexora-navy);
+}
+
+.btn-auth-submit {
+    width: 100%;
+    background: var(--nexora-orange);
+    color: var(--nexora-white);
+    border: none;
+    padding: 13px;
+    font-size: 14px;
+    font-weight: 800;
+    border-radius: var(--radius);
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    margin-top: 6px;
+}
+
+.auth-toggle-link {
+    text-align: center;
+    margin-top: 18px;
+    font-size: 13px;
+    color: var(--text-gray);
+}
+
+.auth-toggle-link label {
+    color: var(--nexora-blue);
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.form-masuk,
+.form-daftar {
+    transition: all .35s ease;
+}
+
+.form-daftar {
+    display: none;
+}
+
+.auth-card-wrapper:has(#saklar-form:checked) .form-masuk {
+    display: none;
+}
+
+.auth-card-wrapper:has(#saklar-form:checked) .form-daftar {
+    display: block;
+}
+
+/* ---------- 8. HALAMAN TENTANG KAMI (ABOUT) ---------- */
+.breadcrumb-nav {
+    font-size: 13px;
+    color: var(--text-gray);
+    margin-bottom: 16px;
+}
+
+.breadcrumb-nav a {
+    color: var(--nexora-navy);
+    text-decoration: none;
+}
+
+.about-card-box {
+    background: var(--nexora-white);
+    border-radius: var(--radius);
+    padding: 36px 40px;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border-light);
+    line-height: 1.8;
+    color: var(--nexora-navy);
+}
+
+.about-card-box h1 {
+    font-size: 24px;
+    color: var(--nexora-navy);
+    font-weight: 800;
+    margin-bottom: 16px;
+    border-bottom: 2px solid var(--soft-gray);
+    padding-bottom: 12px;
+}
+
+.about-grid-values {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 18px;
+    margin-top: 28px;
+}
+
+.value-box {
+    background: var(--soft-gray);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius);
+    padding: 18px;
+}
+
+.value-box strong {
+    display: block;
+    color: var(--nexora-navy);
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.value-box p {
+    font-size: 12.5px;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* ---------- 9. HALAMAN PROFIL (LAYOUT MULTI-TAB) ---------- */
+.profil-container-layout {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    gap: 24px;
+    align-items: start;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.profil-sidebar {
+    background: var(--nexora-white);
+    border-radius: var(--radius);
+    padding: 20px;
+    border: 1px solid var(--border-light);
+    box-shadow: var(--shadow-sm);
+}
+
+.profil-user-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--soft-gray);
+    margin-bottom: 16px;
+}
+
+.avatar-icon-box {
+    width: 46px;
+    height: 46px;
+    background: var(--soft-gray);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    border: 1px solid var(--border-light);
+}
+
+.profil-username {
+    font-weight: 700;
+    color: var(--nexora-navy);
+    font-size: 14px;
+}
+
+.profil-nav-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.btn-profil-tab {
+    background: transparent;
+    border: none;
+    padding: 12px 14px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--nexora-navy);
+    cursor: pointer;
+    border-radius: var(--radius);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all .2s;
+}
+
+.btn-profil-tab:hover {
+    background: var(--soft-gray);
+    color: var(--nexora-blue);
+}
+
+.btn-profil-tab.active {
+    background: var(--nexora-navy);
+    color: var(--nexora-white);
+}
+
+.btn-profil-logout {
+    background: transparent;
+    border: none;
+    border-top: 1px solid var(--soft-gray);
+    margin-top: 12px;
+    padding: 12px 14px 0;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--error);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-profil-logout:hover {
+    opacity: .8;
+}
+
+.profil-content-panel {
+    background: var(--nexora-white);
+    border-radius: var(--radius);
+    padding: 28px;
+    border: 1px solid var(--border-light);
+    box-shadow: var(--shadow-sm);
+    min-height: 480px;
+}
+
+.panel-header-title {
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--nexora-navy);
+    border-bottom: 1px solid var(--soft-gray);
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+}
+
+.form-profil {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.grup-input-profil {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.grup-input-profil label {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--nexora-navy);
+}
+
+.grup-input-profil input,
+.grup-input-profil select,
+.grup-input-profil textarea {
+    padding: 11px 13px;
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius);
+    outline: none;
+    font-family: inherit;
+    font-size: 14px;
+    background: var(--soft-gray);
+}
+
+.grup-input-profil input:focus,
+.grup-input-profil select:focus,
+.grup-input-profil textarea:focus {
+    border-color: var(--nexora-blue);
+    background: var(--nexora-white);
+}
+
+.input-terkunci,
+.grup-input-profil input:disabled,
+.grup-input-profil select:disabled,
+.grup-input-profil textarea:disabled {
+    background-color: var(--soft-gray) !important;
+    color: var(--text-gray);
+    cursor: not-allowed;
+}
+
+.form-2kolom-profil {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.btn-simpan-profil {
+    background: var(--nexora-navy);
+    color: var(--nexora-white);
+    padding: 13px;
+    border: none;
+    border-radius: var(--radius);
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-edit-profil {
+    background: var(--nexora-orange);
+    color: var(--nexora-white);
+    padding: 13px;
+    border: none;
+    border-radius: var(--radius);
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.daftar-riwayat-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.kartu-riwayat-item {
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius);
+    padding: 18px;
+    background: var(--nexora-white);
+}
+
+.kartu-riwayat-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--soft-gray);
+    padding-bottom: 10px;
+    margin-bottom: 12px;
+    font-size: 13px;
+}
+
+.status-badge-selesai {
+    background: #DCFCE7;
+    color: var(--success);
+    font-weight: 700;
+    font-size: 11px;
+    padding: 3px 8px;
+    border-radius: var(--radius);
+    border: 1px solid #86EFAC;
+}
+
+.riwayat-produk-baris {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.riwayat-produk-baris img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: var(--radius);
+    background: var(--soft-gray);
+}
+
+.riwayat-produk-info {
+    flex: 1;
+}
+
+.riwayat-produk-info h4 {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--nexora-navy);
+}
+
+.riwayat-produk-info span {
+    font-size: 12px;
+    color: var(--text-gray);
+}
+
+.kartu-riwayat-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--soft-gray);
+    padding-top: 10px;
+    margin-top: 6px;
+    font-size: 13px;
+}
+
+.kartu-riwayat-bottom strong {
+    font-size: 15px;
+    color: var(--nexora-orange);
+}
+
+.riwayat-kosong {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-gray);
+    font-size: 14px;
+}
+
+/* ---------- 10. MODAL DETAIL PRODUK ---------- */
+.overlay-produk {
+    position: fixed;
+    inset: 0;
+    background: rgba(15, 23, 42, .6);
+    backdrop-filter: blur(2px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    z-index: 3000;
+}
+
+.kartu-modal-produk {
+    background: var(--nexora-white);
+    border-radius: var(--radius);
+    max-width: 820px;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    box-shadow: var(--shadow-lg);
+}
+
+.tutup-modal-produk {
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    font-size: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--text-gray);
+}
+
+.modal-produk-gambar {
+    flex: 1 1 45%;
+    background: var(--soft-gray);
+}
+
+.modal-produk-gambar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.modal-produk-info {
+    flex: 1 1 55%;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.modal-baris-terjual {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 4px;
+}
+
+.badge-terjual-modal {
+    background: #FFF7ED;
+    color: var(--nexora-orange);
+    font-size: 12px;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: var(--radius);
+    border: 1px solid #FFEDD5;
+}
+
+.badge-kategori-modal {
+    font-size: 12px;
+    color: var(--text-gray);
+    font-weight: 600;
+}
+
+.modal-produk-harga {
+    background: var(--soft-gray);
+    padding: 12px 16px;
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--nexora-orange);
+    border-radius: var(--radius);
+}
+
+.modal-produk-deskripsi {
+    color: var(--text-gray);
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.judul-spek-modal {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--nexora-navy);
+    margin-top: 4px;
+}
+
+.modal-produk-spek {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 14px;
+    background: var(--soft-gray);
+    padding: 12px;
+    border-radius: var(--radius);
+}
+
+.modal-produk-spek dt {
+    font-size: 11px;
+    color: var(--text-gray);
+    text-transform: uppercase;
+}
+
+.modal-produk-spek dd {
+    font-size: 12.5px;
+    font-weight: 700;
+    color: var(--nexora-navy);
+}
+
+/* Stepper Modal Standar */
+.modal-jumlah-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 8px;
+}
+
+.stepper-modal {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius);
+    background: var(--nexora-white);
+    height: 32px;
+}
+
+.stepper-modal button {
+    width: 32px;
+    height: 32px;
+    background: var(--nexora-white);
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--nexora-navy);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    transition: background-color 0.15s;
+    user-select: none;
+}
+
+.stepper-modal button:hover {
+    background-color: var(--soft-gray);
+}
+
+.stepper-modal input.input-jumlah-modal {
+    width: 50px;
+    height: 32px;
+    border: none;
+    border-left: 1px solid var(--border-light);
+    border-right: 1px solid var(--border-light);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--nexora-navy);
+    outline: none;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+.teks-stok-modal {
+    font-size: 13px;
+    color: var(--text-gray);
+    font-weight: 500;
+}
+
+.modal-produk-aksi {
+    display: flex;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.btn-tambah-keranjang {
+    flex: 1;
+    background: rgba(37, 99, 235, 0.1);
+    border: 1px solid var(--nexora-blue);
+    color: var(--nexora-blue);
+    font-weight: 700;
+    padding: 12px;
+    border-radius: var(--radius);
+    cursor: pointer;
+}
+
+.btn-beli-sekarang {
+    flex: 1;
+    background: var(--nexora-orange);
+    color: var(--nexora-white);
+    font-weight: 800;
+    border: none;
+    padding: 12px;
+    border-radius: var(--radius);
+    cursor: pointer;
+}
+
+/* ---------- 11. FOOTER MARKETPLACE ---------- */
+.kaki-marketplace {
+    background: var(--nexora-navy);
+    border-top: 4px solid var(--nexora-blue);
+    color: var(--border-light);
+    font-size: 13px;
+    margin-top: auto;
+    padding: 40px 0 20px;
+}
+
+.footer-inner-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-col h4 {
+    font-size: 13px;
+    font-weight: 800;
+    color: var(--nexora-white);
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    margin-bottom: 8px;
+}
+
+.footer-col ul li a {
+    color: var(--text-gray);
+    text-decoration: none;
+}
+
+.footer-col ul li a:hover {
+    color: var(--nexora-blue);
+}
+
+.footer-bottom-copy {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: var(--text-gray);
+}
+
+/* ---------- 12. NOTIFIKASI TOAST GLOBAL ---------- */
+.notifikasi-global {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, -20px);
+    color: var(--nexora-white);
+    padding: 12px 24px;
+    border-radius: var(--radius);
+    font-size: 14px;
+    font-weight: 600;
+    z-index: 9999;
+    opacity: 0;
+    transition: all .3s ease;
+    text-align: center;
+    white-space: nowrap;
+    pointer-events: none;
+}
+
+.notifikasi-global.tampil {
+    opacity: 1;
+    transform: translate(-50%, 0);
+}
+
+.notifikasi-info { background: var(--nexora-navy); }
+.notifikasi-sukses { background: var(--success); }
+.notifikasi-error { background: var(--error); }
+.notifikasi-keranjang { background: var(--nexora-blue); color: var(--nexora-white); }
+.notifikasi-bayar { background: var(--nexora-navy); }
+
+/* ---------- 13. RESPONSIVE BREAKPOINTS ---------- */
+/* Dipindah ke file terpisah: responsive.css */
+
+/* =========================================================
+   STEPPER TABEL KERANJANG 
+   ========================================================= */
+.item-keranjang-card .stepper-cart {
+    display: inline-flex !important;
+    align-items: stretch !important;
+    width: fit-content !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    height: 32px !important;
+    border: 1px solid var(--border-light) !important;
+    border-radius: var(--radius) !important;
+    background: var(--nexora-white) !important;
+    box-sizing: border-box !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: hidden !important;
+    flex-shrink: 0 !important;
+}
+
+.item-keranjang-card .stepper-cart button {
+    width: 30px !important;
+    min-width: 30px !important;
+    max-width: 30px !important;
+    height: 100% !important;
+    background: var(--nexora-white) !important;
+    color: var(--nexora-navy) !important;
+    border: none !important;
+    outline: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-shadow: none !important;
+    transform: none !important;
+    border-radius: 0 !important;
+}
+
+.item-keranjang-card .stepper-cart button:hover {
+    background-color: var(--soft-gray) !important;
+}
+
+.item-keranjang-card .stepper-cart input.input-cart-qty {
+    width: 42px !important;
+    min-width: 42px !important;
+    max-width: 42px !important;
+    height: 100% !important;
+    background: var(--nexora-white) !important;
+    color: var(--nexora-navy) !important;
+    border: none !important;
+    border-left: 1px solid var(--border-light) !important;
+    border-right: 1px solid var(--border-light) !important;
+    border-radius: 0 !important;
+    outline: none !important;
+    text-align: center !important;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+    box-shadow: none !important;
+    cursor: text !important;
+}
