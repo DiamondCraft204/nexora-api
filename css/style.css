@@ -2490,3 +2490,47 @@ body {
     box-shadow: none !important;
     cursor: text !important;
 }
+/* =========================================================
+   UTILITAS TAMBAHAN
+   Sebelumnya beberapa elemen memakai inline style="...";
+   dipindahkan ke sini supaya semua styling terpusat di CSS
+   eksternal (index.html, about.html, dst. hanya memuat markup).
+   ========================================================= */
+
+/* about-card-box dengan jarak bawah ekstra (dipakai di layanan-pelanggan.html) */
+.about-card-box--jarak-bawah {
+    margin-bottom: 20px;
+}
+
+/* Tautan penonjol berwarna emas + tebal (link ke Profil > Riwayat Pesanan) */
+.tautan-sorot-emas {
+    color: var(--gold-600);
+    font-weight: 700;
+}
+
+/* Wrapper header auth: logo + tombol kembali sejajar horizontal */
+.auth-header-kembali-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+/* Tombol kembali versi header auth: tanpa margin bawah */
+.btn-kembali--rapat {
+    margin-bottom: 0;
+}
+
+/* Ikon logo kecil di header auth (kotak gradasi emas) */
+.auth-logo-icon-kecil {
+    width: 26px;
+    height: 26px;
+    background: linear-gradient(135deg, var(--gold-400), var(--gold-600));
+    border-radius: 4px;
+    display: inline-block;
+}
+
+/* Label "Member Nexora" di sidebar profil */
+.profil-label-member {
+    font-size: 11px;
+    color: var(--slate-500);
+}
