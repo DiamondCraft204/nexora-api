@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="judul.konfirmasi">Konfirmasi Pembayaran — Nexora Market</title>
+    <link rel="icon" href="../asset/nexora.ico?v=4" sizes="any">
+    <link rel="icon" type="image/svg+xml" href="../asset/nexora.svg?v=4">
+    <link rel="icon" type="image/png" sizes="192x192" href="../asset/nexora.png?v=4">
+    <link rel="apple-touch-icon" href="../asset/nexora.png?v=4">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <!-- Google Material Symbols: dipakai untuk seluruh ikon di situs ini -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=block">
+</head>
+
+<body>
+
+    <!-- Halaman ini dibuka dari hasil PEMINDAIAN kode QR pada halaman checkout.
+         Seluruh rincian belanja dikirim lewat parameter ?d= pada alamat halaman,
+         karena HP yang memindai adalah perangkat berbeda dari komputer tempat
+         checkout dilakukan (tidak berbagi localStorage). -->
+
+    <header class="auth-header-bar">
+        <div class="auth-header-inner">
+            <a href="../index.html" class="auth-logo-title">
+                <span class="logo-icon auth-logo-icon-kecil"></span>
+                <span>Nexora Market</span>
+            </a>
+            <div class="auth-header-kanan-wrapper">
+                <button type="button" class="btn-toggle-lang" data-i18n-title="bahasa.judul" title="Ganti Bahasa">ID</button>
+                <button type="button" class="btn-toggle-theme" data-i18n-title="tema.keGelap" title="Ganti Tema"></button>
+            </div>
+        </div>
+    </header>
+
+    <main class="utama konfirmasi-utama">
+
+        <!-- KEADAAN 1: data pada tautan tidak bisa dibaca -->
+        <div id="panelDataRusak" class="konfirmasi-panel-pesan" hidden>
+            <span class="material-symbols-outlined ikon-besar konfirmasi-ikon-galat" aria-hidden="true" translate="no">error</span>
+            <h1 data-i18n="konfirmasi.rusakJudul">Data Pembayaran Tidak Terbaca</h1>
+            <p data-i18n="konfirmasi.rusakDesk">Pastikan kamu memindai kode QR langsung dari halaman checkout Nexora Market, lalu coba lagi.</p>
+            <a href="../index.html" class="btn-checkout" data-i18n="konfirmasi.kembaliBeranda">Kembali ke Beranda</a>
+        </div>
+
+        <!-- KEADAAN 2: kode QR sudah lewat masa berlaku -->
+        <div id="panelKedaluwarsa" class="konfirmasi-panel-pesan" hidden>
+            <span class="material-symbols-outlined ikon-besar konfirmasi-ikon-galat" aria-hidden="true" translate="no">timer_off</span>
+            <h1 data-i18n="konfirmasi.kedaluwarsaJudul">Kode QR Sudah Kedaluwarsa</h1>
+            <p data-i18n="konfirmasi.kedaluwarsaDesk">Masa berlaku kode QR ini sudah habis. Silakan ulangi proses checkout dari perangkat kamu untuk mendapat kode QR baru.</p>
+            <a href="../index.html" class="btn-checkout" data-i18n="konfirmasi.kembaliBeranda">Kembali ke Beranda</a>
+        </div>
+
+        <!-- KEADAAN 3: rincian belanja + tombol selesai -->
+        <div id="panelBayar" class="konfirmasi-kartu" hidden>
+            <div class="konfirmasi-kepala">
+                <span class="material-symbols-outlined ikon-besar" aria-hidden="true" translate="no">qr_code_2</span>
+                <h1 data-i18n="konfirmasi.judulHalaman">Konfirmasi Pembayaran</h1>
+                <p data-i18n="konfirmasi.subJudul">Periksa rincian belanjaanmu di bawah ini, lalu tekan tombol pembayaran selesai.</p>
+            </div>
+
+            <div class="qris-merchant-badge">
+                <span><span class="material-symbols-outlined" aria-hidden="true" translate="no">storefront</span></span>
+                <div>
+                    <strong id="konfMerchantNama">NEXORA MARKET</strong>
+                    <span><span data-i18n="bayar.qrisDiterima1">Diterima ke akun </span><b id="konfMerchantTerhubung">DANA</b><span data-i18n="bayar.qrisDiterima2"> merchant · NMID </span><span id="konfMerchantNmid">ID10243879012</span></span>
+                </div>
+            </div>
+
+            <div class="konfirmasi-meta">
+                <div class="konfirmasi-meta-baris">
+                    <span data-i18n="konfirmasi.lblRef">Kode Referensi</span>
+                    <strong id="konfKodeRef">-</strong>
+                </div>
+                <div class="konfirmasi-meta-baris">
+                    <span data-i18n="konfirmasi.lblMetode">Metode Pembayaran</span>
+                    <strong id="konfMetode">QRIS</strong>
+                </div>
+                <div class="konfirmasi-meta-baris" id="konfBarisKupon" hidden>
+                    <span data-i18n="konfirmasi.lblKupon">Kupon Dipakai</span>
+                    <strong id="konfKupon">-</strong>
+                </div>
+            </div>
+
+            <h2 class="konfirmasi-subjudul" data-i18n="konfirmasi.rincian">Rincian Belanjaan</h2>
+            <div id="daftarBelanjaKonfirmasi" class="daftar-pesanan konfirmasi-daftar"></div>
+            <p id="konfItemLain" class="konfirmasi-item-lain" hidden></p>
+
+            <div class="baris-ringkasan">
+                <span data-i18n="bayar.subtotal">Subtotal Produk</span>
+                <span id="konfSubtotal">Rp0</span>
+            </div>
+            <div class="baris-ringkasan">
+                <span data-i18n="bayar.ongkir">Ongkos Kirim</span>
+                <span id="konfOngkir">Rp0</span>
+            </div>
+            <div class="baris-ringkasan" id="konfBarisDiskon" hidden>
+                <span data-i18n="bayar.diskon">Diskon Kupon</span>
+                <span id="konfDiskon" class="nilai-diskon">-Rp0</span>
+            </div>
+            <div class="baris-ringkasan total">
+                <span data-i18n="bayar.total">Total Pembayaran</span>
+                <span id="konfTotal">Rp0</span>
+            </div>
+
+            <p class="qris-timer"><span data-i18n="konfirmasi.sisaWaktu">Sisa waktu </span><strong id="konfTimer">10:00</strong></p>
+
+            <button type="button" id="btnBayarSelesai" class="btn-bayar-sekarang konfirmasi-tombol" data-i18n="konfirmasi.btnSelesai">Pembayaran Selesai</button>
+
+            <p class="qris-catatan" data-i18n="konfirmasi.catatan">Tekan tombol di atas setelah kamu menyelesaikan transfer. Halaman checkout di perangkat lain akan otomatis lanjut bila masih terbuka pada browser yang sama.</p>
+        </div>
+
+        <!-- KEADAAN 4: sudah dibayar -->
+        <div id="panelSukses" class="konfirmasi-panel-pesan" hidden>
+            <span class="material-symbols-outlined ikon-besar konfirmasi-ikon-sukses" aria-hidden="true" translate="no">check_circle</span>
+            <h1 data-i18n="konfirmasi.suksesJudul">Pembayaran Selesai!</h1>
+            <p id="konfSuksesDesk"></p>
+            <div class="baris-ringkasan total konfirmasi-total-sukses">
+                <span data-i18n="bayar.total">Total Pembayaran</span>
+                <span id="konfTotalSukses">Rp0</span>
+            </div>
+            <p class="qris-catatan" data-i18n="konfirmasi.suksesCatatan">Kamu bisa menutup halaman ini. Pesanan akan tercatat pada riwayat pesanan di akunmu.</p>
+            <a href="../index.html" class="btn-checkout" data-i18n="konfirmasi.kembaliBeranda">Kembali ke Beranda</a>
+        </div>
+
+    </main>
+
+    <footer class="kaki-marketplace">
+        <div class="footer-bottom-copy" data-i18n="footer.hakCipta">
+            &copy; 2026 Nexora Market. Hak Cipta Dilindungi Undang-Undang.
+        </div>
+    </footer>
+
+    <!-- Urutan wajib: bahasa.js -> script.js -> konfirmasi.js -->
+    <script src="../js/bahasa.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/konfirmasi.js"></script>
+</body>
+
+</html>
